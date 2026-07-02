@@ -423,6 +423,281 @@ const ROLES = {
         ]
       }
     ]
+  },
+
+  "product-manager": {
+    type: "role",
+    title: "Product Manager",
+    subtitle: "Piloter un produit numérique, de l'idée à la mise en marché",
+    icon: "🧭",
+    sections: [
+      {
+        title: "1. Le rôle",
+        items: [
+          { label: "Différence Product Manager / Product Owner", level: "core", resource: { label: "Atlassian - Product management", url: "https://www.atlassian.com/agile/product-management" } },
+          { label: "Cycle de vie d'un produit", level: "core" }
+        ]
+      },
+      {
+        title: "2. Découverte utilisateur",
+        items: [
+          { label: "Entretiens utilisateurs et personas", level: "core" },
+          { label: "Analyse de la concurrence", level: "core" }
+        ]
+      },
+      {
+        title: "3. Stratégie produit",
+        items: [
+          { label: "Vision et roadmap produit", level: "core" },
+          { label: "Priorisation (RICE, MoSCoW, Kano)", level: "core" }
+        ]
+      },
+      {
+        title: "4. Exécution",
+        items: [
+          { label: "Rédaction de specs et user stories", level: "core" },
+          { label: "Méthodologies agiles : Scrum, Kanban", level: "core", resource: { label: "Scrum.org - Ressources", url: "https://www.scrum.org/resources" } },
+          { label: "Gestion du backlog", level: "core" }
+        ]
+      },
+      {
+        title: "5. Data et métriques",
+        items: [
+          { label: "KPIs produit, tableaux de bord", level: "core" },
+          { label: "A/B testing", level: "option" }
+        ]
+      },
+      {
+        title: "6. Outils",
+        items: [
+          { label: "Jira, Notion, Linear", level: "core" },
+          { label: "Lecture de maquettes Figma", level: "option" }
+        ]
+      },
+      {
+        title: "7. Écosystème togolais",
+        items: [
+          { label: "Djanta Start (Djanta Tech Hub) : accompagnement de startups", level: "core" },
+          { label: "CUBE : incubateur et formation entrepreneuriat numérique", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "ux-ui": {
+    type: "role",
+    title: "UX/UI Designer",
+    subtitle: "Concevoir des interfaces utiles, claires et agréables à utiliser",
+    icon: "🎨",
+    sections: [
+      {
+        title: "1. Fondamentaux du design",
+        items: [
+          { label: "Théorie des couleurs, typographie, grille", level: "core" },
+          { label: "Principes d'ergonomie et de hiérarchie visuelle", level: "core" }
+        ]
+      },
+      {
+        title: "2. Recherche utilisateur (UX)",
+        items: [
+          { label: "Entretiens, personas, parcours utilisateur", level: "core", resource: { label: "Google - Certificat UX Design", url: "https://www.coursera.org/professional-certificates/google-ux-design" } },
+          { label: "Architecture de l'information", level: "core" }
+        ]
+      },
+      {
+        title: "3. Conception",
+        items: [
+          { label: "Wireframes basse et haute fidélité", level: "core" },
+          { label: "Prototypage interactif", level: "core" }
+        ]
+      },
+      {
+        title: "4. Interface (UI)",
+        items: [
+          { label: "Design systems et composants réutilisables", level: "core" },
+          { label: "Accessibilité visuelle (contraste, tailles de police)", level: "core" }
+        ]
+      },
+      {
+        title: "5. Outils",
+        items: [
+          { label: "Figma", level: "core", resource: { label: "Centre d'aide Figma", url: "https://help.figma.com/" } },
+          { label: "Adobe XD ou Sketch", level: "option" }
+        ]
+      },
+      {
+        title: "6. Tests et itération",
+        items: [
+          { label: "Tests d'utilisabilité", level: "core" },
+          { label: "Itération à partir des retours", level: "core" }
+        ]
+      },
+      {
+        title: "7. Écosystème togolais",
+        items: [
+          { label: "GDG Lomé : ateliers design occasionnels", level: "option" },
+          { label: "Djanta Academy : formations compétences numériques", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "data-analyst": {
+    type: "role",
+    title: "Data Analyst",
+    subtitle: "Transformer des données brutes en décisions",
+    icon: "📈",
+    sections: [
+      {
+        title: "1. Tableurs",
+        items: [
+          { label: "Excel ou Google Sheets avancé (TCD, formules)", level: "core", resource: { label: "Support Google Sheets", url: "https://support.google.com/docs/topic/9054603" } }
+        ]
+      },
+      {
+        title: "2. SQL",
+        items: [
+          { label: "Requêtes et agrégations", level: "core", resource: { label: "Voir roadmap compétence SQL", url: "roadmap.html?id=sql" } }
+        ]
+      },
+      {
+        title: "3. Programmation",
+        items: [
+          { label: "Python pour l'analyse (Pandas)", level: "core", resource: { label: "Voir roadmap compétence Python", url: "roadmap.html?id=python" } }
+        ]
+      },
+      {
+        title: "4. Visualisation",
+        items: [
+          { label: "Power BI ou Tableau", level: "core", resource: { label: "Documentation Power BI", url: "https://learn.microsoft.com/power-bi/" } },
+          { label: "Looker Studio (gratuit)", level: "option" }
+        ]
+      },
+      {
+        title: "5. Statistiques",
+        items: [
+          { label: "Statistiques descriptives, corrélation", level: "core" }
+        ]
+      },
+      {
+        title: "6. Communication",
+        items: [
+          { label: "Storytelling avec les données, tableaux de bord", level: "core" }
+        ]
+      },
+      {
+        title: "7. Écosystème togolais",
+        items: [
+          { label: "PyCon Togo : conférence nationale Python", level: "core", resource: { label: "pycontg.pytogo.org", url: "https://pycontg.pytogo.org/" } },
+          { label: "Djanta Lab : recherche et innovation", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "support-it": {
+    type: "role",
+    title: "Support IT / Helpdesk",
+    subtitle: "Assister les utilisateurs et maintenir le parc informatique",
+    icon: "🖥️",
+    sections: [
+      {
+        title: "1. Systèmes",
+        items: [
+          { label: "Bases Windows, macOS et Linux", level: "core" },
+          { label: "Installation et configuration de postes", level: "core" }
+        ]
+      },
+      {
+        title: "2. Réseaux",
+        items: [
+          { label: "Notions réseau de base", level: "core", resource: { label: "Voir roadmap compétence Réseaux", url: "roadmap.html?id=reseaux" } }
+        ]
+      },
+      {
+        title: "3. Diagnostic et support",
+        items: [
+          { label: "Méthodologie de résolution de problèmes", level: "core" },
+          { label: "Gestion de tickets (ITSM)", level: "core" }
+        ]
+      },
+      {
+        title: "4. Administration",
+        items: [
+          { label: "Active Directory, gestion des comptes", level: "core" },
+          { label: "Gestion de parc informatique", level: "core" }
+        ]
+      },
+      {
+        title: "5. Sécurité de base",
+        items: [
+          { label: "Sensibilisation aux bonnes pratiques", level: "core" }
+        ]
+      },
+      {
+        title: "6. Certifications",
+        items: [
+          { label: "CompTIA A+", level: "core", resource: { label: "CompTIA A+", url: "https://www.comptia.org/certifications/a" } },
+          { label: "ITIL Foundation", level: "option", resource: { label: "ITIL - Axelos", url: "https://www.axelos.com/certifications/itil-service-management" } }
+        ]
+      },
+      {
+        title: "7. Écosystème togolais",
+        items: [
+          { label: "IAI-Togo et ESGIS : formations réseaux et systèmes", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "project-manager": {
+    type: "role",
+    title: "Chef de Projet IT",
+    subtitle: "Planifier, coordonner et livrer des projets informatiques",
+    icon: "📋",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Cycle de vie d'un projet", level: "core" },
+          { label: "Waterfall vs Agile", level: "core" }
+        ]
+      },
+      {
+        title: "2. Planification",
+        items: [
+          { label: "Charte de projet, périmètre (WBS)", level: "core" },
+          { label: "Planning et diagramme de Gantt", level: "core" }
+        ]
+      },
+      {
+        title: "3. Pilotage",
+        items: [
+          { label: "Gestion des risques", level: "core" },
+          { label: "Gestion du budget", level: "core" }
+        ]
+      },
+      {
+        title: "4. Outils",
+        items: [
+          { label: "Jira, Trello ou MS Project", level: "core" }
+        ]
+      },
+      {
+        title: "5. Certifications",
+        items: [
+          { label: "PMP (Project Management Professional)", level: "option", resource: { label: "PMI - Certification PMP", url: "https://www.pmi.org/certifications/project-management-pmp" } },
+          { label: "PRINCE2", level: "option", resource: { label: "PRINCE2 - Certification", url: "https://www.prince2.com/eur/prince2-certification" } },
+          { label: "Professional Scrum Master (PSM)", level: "option", resource: { label: "Scrum.org - Certifications PSM", url: "https://www.scrum.org/professional-scrum-certifications" } }
+        ]
+      },
+      {
+        title: "6. Écosystème togolais",
+        items: [
+          { label: "CUBE et Djanta Tech Hub : accompagnement de projets numériques", level: "core" }
+        ]
+      }
+    ]
   }
 };
 
