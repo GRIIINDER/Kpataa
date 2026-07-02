@@ -698,6 +698,1899 @@ const ROLES = {
         ]
       }
     ]
+  },
+
+  "qa-testeur": {
+    type: "role",
+    title: "QA / Testeur Logiciel",
+    subtitle: "Garantir la qualité et la fiabilité des logiciels avant leur mise en production",
+    icon: "🐞",
+    sections: [
+      {
+        title: "1. Fondamentaux du test",
+        items: [
+          { label: "Types de tests : unitaire, intégration, système, acceptation", level: "core" },
+          { label: "Cycle de vie du test logiciel", level: "core" }
+        ]
+      },
+      {
+        title: "2. Tests manuels",
+        items: [
+          { label: "Rédaction de cas et scénarios de test", level: "core" },
+          { label: "Rapport et suivi des anomalies", level: "core" }
+        ]
+      },
+      {
+        title: "3. Tests automatisés",
+        items: [
+          { label: "Selenium", level: "core", resource: { label: "Documentation Selenium", url: "https://www.selenium.dev/documentation/" } },
+          { label: "Cypress ou Playwright", level: "option", resource: { label: "Documentation Playwright", url: "https://playwright.dev/docs/intro" } }
+        ]
+      },
+      {
+        title: "4. Méthodologie",
+        items: [
+          { label: "Tests dans un cycle Agile, tests de régression", level: "core" }
+        ]
+      },
+      {
+        title: "5. Outils",
+        items: [
+          { label: "Jira ou TestRail pour le suivi", level: "core" }
+        ]
+      },
+      {
+        title: "6. Écosystème togolais",
+        items: [
+          { label: "IAI-Togo, ESGIS et HETEC : bases en développement logiciel utiles au test", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "sysadmin": {
+    type: "role",
+    title: "Administrateur Systèmes et Réseaux",
+    subtitle: "Maintenir et sécuriser l'infrastructure informatique d'une organisation",
+    icon: "🖧",
+    sections: [
+      {
+        title: "1. Systèmes",
+        items: [
+          { label: "Administration Linux et Windows Server", level: "core", resource: { label: "Voir roadmap compétence Linux", url: "roadmap.html?id=linux" } }
+        ]
+      },
+      {
+        title: "2. Réseaux",
+        items: [
+          { label: "Architecture réseau, VLAN, routage", level: "core", resource: { label: "Voir roadmap compétence Réseaux", url: "roadmap.html?id=reseaux" } }
+        ]
+      },
+      {
+        title: "3. Virtualisation",
+        items: [
+          { label: "VMware, Hyper-V ou Proxmox", level: "core" }
+        ]
+      },
+      {
+        title: "4. Sauvegarde et continuité",
+        items: [
+          { label: "Politiques de sauvegarde", level: "core" },
+          { label: "Plan de reprise d'activité (PRA)", level: "option" }
+        ]
+      },
+      {
+        title: "5. Supervision",
+        items: [
+          { label: "Zabbix ou Nagios", level: "core", resource: { label: "Documentation Zabbix", url: "https://www.zabbix.com/documentation/current/en/manual" } }
+        ]
+      },
+      {
+        title: "6. Certifications",
+        items: [
+          { label: "CompTIA Network+", level: "option", resource: { label: "CompTIA Network+", url: "https://www.comptia.org/certifications/network" } }
+        ]
+      },
+      {
+        title: "7. Écosystème togolais",
+        items: [
+          { label: "ESGIS, ESSEYI, Université de Lomé (CIC) : formations réseaux et systèmes", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "reseaux-telecoms": {
+    type: "role",
+    title: "Ingénieur Réseaux et Télécommunications",
+    subtitle: "Concevoir et exploiter les infrastructures de télécommunication",
+    icon: "📡",
+    sections: [
+      {
+        title: "1. Fondamentaux réseaux",
+        items: [
+          { label: "TCP/IP, routage, commutation", level: "core", resource: { label: "Voir roadmap compétence Réseaux", url: "roadmap.html?id=reseaux" } }
+        ]
+      },
+      {
+        title: "2. Télécommunications",
+        items: [
+          { label: "Téléphonie IP (VoIP)", level: "core" },
+          { label: "Réseaux mobiles (3G/4G/5G) et fibre optique", level: "core" }
+        ]
+      },
+      {
+        title: "3. Équipements",
+        items: [
+          { label: "Configuration Cisco ou Huawei", level: "core" }
+        ]
+      },
+      {
+        title: "4. Sécurité télécoms",
+        items: [
+          { label: "Sécurisation des infrastructures réseau", level: "core" }
+        ]
+      },
+      {
+        title: "5. Certifications",
+        items: [
+          { label: "CCNA", level: "core", resource: { label: "Cisco - Certification CCNA", url: "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/ccna/index.html" } },
+          { label: "CCNP", level: "option" }
+        ]
+      },
+      {
+        title: "6. Écosystème togolais",
+        items: [
+          { label: "ESGIS et ESSEYI : bachelor Informatique Réseaux et Télécommunication", level: "core" },
+          { label: "Togocom et Moov Africa Togo : principaux employeurs du secteur télécom", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "architecte-logiciel": {
+    type: "role",
+    title: "Architecte Logiciel",
+    subtitle: "Concevoir la structure technique de systèmes complexes",
+    icon: "🏗️",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Principes SOLID et design patterns", level: "core" }
+        ]
+      },
+      {
+        title: "2. Styles d'architecture",
+        items: [
+          { label: "Monolithe vs microservices", level: "core" },
+          { label: "Architecture événementielle (event-driven)", level: "option" }
+        ]
+      },
+      {
+        title: "3. Qualité et performance",
+        items: [
+          { label: "Scalabilité, disponibilité, résilience", level: "core" }
+        ]
+      },
+      {
+        title: "4. Documentation",
+        items: [
+          { label: "Modélisation d'architecture (C4 model, diagrammes)", level: "core" }
+        ]
+      },
+      {
+        title: "5. Cloud et infrastructure",
+        items: [
+          { label: "Bases cloud nécessaires à l'architecture", level: "core", resource: { label: "Voir roadmap compétence Cloud", url: "roadmap.html?id=cloud" } }
+        ]
+      },
+      {
+        title: "6. Écosystème togolais",
+        items: [
+          { label: "Rôle senior, généralement accessible après plusieurs années en développement backend/DevOps", level: "core" },
+          { label: "GDG Lomé : échanges techniques avec la communauté", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "erp-crm": {
+    type: "role",
+    title: "Développeur ERP/CRM",
+    subtitle: "Paramétrer et développer des solutions de gestion d'entreprise",
+    icon: "🧩",
+    sections: [
+      {
+        title: "1. Concepts",
+        items: [
+          { label: "Différence ERP / CRM, modules de gestion", level: "core" }
+        ]
+      },
+      {
+        title: "2. Odoo",
+        items: [
+          { label: "Modules Odoo et personnalisation", level: "core", resource: { label: "Documentation Odoo", url: "https://www.odoo.com/documentation/" } },
+          { label: "Développement Python sur Odoo", level: "core", resource: { label: "Voir roadmap compétence Python", url: "roadmap.html?id=python" } }
+        ]
+      },
+      {
+        title: "3. Intégration",
+        items: [
+          { label: "Connexion à des systèmes tiers (API, imports/exports)", level: "core" }
+        ]
+      },
+      {
+        title: "4. Déploiement et maintenance",
+        items: [
+          { label: "Installation, mises à jour, sauvegardes", level: "core" }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Peu de filières spécialisées ERP au Togo à ce jour : les bases s'acquièrent via IAI-Togo, ESGIS puis en autoformation et en entreprise", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "iot-embarque": {
+    type: "role",
+    title: "Ingénieur IoT / Systèmes Embarqués",
+    subtitle: "Concevoir des objets connectés et des systèmes électroniques intelligents",
+    icon: "🔌",
+    sections: [
+      {
+        title: "1. Électronique et microcontrôleurs",
+        items: [
+          { label: "Arduino, Raspberry Pi, ESP32", level: "core", resource: { label: "Documentation Arduino", url: "https://docs.arduino.cc/" } }
+        ]
+      },
+      {
+        title: "2. Programmation embarquée",
+        items: [
+          { label: "C/C++ pour systèmes embarqués", level: "core" }
+        ]
+      },
+      {
+        title: "3. Protocoles IoT",
+        items: [
+          { label: "MQTT, LoRa", level: "core", resource: { label: "mqtt.org - Documentation", url: "https://mqtt.org/" } }
+        ]
+      },
+      {
+        title: "4. Cloud et connectivité",
+        items: [
+          { label: "Envoi de données vers le cloud, dashboards IoT", level: "option" }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "HETEC : parcours technologies numériques et IA", level: "core" },
+          { label: "Djanta Lab : recherche et innovation, domaine émergent au Togo", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "blockchain-web3": {
+    type: "role",
+    title: "Développeur Blockchain / Web3",
+    subtitle: "Construire des applications décentralisées et des smart contracts",
+    icon: "⛓️",
+    sections: [
+      {
+        title: "1. Fondamentaux blockchain",
+        items: [
+          { label: "Mécanismes de consensus, cryptographie de base", level: "core" }
+        ]
+      },
+      {
+        title: "2. Smart contracts",
+        items: [
+          { label: "Solidity et Ethereum", level: "core", resource: { label: "Documentation Solidity", url: "https://docs.soliditylang.org/" } }
+        ]
+      },
+      {
+        title: "3. Outils",
+        items: [
+          { label: "Hardhat, Remix, MetaMask", level: "core", resource: { label: "Ethereum.org - Guides développeurs", url: "https://ethereum.org/en/developers/docs/" } }
+        ]
+      },
+      {
+        title: "4. Sécurité",
+        items: [
+          { label: "Vulnérabilités courantes des smart contracts", level: "core" }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Domaine encore émergent au Togo, communauté naissante autour des événements GDG Lomé et DevFest", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "marketing-digital": {
+    type: "role",
+    title: "Marketing Digital",
+    subtitle: "Développer la présence et l'audience d'une marque en ligne",
+    icon: "📣",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "SEO (référencement naturel)", level: "core" },
+          { label: "SEM et stratégie de contenu", level: "core" }
+        ]
+      },
+      {
+        title: "2. Publicité en ligne",
+        items: [
+          { label: "Meta Ads", level: "core", resource: { label: "Meta Business Help Center", url: "https://www.facebook.com/business/help" } },
+          { label: "Google Ads", level: "core", resource: { label: "Centre d'aide Google Ads", url: "https://support.google.com/google-ads" } }
+        ]
+      },
+      {
+        title: "3. Analytics",
+        items: [
+          { label: "Google Analytics, tableaux de bord de performance", level: "core", resource: { label: "Centre d'aide Google Analytics", url: "https://support.google.com/analytics" } }
+        ]
+      },
+      {
+        title: "4. Email marketing",
+        items: [
+          { label: "Campagnes et automatisation", level: "option" }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Djanta Academy et CUBE : formations entrepreneuriat et compétences numériques", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "community-manager": {
+    type: "role",
+    title: "Community Manager",
+    subtitle: "Animer et développer une communauté de marque sur les réseaux sociaux",
+    icon: "💬",
+    sections: [
+      {
+        title: "1. Stratégie de contenu",
+        items: [
+          { label: "Ligne éditoriale, calendrier de publication", level: "core" }
+        ]
+      },
+      {
+        title: "2. Gestion des réseaux sociaux",
+        items: [
+          { label: "Facebook, Instagram, LinkedIn, TikTok", level: "core" }
+        ]
+      },
+      {
+        title: "3. Animation de communauté",
+        items: [
+          { label: "Modération, gestion de crise", level: "core" }
+        ]
+      },
+      {
+        title: "4. Analyse de performance",
+        items: [
+          { label: "Indicateurs d'engagement", level: "core" }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Djanta Academy et CUBE : formations numériques accessibles", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "formateur-informatique": {
+    type: "role",
+    title: "Formateur en Informatique",
+    subtitle: "Transmettre des compétences numériques à des apprenants",
+    icon: "🎓",
+    sections: [
+      {
+        title: "1. Pédagogie",
+        items: [
+          { label: "Conception de programme de formation", level: "core" }
+        ]
+      },
+      {
+        title: "2. Expertise technique",
+        items: [
+          { label: "Maîtrise approfondie du domaine enseigné", level: "core" }
+        ]
+      },
+      {
+        title: "3. Outils pédagogiques",
+        items: [
+          { label: "Plateformes e-learning, supports de cours", level: "core" }
+        ]
+      },
+      {
+        title: "4. Évaluation",
+        items: [
+          { label: "Évaluation des acquis des apprenants", level: "core" }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "IAI-Togo, ESGIS, HETEC et Djanta Academy : structures employant des formateurs en informatique", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "consultant-transfo-digitale": {
+    type: "role",
+    title: "Consultant en Transformation Digitale",
+    subtitle: "Accompagner les organisations dans leur passage au numérique",
+    icon: "🧭",
+    sections: [
+      {
+        title: "1. Diagnostic",
+        items: [
+          { label: "Audit de maturité digitale d'une organisation", level: "core" }
+        ]
+      },
+      {
+        title: "2. Stratégie",
+        items: [
+          { label: "Feuille de route de transformation digitale", level: "core" }
+        ]
+      },
+      {
+        title: "3. Conduite du changement",
+        items: [
+          { label: "Accompagnement des équipes, formation interne", level: "core" }
+        ]
+      },
+      {
+        title: "4. Gouvernance IT",
+        items: [
+          { label: "Choix technologiques, priorisation des investissements", level: "core" }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Djanta Tech Hub et CUBE : contexte institutionnel de la transformation numérique togolaise", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "data-engineer": {
+    type: "role",
+    title: "Data Engineer",
+    subtitle: "Construire les pipelines qui collectent, transforment et livrent la donnée",
+    icon: "🔧",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "SQL avancé et modélisation de données", level: "core", resource: { label: "Voir roadmap compétence SQL", url: "roadmap.html?id=sql" } },
+          { label: "Python pour le traitement de données", level: "core", resource: { label: "Voir roadmap compétence Python", url: "roadmap.html?id=python" } }
+        ]
+      },
+      {
+        title: "2. Pipelines de données",
+        items: [
+          { label: "ETL / ELT : extraction, transformation, chargement", level: "core" },
+          { label: "Orchestration : Apache Airflow", level: "core", resource: { label: "Documentation Apache Airflow", url: "https://airflow.apache.org/docs/" } }
+        ]
+      },
+      {
+        title: "3. Stockage",
+        items: [
+          { label: "Data warehouse et data lake", level: "core" },
+          { label: "Bases NoSQL et systèmes distribués", level: "option" }
+        ]
+      },
+      {
+        title: "4. Qualité et gouvernance",
+        items: [
+          { label: "Qualité de données, tests et monitoring de pipelines", level: "core" }
+        ]
+      },
+      {
+        title: "5. Cloud",
+        items: [
+          { label: "Services de données cloud", level: "option", resource: { label: "Voir roadmap compétence Cloud", url: "roadmap.html?id=cloud" } }
+        ]
+      },
+      {
+        title: "6. Écosystème togolais",
+        items: [
+          { label: "Postes réels observés sur le marché togolais (Data Engineer, apprentissage ou senior)", level: "core" },
+          { label: "PyCon Togo : communauté Python pertinente pour ce métier", level: "option", resource: { label: "pycontg.pytogo.org", url: "https://pycontg.pytogo.org/" } }
+        ]
+      }
+    ]
+  },
+
+  "dba": {
+    type: "role",
+    title: "Administrateur de Bases de Données (DBA)",
+    subtitle: "Garantir la performance, la disponibilité et la sécurité des bases de données",
+    icon: "🗃️",
+    sections: [
+      {
+        title: "1. Fondamentaux SQL",
+        items: [
+          { label: "Modélisation, index, transactions", level: "core", resource: { label: "Voir roadmap compétence SQL", url: "roadmap.html?id=sql" } }
+        ]
+      },
+      {
+        title: "2. Administration",
+        items: [
+          { label: "Installation, configuration, mises à jour des SGBD", level: "core" },
+          { label: "Gestion des utilisateurs et des droits d'accès", level: "core" }
+        ]
+      },
+      {
+        title: "3. Performance",
+        items: [
+          { label: "Optimisation des requêtes et des index", level: "core" },
+          { label: "Surveillance de la charge et des ressources", level: "core" }
+        ]
+      },
+      {
+        title: "4. Sauvegarde et reprise",
+        items: [
+          { label: "Politiques de sauvegarde et restauration", level: "core" },
+          { label: "Haute disponibilité et réplication", level: "option" }
+        ]
+      },
+      {
+        title: "5. Sécurité des données",
+        items: [
+          { label: "Chiffrement, audit d'accès", level: "core" }
+        ]
+      },
+      {
+        title: "6. Écosystème togolais",
+        items: [
+          { label: "Profils DBA recherchés régulièrement sur les job boards togolais (SQL/NoSQL, big data)", level: "core" },
+          { label: "ESGIS, Université de Lomé (CIC) : bases en gestion de données", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "graphiste": {
+    type: "role",
+    title: "Graphiste / Infographiste",
+    subtitle: "Créer les visuels et supports de communication d'une marque",
+    icon: "🖌️",
+    sections: [
+      {
+        title: "1. Fondamentaux du design graphique",
+        items: [
+          { label: "Théorie des couleurs, typographie, composition", level: "core" }
+        ]
+      },
+      {
+        title: "2. Outils",
+        items: [
+          { label: "Adobe Photoshop et Illustrator", level: "core" },
+          { label: "Canva pour la production rapide", level: "option" }
+        ]
+      },
+      {
+        title: "3. Production",
+        items: [
+          { label: "Identité visuelle, logos, chartes graphiques", level: "core" },
+          { label: "Supports imprimés : flyers, roll-ups, affiches", level: "core" },
+          { label: "Visuels pour réseaux sociaux", level: "core" }
+        ]
+      },
+      {
+        title: "4. Vidéo et montage",
+        items: [
+          { label: "Montage vidéo de base pour supports digitaux", level: "option" }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Poste fréquemment demandé combiné avec webmaster ou community management dans les PME togolaises", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "webmaster": {
+    type: "role",
+    title: "Webmaster",
+    subtitle: "Gérer et maintenir un site web au quotidien",
+    icon: "🧰",
+    sections: [
+      {
+        title: "1. Gestion de site",
+        items: [
+          { label: "WordPress : installation, thèmes, plugins", level: "core", resource: { label: "Documentation WordPress", url: "https://wordpress.org/documentation/" } },
+          { label: "Mises à jour et maintenance courante", level: "core" }
+        ]
+      },
+      {
+        title: "2. Contenu",
+        items: [
+          { label: "Rédaction et publication de contenu web", level: "core" },
+          { label: "Bases SEO pour le référencement", level: "core" }
+        ]
+      },
+      {
+        title: "3. Technique de base",
+        items: [
+          { label: "HTML/CSS de base pour les ajustements", level: "core", resource: { label: "Voir roadmap compétence JavaScript", url: "roadmap.html?id=javascript" } },
+          { label: "Sauvegarde et sécurité du site", level: "core" }
+        ]
+      },
+      {
+        title: "4. Écosystème togolais",
+        items: [
+          { label: "Rôle courant dans les PME togolaises, souvent combiné avec design graphique et gestion des réseaux sociaux", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "ecommerce-manager": {
+    type: "role",
+    title: "E-commerce Manager",
+    subtitle: "Piloter une boutique en ligne, de la mise en rayon à la vente",
+    icon: "🛒",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Plateformes e-commerce : Shopify, WooCommerce", level: "core", resource: { label: "Documentation WooCommerce", url: "https://woocommerce.com/documentation/" } }
+        ]
+      },
+      {
+        title: "2. Catalogue et opérations",
+        items: [
+          { label: "Gestion du catalogue produits, fiches produits", level: "core" },
+          { label: "Gestion des commandes et de la logistique", level: "core" }
+        ]
+      },
+      {
+        title: "3. Paiement",
+        items: [
+          { label: "Intégration des paiements mobiles (Flooz, T-Money, Mobile Money)", level: "core", note: "Essentiel pour le marché togolais." }
+        ]
+      },
+      {
+        title: "4. Acquisition et conversion",
+        items: [
+          { label: "Marketing digital appliqué à l'e-commerce", level: "core", resource: { label: "Voir roadmap métier Marketing Digital", url: "roadmap.html?id=marketing-digital" } },
+          { label: "Optimisation du taux de conversion", level: "option" }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Catégorie e-commerce active sur les job boards togolais", level: "core" },
+          { label: "Djanta Start et CUBE : accompagnement de projets e-commerce", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "dsi-responsable-informatique": {
+    type: "role",
+    title: "Responsable Informatique / DSI",
+    subtitle: "Piloter la stratégie et les ressources informatiques d'une organisation",
+    icon: "🧑‍💼",
+    sections: [
+      {
+        title: "1. Vision stratégique",
+        items: [
+          { label: "Alignement de la stratégie IT avec les objectifs de l'organisation", level: "core" },
+          { label: "Gestion du budget informatique", level: "core" }
+        ]
+      },
+      {
+        title: "2. Management d'équipe",
+        items: [
+          { label: "Encadrement des équipes techniques (dev, infra, support)", level: "core" }
+        ]
+      },
+      {
+        title: "3. Infrastructure et sécurité",
+        items: [
+          { label: "Supervision de l'infrastructure et des systèmes d'information", level: "core", resource: { label: "Voir roadmap métier Administrateur Systèmes et Réseaux", url: "roadmap.html?id=sysadmin" } },
+          { label: "Gouvernance de la cybersécurité", level: "core", resource: { label: "Voir roadmap métier Cybersécurité & Réseaux", url: "roadmap.html?id=cyber" } }
+        ]
+      },
+      {
+        title: "4. Gestion de projets",
+        items: [
+          { label: "Pilotage de projets de transformation numérique", level: "core", resource: { label: "Voir roadmap métier Chef de Projet IT", url: "roadmap.html?id=project-manager" } }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Poste recherché régulièrement via des cabinets comme AfricaWork au Togo", level: "core" },
+          { label: "Accessible généralement après plusieurs années d'expérience technique", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "informatique-industrielle": {
+    type: "role",
+    title: "Ingénieur en Informatique Industrielle",
+    subtitle: "Automatiser et superviser les processus industriels",
+    icon: "⚙️",
+    sections: [
+      {
+        title: "1. Automatisation",
+        items: [
+          { label: "Automates programmables industriels (API/PLC)", level: "core" },
+          { label: "Capteurs et actionneurs", level: "core" }
+        ]
+      },
+      {
+        title: "2. Supervision",
+        items: [
+          { label: "Systèmes SCADA de supervision industrielle", level: "core" }
+        ]
+      },
+      {
+        title: "3. Réseaux industriels",
+        items: [
+          { label: "Protocoles industriels (Modbus, Profibus)", level: "core" },
+          { label: "Notions réseaux classiques", level: "option", resource: { label: "Voir roadmap compétence Réseaux", url: "roadmap.html?id=reseaux" } }
+        ]
+      },
+      {
+        title: "4. Programmation",
+        items: [
+          { label: "Programmation bas niveau et systèmes embarqués", level: "core", resource: { label: "Voir roadmap métier Ingénieur IoT / Systèmes Embarqués", url: "roadmap.html?id=iot-embarque" } }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Postes réguliers via AfricaWork Togo (Ingénieur et Technicien en Informatique Industrielle)", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "rssi": {
+    type: "role",
+    title: "RSSI / Responsable de la Sécurité des Systèmes d'Information",
+    subtitle: "Piloter la stratégie de cybersécurité et la gestion des risques d'une organisation",
+    icon: "🛡️",
+    sections: [
+      {
+        title: "1. Bases techniques",
+        items: [
+          { label: "Solide culture cybersécurité et réseaux", level: "core", resource: { label: "Voir roadmap métier Cybersécurité & Réseaux", url: "roadmap.html?id=cyber" } }
+        ]
+      },
+      {
+        title: "2. Gouvernance",
+        items: [
+          { label: "Politique de sécurité des systèmes d'information (PSSI)", level: "core" },
+          { label: "Normes ISO 27001, gestion des risques", level: "core" }
+        ]
+      },
+      {
+        title: "3. Conformité",
+        items: [
+          { label: "Loi n°2018-026 sur la cybersécurité et la cybercriminalité (Togo)", level: "core", resource: { label: "ancy.gouv.tg", url: "https://ancy.gouv.tg/" } },
+          { label: "Protection des données personnelles", level: "core" }
+        ]
+      },
+      {
+        title: "4. Gestion de crise",
+        items: [
+          { label: "Plan de réponse aux incidents", level: "core" },
+          { label: "Coordination avec un CERT/CSIRT", level: "option", note: "Au Togo, coordination possible avec CERT.tg." }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Poste réel recherché au Togo (ex. BostonSolux Togo)", level: "core" },
+          { label: "ANCy et CERT.tg : interlocuteurs institutionnels de référence", level: "core", resource: { label: "cert.tg", url: "https://cert.tg/" } }
+        ]
+      }
+    ]
+  },
+
+  "auditeur-ssi": {
+    type: "role",
+    title: "Auditeur en Sécurité des Systèmes d'Information",
+    subtitle: "Évaluer la conformité et les vulnérabilités des systèmes d'une organisation",
+    icon: "🔍",
+    sections: [
+      {
+        title: "1. Bases techniques",
+        items: [
+          { label: "Réseaux, systèmes et sécurité applicative", level: "core", resource: { label: "Voir roadmap métier Cybersécurité & Réseaux", url: "roadmap.html?id=cyber" } }
+        ]
+      },
+      {
+        title: "2. Méthodologie d'audit",
+        items: [
+          { label: "Audit organisationnel et technique", level: "core" },
+          { label: "Tests d'intrusion dans un cadre d'audit", level: "core" }
+        ]
+      },
+      {
+        title: "3. Référentiels",
+        items: [
+          { label: "ISO 27001, référentiels d'audit reconnus", level: "core" }
+        ]
+      },
+      {
+        title: "4. Restitution",
+        items: [
+          { label: "Rédaction de rapports d'audit et recommandations", level: "core" }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Cyber Defense Africa (Togo) : recrute régulièrement des auditeurs SSI", level: "core" },
+          { label: "ANCy : autorité nationale de référence en cybersécurité", level: "core", resource: { label: "ancy.gouv.tg", url: "https://ancy.gouv.tg/" } }
+        ]
+      }
+    ]
+  },
+
+  "architecte-entreprise": {
+    type: "role",
+    title: "Architecte d'Entreprise",
+    subtitle: "Aligner les systèmes d'information sur la stratégie globale d'une organisation",
+    icon: "🏛️",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Différence architecture d'entreprise / architecture logicielle", level: "core", resource: { label: "Voir roadmap métier Architecte Logiciel", url: "roadmap.html?id=architecte-logiciel" } },
+          { label: "Cartographie du système d'information", level: "core" }
+        ]
+      },
+      {
+        title: "2. Cadres méthodologiques",
+        items: [
+          { label: "TOGAF ou cadres équivalents", level: "core" }
+        ]
+      },
+      {
+        title: "3. Alignement stratégique",
+        items: [
+          { label: "Traduction des besoins métier en architecture cible", level: "core" },
+          { label: "Feuille de route de transformation du SI", level: "core" }
+        ]
+      },
+      {
+        title: "4. Gouvernance",
+        items: [
+          { label: "Standards, urbanisation du SI, gestion des dépendances", level: "core" }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Poste confirmé à l'Agence Togo Digital (ATD), agence publique pilotant la transformation numérique de l'État", level: "core" },
+          { label: "Rôle senior, généralement accessible après plusieurs années en architecture logicielle ou conseil IT", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "juriste-it": {
+    type: "role",
+    title: "Juriste IT / Droit du Numérique",
+    subtitle: "Sécuriser juridiquement les projets technologiques et la conformité numérique",
+    icon: "⚖️",
+    sections: [
+      {
+        title: "1. Fondamentaux juridiques",
+        items: [
+          { label: "Droit des contrats appliqué à l'IT", level: "core" },
+          { label: "Propriété intellectuelle et logicielle", level: "core" }
+        ]
+      },
+      {
+        title: "2. Protection des données",
+        items: [
+          { label: "Protection des données personnelles", level: "core" },
+          { label: "Cadre légal togolais de la cybersécurité (loi n°2018-026)", level: "core", resource: { label: "ancy.gouv.tg", url: "https://ancy.gouv.tg/" } }
+        ]
+      },
+      {
+        title: "3. Contrats et négociation",
+        items: [
+          { label: "Contrats de prestation IT, SLA, licences logicielles", level: "core" }
+        ]
+      },
+      {
+        title: "4. Conformité",
+        items: [
+          { label: "Veille réglementaire numérique", level: "core" }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Poste confirmé à l'Agence Togo Digital (ATD)", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "scrum-master": {
+    type: "role",
+    title: "Scrum Master",
+    subtitle: "Faciliter l'application des méthodes agiles au sein d'une équipe produit",
+    icon: "🔄",
+    sections: [
+      {
+        title: "1. Fondamentaux Agile",
+        items: [
+          { label: "Manifeste agile, cadre Scrum", level: "core", resource: { label: "Scrum.org - Ressources", url: "https://www.scrum.org/resources" } },
+          { label: "Rôles Scrum : Product Owner, équipe de développement", level: "core" }
+        ]
+      },
+      {
+        title: "2. Cérémonies",
+        items: [
+          { label: "Sprint planning, daily, review, rétrospective", level: "core" }
+        ]
+      },
+      {
+        title: "3. Facilitation",
+        items: [
+          { label: "Levée des obstacles (blockers)", level: "core" },
+          { label: "Coaching d'équipe et amélioration continue", level: "core" }
+        ]
+      },
+      {
+        title: "4. Outils",
+        items: [
+          { label: "Jira, tableaux Kanban", level: "core" }
+        ]
+      },
+      {
+        title: "5. Certifications",
+        items: [
+          { label: "Professional Scrum Master (PSM)", level: "core", resource: { label: "Scrum.org - Certifications PSM", url: "https://www.scrum.org/professional-scrum-certifications" } }
+        ]
+      },
+      {
+        title: "6. Écosystème togolais",
+        items: [
+          { label: "Poste confirmé à l'Agence Togo Digital (ATD)", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "integrateur-systemes": {
+    type: "role",
+    title: "Intégrateur Systèmes",
+    subtitle: "Assembler et faire communiquer différents systèmes et logiciels entre eux",
+    icon: "🔗",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Architecture des systèmes existants", level: "core" },
+          { label: "Notions réseaux et infrastructure", level: "core", resource: { label: "Voir roadmap compétence Réseaux", url: "roadmap.html?id=reseaux" } }
+        ]
+      },
+      {
+        title: "2. Intégration",
+        items: [
+          { label: "API et interopérabilité entre systèmes", level: "core" },
+          { label: "Middleware et bus de données", level: "option" }
+        ]
+      },
+      {
+        title: "3. Déploiement",
+        items: [
+          { label: "Installation et paramétrage de solutions tierces", level: "core" },
+          { label: "Tests d'intégration", level: "core" }
+        ]
+      },
+      {
+        title: "4. Support",
+        items: [
+          { label: "Résolution des incidents d'intégration", level: "core" }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Poste confirmé à l'Agence Togo Digital (ATD)", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "ux-writer": {
+    type: "role",
+    title: "UX Writer / Spécialiste en Microcopy",
+    subtitle: "Écrire les textes d'interface qui guident et rassurent l'utilisateur",
+    icon: "✍️",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Principes de clarté et de concision", level: "core" },
+          { label: "Ton et voix de marque", level: "core" }
+        ]
+      },
+      {
+        title: "2. Microcopy",
+        items: [
+          { label: "Boutons, messages d'erreur, états vides", level: "core" },
+          { label: "Textes de confirmation et d'onboarding", level: "core" }
+        ]
+      },
+      {
+        title: "3. Collaboration",
+        items: [
+          { label: "Travail en binôme avec les UX/UI Designers", level: "core", resource: { label: "Voir roadmap métier UX/UI Designer", url: "roadmap.html?id=ux-ui" } }
+        ]
+      },
+      {
+        title: "4. Tests",
+        items: [
+          { label: "Tests utilisateurs de contenu", level: "option" }
+        ]
+      },
+      {
+        title: "5. Écosystème togolais",
+        items: [
+          { label: "Poste confirmé à l'Agence Togo Digital (ATD), rôle encore rare au Togo", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "sre": {
+    type: "role",
+    title: "Site Reliability Engineer (SRE)",
+    subtitle: "Garantir la fiabilité, la disponibilité et la performance des systèmes en production",
+    icon: "📈",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Administration Linux et scripting", level: "core", resource: { label: "Voir roadmap compétence Linux", url: "roadmap.html?id=linux" } },
+          { label: "Notions réseaux et systèmes distribués", level: "core", resource: { label: "Voir roadmap compétence Réseaux", url: "roadmap.html?id=reseaux" } }
+        ]
+      },
+      {
+        title: "2. Fiabilité",
+        items: [
+          { label: "SLI, SLO, SLA et budgets d'erreur", level: "core" },
+          { label: "Gestion des incidents et post-mortems", level: "core" }
+        ]
+      },
+      {
+        title: "3. Observabilité",
+        items: [
+          { label: "Monitoring, logging, tracing distribué", level: "core", resource: { label: "Documentation Prometheus", url: "https://prometheus.io/docs/introduction/overview/" } }
+        ]
+      },
+      {
+        title: "4. Automatisation",
+        items: [
+          { label: "Infrastructure as Code", level: "core", resource: { label: "Voir roadmap métier DevOps & Cloud", url: "roadmap.html?id=devops" } },
+          { label: "Conteneurisation et orchestration", level: "core", resource: { label: "Voir roadmap compétence Docker", url: "roadmap.html?id=docker" } }
+        ]
+      }
+    ]
+  },
+
+  "platform-engineer": {
+    type: "role",
+    title: "Platform Engineer",
+    subtitle: "Construire les plateformes internes qui accélèrent le travail des équipes de développement",
+    icon: "🧱",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Cloud et conteneurisation", level: "core", resource: { label: "Voir roadmap compétence Cloud", url: "roadmap.html?id=cloud" } }
+        ]
+      },
+      {
+        title: "2. Internal Developer Platform",
+        items: [
+          { label: "Self-service pour les équipes produit", level: "core" },
+          { label: "Golden paths et standardisation", level: "core" }
+        ]
+      },
+      {
+        title: "3. Outillage",
+        items: [
+          { label: "Kubernetes et opérateurs", level: "core", resource: { label: "Documentation Kubernetes", url: "https://kubernetes.io/fr/docs/home/" } },
+          { label: "CI/CD as a service", level: "core" }
+        ]
+      },
+      {
+        title: "4. Culture DevOps",
+        items: [
+          { label: "Collaboration avec les équipes produit", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "solutions-engineer": {
+    type: "role",
+    title: "Solutions Engineer / Ingénieur Avant-Vente",
+    subtitle: "Faire le lien technique entre un produit et les besoins d'un client",
+    icon: "🤝",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Compréhension technique approfondie du produit vendu", level: "core" },
+          { label: "Bases API et intégrations", level: "core" }
+        ]
+      },
+      {
+        title: "2. Avant-vente",
+        items: [
+          { label: "Démonstrations techniques (démos)", level: "core" },
+          { label: "Réponse aux appels d'offres techniques", level: "core" }
+        ]
+      },
+      {
+        title: "3. Relation client",
+        items: [
+          { label: "Communication technique à un public non technique", level: "core" }
+        ]
+      },
+      {
+        title: "4. Proof of concept",
+        items: [
+          { label: "Mise en place de POC et pilotes", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "technical-writer": {
+    type: "role",
+    title: "Rédacteur Technique / Technical Writer",
+    subtitle: "Documenter les produits et systèmes pour les rendre compréhensibles",
+    icon: "📝",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Clarté, structure, vulgarisation technique", level: "core" },
+          { label: "Compréhension de base du produit documenté (code, API)", level: "core" }
+        ]
+      },
+      {
+        title: "2. Types de documentation",
+        items: [
+          { label: "Documentation développeur (API, SDK)", level: "core" },
+          { label: "Guides utilisateurs et tutoriels", level: "core" }
+        ]
+      },
+      {
+        title: "3. Outils",
+        items: [
+          { label: "Markdown, générateurs de documentation statique", level: "core" },
+          { label: "Outils de gestion de version (Git)", level: "option", resource: { label: "Voir roadmap compétence Git & GitHub", url: "roadmap.html?id=git-github" } }
+        ]
+      },
+      {
+        title: "4. Collaboration",
+        items: [
+          { label: "Travail avec les équipes produit et ingénierie", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "devrel": {
+    type: "role",
+    title: "Developer Advocate / DevRel Engineer",
+    subtitle: "Créer le lien entre une entreprise tech et sa communauté de développeurs",
+    icon: "📢",
+    sections: [
+      {
+        title: "1. Fondamentaux techniques",
+        items: [
+          { label: "Maîtrise pratique du produit ou langage promu", level: "core" }
+        ]
+      },
+      {
+        title: "2. Contenu",
+        items: [
+          { label: "Articles techniques, tutoriels, démos de code", level: "core" },
+          { label: "Prises de parole en conférence", level: "core" }
+        ]
+      },
+      {
+        title: "3. Communauté",
+        items: [
+          { label: "Animation de communauté de développeurs", level: "core" },
+          { label: "Recueil de retours produit auprès des utilisateurs", level: "core" }
+        ]
+      },
+      {
+        title: "4. Écosystème",
+        items: [
+          { label: "Participation à des meetups et conférences tech", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "analyste-soc": {
+    type: "role",
+    title: "Analyste SOC (Security Operations Center)",
+    subtitle: "Surveiller, détecter et réagir aux menaces de sécurité en temps réel",
+    icon: "🚨",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Réseaux et systèmes", level: "core", resource: { label: "Voir roadmap compétence Réseaux", url: "roadmap.html?id=reseaux" } }
+        ]
+      },
+      {
+        title: "2. Détection",
+        items: [
+          { label: "SIEM : corrélation et analyse d'alertes", level: "core" },
+          { label: "Analyse de logs et de trafic réseau", level: "core" }
+        ]
+      },
+      {
+        title: "3. Réponse à incident",
+        items: [
+          { label: "Triage et qualification des incidents", level: "core" },
+          { label: "Escalade et remédiation", level: "core" }
+        ]
+      },
+      {
+        title: "4. Certifications",
+        items: [
+          { label: "CompTIA Security+", level: "option", resource: { label: "CompTIA Security+", url: "https://www.comptia.org/certifications/security" } }
+        ]
+      }
+    ]
+  },
+
+  "pentester": {
+    type: "role",
+    title: "Pentester / Ethical Hacker",
+    subtitle: "Simuler des attaques pour identifier les failles de sécurité avant les attaquants réels",
+    icon: "🕵️",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Réseaux, systèmes, sécurité applicative", level: "core", resource: { label: "Voir roadmap métier Cybersécurité & Réseaux", url: "roadmap.html?id=cyber" } }
+        ]
+      },
+      {
+        title: "2. Méthodologie",
+        items: [
+          { label: "Reconnaissance, exploitation, post-exploitation", level: "core" },
+          { label: "OWASP Top 10", level: "core", resource: { label: "OWASP Top 10", url: "https://owasp.org/www-project-top-ten/" } }
+        ]
+      },
+      {
+        title: "3. Outils",
+        items: [
+          { label: "Nmap, Metasploit, Burp Suite", level: "core", resource: { label: "Documentation Nmap", url: "https://nmap.org/book/man.html" } }
+        ]
+      },
+      {
+        title: "4. Certifications",
+        items: [
+          { label: "CEH (Certified Ethical Hacker)", level: "option" },
+          { label: "OSCP (Offensive Security Certified Professional)", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "dpo": {
+    type: "role",
+    title: "Data Protection Officer (DPO)",
+    subtitle: "Garantir la conformité d'une organisation en matière de protection des données",
+    icon: "🔏",
+    sections: [
+      {
+        title: "1. Fondamentaux juridiques",
+        items: [
+          { label: "Cadres de protection des données (RGPD et équivalents)", level: "core" },
+          { label: "Droits des personnes concernées", level: "core" }
+        ]
+      },
+      {
+        title: "2. Gouvernance",
+        items: [
+          { label: "Cartographie des traitements de données", level: "core" },
+          { label: "Analyses d'impact (AIPD/PIA)", level: "core" }
+        ]
+      },
+      {
+        title: "3. Sécurité des données",
+        items: [
+          { label: "Collaboration avec les équipes sécurité IT", level: "core", resource: { label: "Voir roadmap métier RSSI", url: "roadmap.html?id=rssi" } }
+        ]
+      },
+      {
+        title: "4. Sensibilisation",
+        items: [
+          { label: "Formation des équipes internes", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "product-owner": {
+    type: "role",
+    title: "Product Owner",
+    subtitle: "Porter la vision produit au sein d'une équipe agile et prioriser le backlog",
+    icon: "📦",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Différence Product Owner / Product Manager", level: "core", resource: { label: "Voir roadmap métier Product Manager", url: "roadmap.html?id=product-manager" } }
+        ]
+      },
+      {
+        title: "2. Backlog",
+        items: [
+          { label: "Rédaction de user stories", level: "core" },
+          { label: "Priorisation et raffinement du backlog", level: "core" }
+        ]
+      },
+      {
+        title: "3. Collaboration Scrum",
+        items: [
+          { label: "Sprint planning et revue de sprint", level: "core", resource: { label: "Voir roadmap métier Scrum Master", url: "roadmap.html?id=scrum-master" } }
+        ]
+      },
+      {
+        title: "4. Certifications",
+        items: [
+          { label: "Professional Scrum Product Owner (PSPO)", level: "option", resource: { label: "Scrum.org - Certifications", url: "https://www.scrum.org/professional-scrum-certifications" } }
+        ]
+      }
+    ]
+  },
+
+  "engineering-manager": {
+    type: "role",
+    title: "Engineering Manager",
+    subtitle: "Encadrer une équipe d'ingénieurs et faire le lien entre technique et organisation",
+    icon: "🧑‍🏫",
+    sections: [
+      {
+        title: "1. Bases techniques",
+        items: [
+          { label: "Solide expérience préalable en développement", level: "core", resource: { label: "Voir roadmap métier Développeur Backend", url: "roadmap.html?id=backend" } }
+        ]
+      },
+      {
+        title: "2. Management",
+        items: [
+          { label: "Recrutement et évaluation des ingénieurs", level: "core" },
+          { label: "One-on-one et développement de carrière", level: "core" }
+        ]
+      },
+      {
+        title: "3. Livraison",
+        items: [
+          { label: "Planification technique et gestion des priorités", level: "core" }
+        ]
+      },
+      {
+        title: "4. Culture d'équipe",
+        items: [
+          { label: "Qualité du code et bonnes pratiques d'équipe", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "cto": {
+    type: "role",
+    title: "CTO / Directeur Technique",
+    subtitle: "Définir et porter la vision technologique globale d'une organisation",
+    icon: "🧑‍💻",
+    sections: [
+      {
+        title: "1. Vision technique",
+        items: [
+          { label: "Choix d'architecture et de stack à long terme", level: "core", resource: { label: "Voir roadmap métier Architecte Logiciel", url: "roadmap.html?id=architecte-logiciel" } }
+        ]
+      },
+      {
+        title: "2. Leadership",
+        items: [
+          { label: "Structuration et recrutement des équipes techniques", level: "core" }
+        ]
+      },
+      {
+        title: "3. Stratégie",
+        items: [
+          { label: "Alignement technologie / objectifs business", level: "core" },
+          { label: "Gestion des risques techniques", level: "core" }
+        ]
+      },
+      {
+        title: "4. Représentation",
+        items: [
+          { label: "Interface avec investisseurs et partenaires sur les sujets techniques", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "ux-researcher": {
+    type: "role",
+    title: "UX Researcher",
+    subtitle: "Comprendre les utilisateurs en profondeur pour guider les décisions produit",
+    icon: "🔬",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Méthodes de recherche qualitative et quantitative", level: "core" }
+        ]
+      },
+      {
+        title: "2. Collecte de données",
+        items: [
+          { label: "Entretiens utilisateurs, sondages", level: "core" },
+          { label: "Tests d'utilisabilité", level: "core" }
+        ]
+      },
+      {
+        title: "3. Analyse",
+        items: [
+          { label: "Synthèse des insights, personas", level: "core" }
+        ]
+      },
+      {
+        title: "4. Collaboration",
+        items: [
+          { label: "Restitution aux équipes produit et design", level: "core", resource: { label: "Voir roadmap métier UX/UI Designer", url: "roadmap.html?id=ux-ui" } }
+        ]
+      }
+    ]
+  },
+
+  "technical-program-manager": {
+    type: "role",
+    title: "Technical Program Manager (TPM)",
+    subtitle: "Coordonner des programmes techniques complexes impliquant plusieurs équipes",
+    icon: "🗂️",
+    sections: [
+      {
+        title: "1. Bases techniques",
+        items: [
+          { label: "Compréhension des systèmes et de l'architecture concernés", level: "core" }
+        ]
+      },
+      {
+        title: "2. Coordination",
+        items: [
+          { label: "Gestion des dépendances entre équipes", level: "core" },
+          { label: "Planification de programmes multi-équipes", level: "core" }
+        ]
+      },
+      {
+        title: "3. Communication",
+        items: [
+          { label: "Reporting aux parties prenantes techniques et non techniques", level: "core" }
+        ]
+      },
+      {
+        title: "4. Outils",
+        items: [
+          { label: "Jira, roadmapping multi-projets", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "business-analyst-it": {
+    type: "role",
+    title: "Business Analyst IT",
+    subtitle: "Traduire les besoins métier en exigences fonctionnelles pour les équipes techniques",
+    icon: "📋",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Recueil et analyse des besoins métier", level: "core" }
+        ]
+      },
+      {
+        title: "2. Spécifications",
+        items: [
+          { label: "Rédaction de cahiers des charges fonctionnels", level: "core" },
+          { label: "Modélisation de processus (BPMN)", level: "core" }
+        ]
+      },
+      {
+        title: "3. Liaison technique",
+        items: [
+          { label: "Collaboration avec les équipes de développement", level: "core" }
+        ]
+      },
+      {
+        title: "4. Validation",
+        items: [
+          { label: "Recette fonctionnelle et validation utilisateur", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "game-developer": {
+    type: "role",
+    title: "Développeur de Jeux Vidéo",
+    subtitle: "Programmer la logique et les mécaniques d'un jeu vidéo",
+    icon: "🎮",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Programmation orientée objet et structures de données", level: "core" },
+          { label: "Mathématiques appliquées au jeu (vecteurs, physique de base)", level: "core" }
+        ]
+      },
+      {
+        title: "2. Moteurs de jeu",
+        items: [
+          { label: "Unity (C#)", level: "core", resource: { label: "Documentation Unity", url: "https://docs.unity3d.com/Manual/index.html" } },
+          { label: "Unreal Engine (C++/Blueprints)", level: "option", resource: { label: "Documentation Unreal Engine", url: "https://dev.epicgames.com/documentation/en-us/unreal-engine" } }
+        ]
+      },
+      {
+        title: "3. Gameplay",
+        items: [
+          { label: "Systèmes de gameplay, IA de jeu basique", level: "core" }
+        ]
+      },
+      {
+        title: "4. Publication",
+        items: [
+          { label: "Optimisation et publication sur plateformes (Steam, mobile)", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "game-designer": {
+    type: "role",
+    title: "Game Designer",
+    subtitle: "Concevoir les règles, la progression et l'expérience d'un jeu",
+    icon: "🕹️",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Mécaniques de jeu et boucles de gameplay", level: "core" },
+          { label: "Équilibrage et courbes de progression", level: "core" }
+        ]
+      },
+      {
+        title: "2. Documentation",
+        items: [
+          { label: "Rédaction de game design documents (GDD)", level: "core" }
+        ]
+      },
+      {
+        title: "3. Prototypage",
+        items: [
+          { label: "Prototypage rapide de mécaniques", level: "core" }
+        ]
+      },
+      {
+        title: "4. Playtesting",
+        items: [
+          { label: "Tests de jouabilité et itération", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "ar-vr-developer": {
+    type: "role",
+    title: "Développeur AR/VR",
+    subtitle: "Créer des expériences immersives en réalité augmentée et virtuelle",
+    icon: "🥽",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Notions 3D : mesh, textures, éclairage", level: "core" }
+        ]
+      },
+      {
+        title: "2. Outils",
+        items: [
+          { label: "Unity avec AR Foundation / SDK VR", level: "core", resource: { label: "Documentation Unity", url: "https://docs.unity3d.com/Manual/index.html" } }
+        ]
+      },
+      {
+        title: "3. Interaction",
+        items: [
+          { label: "Interfaces immersives, tracking et contrôleurs", level: "core" }
+        ]
+      },
+      {
+        title: "4. Optimisation",
+        items: [
+          { label: "Performance sur casques et appareils mobiles", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "robotique": {
+    type: "role",
+    title: "Ingénieur Robotique",
+    subtitle: "Concevoir et programmer des systèmes robotiques autonomes",
+    icon: "🤖",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Mécanique, capteurs, actionneurs", level: "core" },
+          { label: "Électronique embarquée", level: "core", resource: { label: "Voir roadmap métier Ingénieur IoT / Systèmes Embarqués", url: "roadmap.html?id=iot-embarque" } }
+        ]
+      },
+      {
+        title: "2. Programmation",
+        items: [
+          { label: "C/C++ et Python pour la robotique", level: "core" },
+          { label: "ROS (Robot Operating System)", level: "core" }
+        ]
+      },
+      {
+        title: "3. Perception et contrôle",
+        items: [
+          { label: "Vision par ordinateur de base, algorithmes de contrôle", level: "option" }
+        ]
+      },
+      {
+        title: "4. Intégration",
+        items: [
+          { label: "Simulation et tests physiques", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "salesforce-admin": {
+    type: "role",
+    title: "Administrateur Salesforce / CRM",
+    subtitle: "Paramétrer et faire évoluer une plateforme CRM au service des équipes commerciales",
+    icon: "☁️",
+    sections: [
+      {
+        title: "1. Fondamentaux CRM",
+        items: [
+          { label: "Concepts de gestion de la relation client", level: "core" }
+        ]
+      },
+      {
+        title: "2. Salesforce",
+        items: [
+          { label: "Configuration des objets, workflows, permissions", level: "core", resource: { label: "Salesforce Trailhead", url: "https://trailhead.salesforce.com/" } }
+        ]
+      },
+      {
+        title: "3. Automatisation",
+        items: [
+          { label: "Flows et automatisations sans code", level: "core" }
+        ]
+      },
+      {
+        title: "4. Reporting",
+        items: [
+          { label: "Tableaux de bord et rapports CRM", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "sap-consultant": {
+    type: "role",
+    title: "Consultant SAP",
+    subtitle: "Implémenter et paramétrer les modules SAP dans une organisation",
+    icon: "🧮",
+    sections: [
+      {
+        title: "1. Fondamentaux ERP",
+        items: [
+          { label: "Concepts ERP et processus métier", level: "core", resource: { label: "Voir roadmap métier Développeur ERP/CRM", url: "roadmap.html?id=erp-crm" } }
+        ]
+      },
+      {
+        title: "2. Modules SAP",
+        items: [
+          { label: "Spécialisation sur un module (FI/CO, MM, SD...)", level: "core" }
+        ]
+      },
+      {
+        title: "3. Paramétrage",
+        items: [
+          { label: "Configuration et personnalisation des processus", level: "core" }
+        ]
+      },
+      {
+        title: "4. Accompagnement",
+        items: [
+          { label: "Formation des utilisateurs finaux", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "quant-developer": {
+    type: "role",
+    title: "Quant Developer / Analyste Quantitatif",
+    subtitle: "Développer des modèles mathématiques et des systèmes pour la finance",
+    icon: "📐",
+    sections: [
+      {
+        title: "1. Fondamentaux mathématiques",
+        items: [
+          { label: "Statistiques avancées, probabilités, calcul stochastique", level: "core" }
+        ]
+      },
+      {
+        title: "2. Programmation",
+        items: [
+          { label: "Python ou C++ pour le calcul haute performance", level: "core", resource: { label: "Voir roadmap compétence Python", url: "roadmap.html?id=python" } }
+        ]
+      },
+      {
+        title: "3. Modélisation financière",
+        items: [
+          { label: "Pricing de produits financiers, gestion des risques", level: "core" }
+        ]
+      },
+      {
+        title: "4. Données",
+        items: [
+          { label: "Traitement de séries temporelles financières", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "growth-hacker": {
+    type: "role",
+    title: "Growth Hacker",
+    subtitle: "Expérimenter rapidement pour accélérer la croissance d'un produit",
+    icon: "🚀",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Funnel d'acquisition, activation, rétention (AARRR)", level: "core" }
+        ]
+      },
+      {
+        title: "2. Expérimentation",
+        items: [
+          { label: "Tests A/B et itération rapide", level: "core" }
+        ]
+      },
+      {
+        title: "3. Canaux",
+        items: [
+          { label: "SEO, paid ads, viralité, partenariats", level: "core", resource: { label: "Voir roadmap métier Marketing Digital", url: "roadmap.html?id=marketing-digital" } }
+        ]
+      },
+      {
+        title: "4. Analyse",
+        items: [
+          { label: "Analytics produit et métriques de croissance", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "content-strategist": {
+    type: "role",
+    title: "Content Strategist",
+    subtitle: "Définir la stratégie de contenu d'une marque sur le long terme",
+    icon: "📰",
+    sections: [
+      {
+        title: "1. Stratégie",
+        items: [
+          { label: "Audit de contenu existant", level: "core" },
+          { label: "Ligne éditoriale et piliers de contenu", level: "core" }
+        ]
+      },
+      {
+        title: "2. Production",
+        items: [
+          { label: "Calendrier éditorial multi-canal", level: "core" }
+        ]
+      },
+      {
+        title: "3. SEO et distribution",
+        items: [
+          { label: "Optimisation SEO du contenu", level: "core" }
+        ]
+      },
+      {
+        title: "4. Mesure",
+        items: [
+          { label: "Analyse de performance du contenu", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "traffic-manager": {
+    type: "role",
+    title: "Traffic Manager",
+    subtitle: "Piloter les campagnes publicitaires payantes pour maximiser le retour sur investissement",
+    icon: "🎯",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Fonctionnement des enchères publicitaires", level: "core" }
+        ]
+      },
+      {
+        title: "2. Plateformes",
+        items: [
+          { label: "Google Ads", level: "core", resource: { label: "Centre d'aide Google Ads", url: "https://support.google.com/google-ads" } },
+          { label: "Meta Ads", level: "core", resource: { label: "Meta Business Help Center", url: "https://www.facebook.com/business/help" } }
+        ]
+      },
+      {
+        title: "3. Optimisation",
+        items: [
+          { label: "Ciblage, budgets, optimisation des enchères", level: "core" }
+        ]
+      },
+      {
+        title: "4. Reporting",
+        items: [
+          { label: "Suivi du ROAS et reporting de campagne", level: "core" }
+        ]
+      }
+    ]
   }
 };
 
@@ -1003,6 +2896,748 @@ const SKILLS = {
         items: [
           { label: "Facturation et optimisation des coûts", level: "option" },
           { label: "Certification fondamentale (AWS Cloud Practitioner, etc.)", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "react": {
+    type: "skill",
+    title: "React",
+    subtitle: "La bibliothèque JavaScript la plus utilisée pour construire des interfaces",
+    icon: "⚛️",
+    sections: [
+      {
+        title: "1. Prérequis",
+        items: [
+          { label: "JavaScript moderne (ES6+)", level: "core", resource: { label: "Voir roadmap compétence JavaScript", url: "roadmap.html?id=javascript" } }
+        ]
+      },
+      {
+        title: "2. Fondamentaux React",
+        items: [
+          { label: "Composants et JSX", level: "core", resource: { label: "React - Apprendre", url: "https://react.dev/learn" } },
+          { label: "Props et state", level: "core" },
+          { label: "Hooks : useState, useEffect", level: "core" }
+        ]
+      },
+      {
+        title: "3. Concepts avancés",
+        items: [
+          { label: "Gestion d'état globale (Context, Zustand, Redux)", level: "core" },
+          { label: "Routing avec React Router", level: "core" },
+          { label: "Hooks personnalisés", level: "option" }
+        ]
+      },
+      {
+        title: "4. Écosystème",
+        items: [
+          { label: "Next.js pour le rendu côté serveur", level: "option", resource: { label: "Documentation Next.js", url: "https://nextjs.org/docs" } },
+          { label: "Tests avec React Testing Library", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "vue": {
+    type: "skill",
+    title: "Vue.js",
+    subtitle: "Framework JavaScript progressif, apprécié pour sa courbe d'apprentissage douce",
+    icon: "💚",
+    sections: [
+      {
+        title: "1. Prérequis",
+        items: [
+          { label: "JavaScript moderne (ES6+)", level: "core", resource: { label: "Voir roadmap compétence JavaScript", url: "roadmap.html?id=javascript" } }
+        ]
+      },
+      {
+        title: "2. Fondamentaux",
+        items: [
+          { label: "Templates et directives", level: "core", resource: { label: "Documentation Vue.js", url: "https://vuejs.org/guide/introduction.html" } },
+          { label: "Composants et props", level: "core" },
+          { label: "Composition API", level: "core" }
+        ]
+      },
+      {
+        title: "3. Concepts avancés",
+        items: [
+          { label: "Gestion d'état avec Pinia", level: "core" },
+          { label: "Vue Router", level: "core" }
+        ]
+      },
+      {
+        title: "4. Écosystème",
+        items: [
+          { label: "Nuxt.js pour le rendu côté serveur", level: "option", resource: { label: "Documentation Nuxt", url: "https://nuxt.com/docs" } }
+        ]
+      }
+    ]
+  },
+
+  "typescript": {
+    type: "skill",
+    title: "TypeScript",
+    subtitle: "JavaScript typé pour des applications plus robustes et maintenables",
+    icon: "🔷",
+    sections: [
+      {
+        title: "1. Prérequis",
+        items: [
+          { label: "Bases solides en JavaScript", level: "core", resource: { label: "Voir roadmap compétence JavaScript", url: "roadmap.html?id=javascript" } }
+        ]
+      },
+      {
+        title: "2. Fondamentaux",
+        items: [
+          { label: "Types de base, interfaces, types personnalisés", level: "core", resource: { label: "Documentation TypeScript", url: "https://www.typescriptlang.org/docs/" } },
+          { label: "Fonctions typées, génériques", level: "core" }
+        ]
+      },
+      {
+        title: "3. Concepts avancés",
+        items: [
+          { label: "Types utilitaires (Partial, Pick, Omit)", level: "core" },
+          { label: "Configuration tsconfig.json", level: "core" }
+        ]
+      },
+      {
+        title: "4. Intégration",
+        items: [
+          { label: "TypeScript avec React, Node.js ou Vue", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "nodejs": {
+    type: "skill",
+    title: "Node.js",
+    subtitle: "Exécuter du JavaScript côté serveur pour construire des API et services",
+    icon: "🟢",
+    sections: [
+      {
+        title: "1. Prérequis",
+        items: [
+          { label: "JavaScript asynchrone", level: "core", resource: { label: "Voir roadmap compétence JavaScript", url: "roadmap.html?id=javascript" } }
+        ]
+      },
+      {
+        title: "2. Fondamentaux",
+        items: [
+          { label: "Modules, npm/yarn, gestion de paquets", level: "core", resource: { label: "Documentation Node.js", url: "https://nodejs.org/fr/docs" } },
+          { label: "Système de fichiers et event loop", level: "core" }
+        ]
+      },
+      {
+        title: "3. Construction d'API",
+        items: [
+          { label: "Express.js : routes, middlewares", level: "core", resource: { label: "Documentation Express", url: "https://expressjs.com/fr/starter/installing.html" } },
+          { label: "Gestion des erreurs et validation", level: "core" }
+        ]
+      },
+      {
+        title: "4. Production",
+        items: [
+          { label: "Variables d'environnement, logs, tests", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "java": {
+    type: "skill",
+    title: "Java",
+    subtitle: "Langage orienté objet incontournable dans les systèmes d'entreprise",
+    icon: "☕",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Syntaxe, types, structures de contrôle", level: "core", resource: { label: "Documentation Java (Oracle)", url: "https://docs.oracle.com/en/java/" } },
+          { label: "Programmation orientée objet", level: "core" }
+        ]
+      },
+      {
+        title: "2. Écosystème",
+        items: [
+          { label: "Gestion de dépendances : Maven ou Gradle", level: "core" },
+          { label: "Collections et généricité", level: "core" }
+        ]
+      },
+      {
+        title: "3. Développement d'applications",
+        items: [
+          { label: "Spring Boot pour les API REST", level: "core", resource: { label: "Documentation Spring Boot", url: "https://spring.io/projects/spring-boot" } },
+          { label: "JPA/Hibernate pour l'accès aux données", level: "core" }
+        ]
+      },
+      {
+        title: "4. Tests et qualité",
+        items: [
+          { label: "Tests unitaires avec JUnit", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "cpp": {
+    type: "skill",
+    title: "C++",
+    subtitle: "Langage bas niveau pour la performance : jeux, systèmes, finance",
+    icon: "🔵",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Syntaxe, types, pointeurs et références", level: "core", resource: { label: "cppreference.com", url: "https://en.cppreference.com/w/" } },
+          { label: "Gestion manuelle de la mémoire", level: "core" }
+        ]
+      },
+      {
+        title: "2. Programmation orientée objet",
+        items: [
+          { label: "Classes, héritage, polymorphisme", level: "core" }
+        ]
+      },
+      {
+        title: "3. Bibliothèque standard",
+        items: [
+          { label: "STL : conteneurs, algorithmes, itérateurs", level: "core" },
+          { label: "Smart pointers (RAII)", level: "core" }
+        ]
+      },
+      {
+        title: "4. Applications",
+        items: [
+          { label: "Utilisation courante : moteurs de jeu, robotique, calcul haute performance", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "go": {
+    type: "skill",
+    title: "Go (Golang)",
+    subtitle: "Langage simple et performant, très utilisé pour les services cloud et DevOps",
+    icon: "🐹",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Syntaxe, types, structures", level: "core", resource: { label: "Documentation Go", url: "https://go.dev/doc/" } },
+          { label: "Gestion des erreurs à la Go", level: "core" }
+        ]
+      },
+      {
+        title: "2. Concurrence",
+        items: [
+          { label: "Goroutines et channels", level: "core" }
+        ]
+      },
+      {
+        title: "3. Écosystème",
+        items: [
+          { label: "Modules Go, gestion de dépendances", level: "core" },
+          { label: "Construction d'API avec net/http ou Gin", level: "core" }
+        ]
+      },
+      {
+        title: "4. Applications",
+        items: [
+          { label: "Utilisation courante : outils cloud-native, CLI, microservices", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "php": {
+    type: "skill",
+    title: "PHP",
+    subtitle: "Langage serveur très répandu pour le développement web",
+    icon: "🐘",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Syntaxe, types, structures de contrôle", level: "core", resource: { label: "Documentation PHP", url: "https://www.php.net/manual/fr/" } }
+        ]
+      },
+      {
+        title: "2. Programmation orientée objet",
+        items: [
+          { label: "Classes, interfaces, namespaces", level: "core" }
+        ]
+      },
+      {
+        title: "3. Écosystème",
+        items: [
+          { label: "Composer : gestion de dépendances", level: "core" },
+          { label: "Laravel : routes, Eloquent ORM, migrations", level: "core", resource: { label: "Documentation Laravel", url: "https://laravel.com/docs" } }
+        ]
+      },
+      {
+        title: "4. Bonnes pratiques",
+        items: [
+          { label: "Sécurité web de base (injection, XSS)", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "kubernetes": {
+    type: "skill",
+    title: "Kubernetes",
+    subtitle: "Orchestrer des conteneurs à grande échelle",
+    icon: "☸️",
+    sections: [
+      {
+        title: "1. Prérequis",
+        items: [
+          { label: "Conteneurisation avec Docker", level: "core", resource: { label: "Voir roadmap compétence Docker", url: "roadmap.html?id=docker" } }
+        ]
+      },
+      {
+        title: "2. Concepts de base",
+        items: [
+          { label: "Pods, deployments, services", level: "core", resource: { label: "Documentation Kubernetes", url: "https://kubernetes.io/fr/docs/home/" } },
+          { label: "ConfigMaps et Secrets", level: "core" }
+        ]
+      },
+      {
+        title: "3. Réseau et stockage",
+        items: [
+          { label: "Ingress et exposition des services", level: "core" },
+          { label: "Volumes persistants", level: "option" }
+        ]
+      },
+      {
+        title: "4. Exploitation",
+        items: [
+          { label: "Helm pour le packaging d'applications", level: "option" },
+          { label: "kubectl et debugging de base", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "terraform": {
+    type: "skill",
+    title: "Terraform",
+    subtitle: "Gérer son infrastructure comme du code, de façon reproductible",
+    icon: "🌍",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Concepts Infrastructure as Code", level: "core", resource: { label: "Documentation Terraform", url: "https://developer.hashicorp.com/terraform/docs" } },
+          { label: "Syntaxe HCL", level: "core" }
+        ]
+      },
+      {
+        title: "2. Utilisation",
+        items: [
+          { label: "Providers, ressources, variables", level: "core" },
+          { label: "State et backends distants", level: "core" }
+        ]
+      },
+      {
+        title: "3. Organisation",
+        items: [
+          { label: "Modules réutilisables", level: "core" }
+        ]
+      },
+      {
+        title: "4. Bonnes pratiques",
+        items: [
+          { label: "Plan/apply en toute sécurité, gestion des environnements", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "flutter": {
+    type: "skill",
+    title: "Flutter",
+    subtitle: "Créer des applications mobiles natives pour Android et iOS avec un seul code",
+    icon: "🦋",
+    sections: [
+      {
+        title: "1. Prérequis",
+        items: [
+          { label: "Bases du langage Dart", level: "core", resource: { label: "Documentation Dart", url: "https://dart.dev/guides" } }
+        ]
+      },
+      {
+        title: "2. Fondamentaux Flutter",
+        items: [
+          { label: "Widgets et arbre de widgets", level: "core", resource: { label: "Documentation Flutter", url: "https://docs.flutter.dev/" } },
+          { label: "Layouts et navigation", level: "core" }
+        ]
+      },
+      {
+        title: "3. Gestion d'état",
+        items: [
+          { label: "Provider ou Riverpod", level: "core" }
+        ]
+      },
+      {
+        title: "4. Intégration",
+        items: [
+          { label: "Appels API et stockage local", level: "core" },
+          { label: "Publication sur Play Store et App Store", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "kotlin-android": {
+    type: "skill",
+    title: "Kotlin & Android natif",
+    subtitle: "Développer des applications Android natives modernes",
+    icon: "📱",
+    sections: [
+      {
+        title: "1. Fondamentaux Kotlin",
+        items: [
+          { label: "Syntaxe, null-safety, fonctions", level: "core", resource: { label: "Android Developers - Kotlin", url: "https://developer.android.com/kotlin" } }
+        ]
+      },
+      {
+        title: "2. Développement Android",
+        items: [
+          { label: "Activities, Fragments, cycle de vie", level: "core" },
+          { label: "Jetpack Compose pour l'UI", level: "core" }
+        ]
+      },
+      {
+        title: "3. Architecture",
+        items: [
+          { label: "MVVM et ViewModel", level: "core" }
+        ]
+      },
+      {
+        title: "4. Publication",
+        items: [
+          { label: "Google Play Console", level: "option", resource: { label: "Play Console - Guide de lancement", url: "https://support.google.com/googleplay/android-developer/answer/9859152" } }
+        ]
+      }
+    ]
+  },
+
+  "swift-ios": {
+    type: "skill",
+    title: "Swift & iOS natif",
+    subtitle: "Développer des applications iOS natives avec Swift",
+    icon: "🍎",
+    sections: [
+      {
+        title: "1. Fondamentaux Swift",
+        items: [
+          { label: "Syntaxe, optionnels, structures et classes", level: "core", resource: { label: "Apple Developer - Swift", url: "https://developer.apple.com/swift/" } }
+        ]
+      },
+      {
+        title: "2. Développement iOS",
+        items: [
+          { label: "SwiftUI pour l'interface", level: "core" },
+          { label: "Cycle de vie d'une application iOS", level: "core" }
+        ]
+      },
+      {
+        title: "3. Architecture",
+        items: [
+          { label: "MVVM en environnement Apple", level: "core" }
+        ]
+      },
+      {
+        title: "4. Publication",
+        items: [
+          { label: "App Store Connect", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "mongodb": {
+    type: "skill",
+    title: "MongoDB & NoSQL",
+    subtitle: "Bases de données orientées documents pour des besoins flexibles",
+    icon: "🍃",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Modèle orienté documents, collections", level: "core", resource: { label: "Documentation MongoDB", url: "https://www.mongodb.com/docs/manual/" } }
+        ]
+      },
+      {
+        title: "2. Requêtes",
+        items: [
+          { label: "CRUD, requêtes et agrégations", level: "core" }
+        ]
+      },
+      {
+        title: "3. Modélisation",
+        items: [
+          { label: "Modélisation orientée documents vs relationnelle", level: "core" },
+          { label: "Index et performance", level: "core" }
+        ]
+      },
+      {
+        title: "4. Écosystème",
+        items: [
+          { label: "Mongoose (Node.js) ou drivers officiels", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "graphql": {
+    type: "skill",
+    title: "GraphQL",
+    subtitle: "Un langage de requête flexible pour les API",
+    icon: "🔺",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Schémas, types, requêtes et mutations", level: "core", resource: { label: "Documentation GraphQL", url: "https://graphql.org/learn/" } }
+        ]
+      },
+      {
+        title: "2. Différence avec REST",
+        items: [
+          { label: "Avantages et compromis face à une API REST", level: "core" }
+        ]
+      },
+      {
+        title: "3. Implémentation",
+        items: [
+          { label: "Serveur GraphQL (Apollo Server ou équivalent)", level: "core" },
+          { label: "Résolveurs (resolvers)", level: "core" }
+        ]
+      },
+      {
+        title: "4. Côté client",
+        items: [
+          { label: "Client Apollo ou urql", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "machine-learning": {
+    type: "skill",
+    title: "Machine Learning",
+    subtitle: "Entraîner des modèles capables d'apprendre à partir de données",
+    icon: "🧠",
+    sections: [
+      {
+        title: "1. Prérequis",
+        items: [
+          { label: "Python et manipulation de données", level: "core", resource: { label: "Voir roadmap compétence Python", url: "roadmap.html?id=python" } },
+          { label: "Statistiques et algèbre linéaire de base", level: "core" }
+        ]
+      },
+      {
+        title: "2. Apprentissage supervisé",
+        items: [
+          { label: "Régression et classification", level: "core", resource: { label: "Scikit-learn - Tutoriels", url: "https://scikit-learn.org/stable/tutorial/index.html" } }
+        ]
+      },
+      {
+        title: "3. Apprentissage non supervisé",
+        items: [
+          { label: "Clustering, réduction de dimension", level: "core" }
+        ]
+      },
+      {
+        title: "4. Deep Learning",
+        items: [
+          { label: "Réseaux de neurones, TensorFlow ou PyTorch", level: "option", resource: { label: "PyTorch - Tutoriels", url: "https://pytorch.org/tutorials/" } }
+        ]
+      },
+      {
+        title: "5. Mise en production",
+        items: [
+          { label: "Évaluation, déploiement de modèles", level: "option" }
+        ]
+      }
+    ]
+  },
+
+  "solidity": {
+    type: "skill",
+    title: "Solidity & Smart Contracts",
+    subtitle: "Programmer des contrats intelligents sur la blockchain Ethereum",
+    icon: "⛓️",
+    sections: [
+      {
+        title: "1. Prérequis",
+        items: [
+          { label: "Fonctionnement de la blockchain et d'Ethereum", level: "core", resource: { label: "Ethereum.org - Guides développeurs", url: "https://ethereum.org/en/developers/docs/" } }
+        ]
+      },
+      {
+        title: "2. Fondamentaux Solidity",
+        items: [
+          { label: "Syntaxe, types, fonctions de contrat", level: "core", resource: { label: "Documentation Solidity", url: "https://docs.soliditylang.org/" } }
+        ]
+      },
+      {
+        title: "3. Développement",
+        items: [
+          { label: "Hardhat ou Foundry pour le développement local", level: "core" },
+          { label: "Tests de smart contracts", level: "core" }
+        ]
+      },
+      {
+        title: "4. Sécurité",
+        items: [
+          { label: "Vulnérabilités courantes (reentrancy, overflow)", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "system-design": {
+    type: "skill",
+    title: "System Design",
+    subtitle: "Concevoir des systèmes logiciels à grande échelle",
+    icon: "🗺️",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Scalabilité horizontale vs verticale", level: "core" },
+          { label: "Load balancing", level: "core" }
+        ]
+      },
+      {
+        title: "2. Données",
+        items: [
+          { label: "Sharding, réplication de bases de données", level: "core" },
+          { label: "Cache (Redis, CDN)", level: "core" }
+        ]
+      },
+      {
+        title: "3. Architecture distribuée",
+        items: [
+          { label: "Files de messages, architecture événementielle", level: "core" },
+          { label: "Théorème CAP", level: "option" }
+        ]
+      },
+      {
+        title: "4. Étude de cas",
+        items: [
+          { label: "Concevoir un système connu (ex : raccourcisseur d'URL, flux d'actualités)", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "dsa": {
+    type: "skill",
+    title: "Data Structures & Algorithms",
+    subtitle: "Les fondamentaux algorithmiques utiles pour tout développeur",
+    icon: "🧮",
+    sections: [
+      {
+        title: "1. Structures de données",
+        items: [
+          { label: "Tableaux, listes chaînées, piles, files", level: "core" },
+          { label: "Arbres et graphes", level: "core" },
+          { label: "Tables de hachage", level: "core" }
+        ]
+      },
+      {
+        title: "2. Algorithmes de base",
+        items: [
+          { label: "Tri et recherche", level: "core" },
+          { label: "Récursivité", level: "core" }
+        ]
+      },
+      {
+        title: "3. Techniques avancées",
+        items: [
+          { label: "Programmation dynamique", level: "core" },
+          { label: "Parcours de graphes (BFS, DFS)", level: "core" }
+        ]
+      },
+      {
+        title: "4. Complexité",
+        items: [
+          { label: "Notation Big O", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "api-design": {
+    type: "skill",
+    title: "API Design (REST)",
+    subtitle: "Concevoir des API cohérentes, prévisibles et faciles à utiliser",
+    icon: "🔌",
+    sections: [
+      {
+        title: "1. Fondamentaux REST",
+        items: [
+          { label: "Ressources, méthodes HTTP, codes de statut", level: "core" }
+        ]
+      },
+      {
+        title: "2. Conception",
+        items: [
+          { label: "Nommage des routes, versionnement", level: "core" },
+          { label: "Pagination, filtrage, tri", level: "core" }
+        ]
+      },
+      {
+        title: "3. Sécurité et fiabilité",
+        items: [
+          { label: "Authentification, rate limiting", level: "core" }
+        ]
+      },
+      {
+        title: "4. Documentation",
+        items: [
+          { label: "OpenAPI/Swagger", level: "core" }
+        ]
+      }
+    ]
+  },
+
+  "cicd": {
+    type: "skill",
+    title: "CI/CD",
+    subtitle: "Automatiser les tests et le déploiement du code",
+    icon: "🔁",
+    sections: [
+      {
+        title: "1. Fondamentaux",
+        items: [
+          { label: "Intégration continue vs livraison/déploiement continu", level: "core" }
+        ]
+      },
+      {
+        title: "2. Pipelines",
+        items: [
+          { label: "GitHub Actions", level: "core", resource: { label: "Documentation GitHub Actions", url: "https://docs.github.com/fr/actions" } },
+          { label: "GitLab CI ou Jenkins", level: "option" }
+        ]
+      },
+      {
+        title: "3. Bonnes pratiques",
+        items: [
+          { label: "Tests automatisés dans le pipeline", level: "core" },
+          { label: "Stratégies de déploiement (blue-green, canary)", level: "option" }
+        ]
+      },
+      {
+        title: "4. Sécurité",
+        items: [
+          { label: "Gestion des secrets dans les pipelines", level: "core" }
         ]
       }
     ]
