@@ -462,54 +462,7 @@ footer.site-footer {
   color: #fff;
 }
 
-.footer-eco {
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid #262b34;
-  border-radius: var(--radius);
-  padding: 20px 22px;
-  max-width: 360px;
-  margin-left: auto;
-}
-
-.footer-eco-title {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 0 0 8px;
-  color: #fff;
-  font-size: 1rem;
-}
-
-.footer-eco p {
-  margin: 0;
-  font-size: 0.85rem;
-  line-height: 1.5;
-}
-
-.footer-eco-links {
-  margin-top: 14px;
-  font-size: 0.85rem;
-}
-
-.footer-eco-links a {
-  color: #9aa3af;
-  font-weight: 600;
-}
-
-.footer-eco-links a:hover {
-  color: #fff;
-}
-
-.footer-eco-links .sep {
-  margin: 0 8px;
-  color: #3a4150;
-}
-
 @media (max-width: 700px) {
-  .footer-eco {
-    margin-left: 0;
-    max-width: none;
-  }
   .footer-nav {
     gap: 20px;
     flex-wrap: wrap;
