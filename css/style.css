@@ -372,7 +372,7 @@ main {
 }
 
 footer.site-footer {
-  background: #12161d;
+  background: #000;
   color: #9aa3af;
   margin-top: 60px;
   padding: 32px 24px 40px;
@@ -385,7 +385,7 @@ footer.site-footer {
   justify-content: center;
   gap: 32px;
   padding-bottom: 28px;
-  border-bottom: 1px solid #262b34;
+  border-bottom: 1px solid #1f1f1f;
   font-size: 0.9rem;
   font-weight: 600;
 }
@@ -419,12 +419,32 @@ footer.site-footer {
   min-width: 260px;
 }
 
+.footer-brand-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .footer-brand {
   color: #fff;
 }
 
-.footer-brand .flag {
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15);
+.footer-by {
+  color: #9aa3af;
+  font-size: 0.9rem;
+}
+
+.footer-credit {
+  background: #2563eb;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 3px 10px;
+  border-radius: 6px;
+}
+
+.footer-credit:hover {
+  background: #1d4ed8;
 }
 
 .footer-tagline {
@@ -437,14 +457,13 @@ footer.site-footer {
 .footer-bottom {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+  gap: 8px;
   flex-wrap: wrap;
   font-size: 0.8rem;
   color: #6b7280;
   margin-top: 24px;
   padding-top: 20px;
-  border-top: 1px solid #262b34;
+  border-top: 1px solid #1f1f1f;
 }
 
 .footer-bottom p {
