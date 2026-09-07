@@ -865,6 +865,10 @@
       fr: "Les grands moteurs de recherche d'emploi mondiaux indexent aussi des offres basées à Lomé et au Togo : utile en complément des plateformes locales, surtout pour les entreprises internationales.",
       en: "The major global job search engines also index listings based in Lomé and Togo : useful alongside local platforms, especially for international companies.",
     },
+    "stages.s1.i11.p": {
+      fr: "Portail généraliste avec une section Togo active : particulièrement utile pour les profils marketing digital et community management, moins représentés sur les autres plateformes de cette liste.",
+      en: "General-purpose portal with an active Togo section: particularly useful for digital marketing and community management profiles, which are less represented on the other platforms in this list.",
+    },
 
     "stages.s2.h2": { fr: "Employeurs qui recrutent des profils tech", en: "Employers hiring tech profiles" },
     "stages.s2.i1.p": {
