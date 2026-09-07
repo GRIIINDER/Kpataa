@@ -210,6 +210,11 @@
       fr: 'Tu connais une communauté ou un événement tech togolais qui manque ici ? <a href="contact.html#proposer">Propose-le</a> : on vérifie et on ajoute.',
       en: 'Know a Togolese tech community or event that\'s missing here? <a href="contact.html#proposer">Suggest it</a> : we verify and add it.',
     },
+    "eco.jump.communautes": { fr: "Communautés &amp; événements", en: "Communities &amp; events" },
+    "eco.jump.hubs": { fr: "Hubs &amp; incubateurs", en: "Hubs &amp; incubators" },
+    "eco.jump.institutions": { fr: "Institutions &amp; employeurs", en: "Institutions &amp; employers" },
+    "eco.jump.cybersecurite": { fr: "Cybersécurité &amp; gouvernance", en: "Cybersecurity &amp; governance" },
+    "eco.jump.ressources": { fr: "Ressources en ligne", en: "Online resources" },
 
     "actu.hero.title": {
       fr: 'Ce qui se passe dans la <span class="hero-accent">tech togolaise</span>',
