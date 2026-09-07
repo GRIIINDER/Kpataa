@@ -761,6 +761,8 @@
         <p class="quiz-secondary">
           <a href="ecoles.html">${isEn ? "See all schools →" : "Voir toutes les écoles →"}</a>
           &nbsp;·&nbsp;
+          <a href="calendrier.html">${isEn ? "See application dates →" : "Voir les dates de candidature →"}</a>
+          &nbsp;·&nbsp;
           <a href="bourses-financement.html">${isEn ? "See available scholarships →" : "Voir les bourses disponibles →"}</a>
         </p>
       `;
