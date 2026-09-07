@@ -4705,12 +4705,10 @@ const SCHOOLS = {
     description: "École inter-États d'enseignement supérieur en informatique, présente au Togo depuis 2002, référence historique de la formation informatique dans la sous-région.",
     datesCles: {
       mode: "campagne",
-      note: "Campagne annuelle avec concours écrit (mathématiques, techniques d'expression, anglais).",
+      note: "Campagne annuelle avec concours écrit (mathématiques, techniques d'expression, anglais). Campagne 2026-2027 close : résultats du concours du 1er septembre 2026 déjà publiés.",
       cloture: "21 août 2026, 17h00",
       concours: "1er septembre 2026",
       anneeReference: "2026-2027",
-      urgent: true,
-      urgentNote: "Clôture des candidatures le 21 août 2026 : échéance imminente.",
       aVerifier: true
     }
   },
