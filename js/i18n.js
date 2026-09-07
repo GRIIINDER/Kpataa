@@ -608,6 +608,17 @@
       en: 'Yes, for many roles in development, data or design : WIYAO\'s roadmaps are precisely designed for self-study, with free resources at every step. Other roles (networking, advanced cybersecurity, management) benefit more from academic training or recognized certifications. Either way, a <a href="ecosysteme.html">network</a> and concrete projects matter as much as a diploma to tech recruiters.',
     },
 
+    "faq.c2.q10": { fr: "Comment convaincre mes parents que la tech est un vrai métier ?", en: "How do I convince my parents that tech is a real career?" },
+    "faq.c2.a10": {
+      fr: 'Les chiffres et les parcours réels convainquent souvent mieux que les arguments abstraits : la page <a href="temoignages.html">Témoignages</a> réunit les statistiques du numérique togolais (croissance du secteur, salaires) et des portraits sourcés de professionnels togolais qui en vivent, justement pour appuyer la conversation en famille.',
+      en: 'Real numbers and real paths often convince better than abstract arguments: the <a href="temoignages.html">Testimonials</a> page gathers statistics about Togolese digital tech (sector growth, salaries) and sourced portraits of Togolese professionals living off it, precisely to support the conversation with your family.',
+    },
+    "faq.c2.q11": { fr: "Combien gagne-t-on dans la tech au Togo ?", en: "How much do tech jobs pay in Togo?" },
+    "faq.c2.a11": {
+      fr: 'Ça varie selon le métier, l\'expérience et l\'employeur, mais la page <a href="temoignages.html">Témoignages</a> donne des fourchettes de salaires sourcées (développeur, ingénieur système, chef de projet IT...), généralement nettement au-dessus du salaire moyen national togolais.',
+      en: 'It varies by role, experience and employer, but the <a href="temoignages.html">Testimonials</a> page gives sourced salary ranges (developer, systems engineer, IT project manager...), generally well above the Togolese national average salary.',
+    },
+
     "faq.cat3.h2": { fr: "Sur les écoles et les frais", en: "About schools and fees" },
     "faq.c3.q1": { fr: "Toutes les écoles listées sont-elles reconnues par l'État ?", en: "Are all the listed schools recognized by the State?" },
     "faq.c3.a1": {
@@ -640,6 +651,22 @@
       en: 'Yes, this is a common path. A degree accredited by CAMES (the African and Malagasy Council for Higher Education) or recognized by a partner university makes it easier to continue studying abroad. Check this directly with the school in question, and also look at <a href="bourses-financement.html#international">international scholarships</a> to fund a move abroad after a Licence.',
     },
 
+    "faq.c3.q7": { fr: "Que faire si je rate un concours d'entrée ?", en: "What if I fail an entrance exam?" },
+    "faq.c3.a7": {
+      fr: 'Ce n\'est pas une impasse : plusieurs écoles togolaises, en particulier privées, admettent en continu sur dossier et entretien, sans concours à date fixe. Le <a href="calendrier.html">calendrier</a> précise, école par école, lesquelles fonctionnent ainsi et à quel moment candidater.',
+      en: 'It\'s not a dead end: several Togolese schools, especially private ones, admit on a rolling basis through application review and interview, with no fixed-date entrance exam. The <a href="calendrier.html">calendar</a> shows, school by school, which ones work this way and when to apply.',
+    },
+    "faq.c3.q8": { fr: "Où trouver les dates d'ouverture des candidatures et des concours ?", en: "Where can I find application and entrance exam dates?" },
+    "faq.c3.a8": {
+      fr: 'Sur la page <a href="calendrier.html">Calendrier</a> : le calendrier type d\'une candidature au Togo, puis les dates connues école par école (clôture, concours, rentrée), avec la source et l\'année de référence pour chacune.',
+      en: 'On the <a href="calendrier.html">Calendar</a> page: the typical application timeline in Togo, then the known dates school by school (deadline, exam, start of term), with the source and reference year for each.',
+    },
+    "faq.c3.q9": { fr: "Un BTS ou une Licence suffit pour trouver un emploi, ou faut-il un Master ?", en: "Is a BTS or a Licence enough to find a job, or do I need a Master's?" },
+    "faq.c3.a9": {
+      fr: 'Pour beaucoup de métiers du développement, le niveau de diplôme compte moins qu\'on ne le pense : un portfolio de projets concrets pèse souvent plus qu\'un BTS ou une Licence seule aux yeux d\'un recruteur tech togolais (voir le guide de la page <a href="stages-emploi.html#guide">Stages &amp; emploi</a>). Un Master reste utile pour se spécialiser ou viser des postes à responsabilité, mais n\'est pas un prérequis pour démarrer.',
+      en: 'For many development roles, the diploma level matters less than you\'d think: a portfolio of concrete projects often weighs more than a BTS or a Licence alone in the eyes of a Togolese tech recruiter (see the guide on the <a href="stages-emploi.html#guide">Internships &amp; jobs</a> page). A Master\'s remains useful to specialize or aim for senior positions, but isn\'t a prerequisite to get started.',
+    },
+
     "faq.cat5.h2": { fr: "Sur les bourses et le financement", en: "About scholarships and funding" },
     "faq.c5.q1": { fr: "Existe-t-il des bourses pour financer mes études d'informatique au Togo ?", en: "Are there scholarships to fund IT studies in Togo?" },
     "faq.c5.a1": {
@@ -662,6 +689,11 @@
     "faq.c4.a2": {
       fr: 'La page <a href="ecosysteme.html">Écosystème togolais</a> liste communautés, événements, hubs et incubateurs à connaître.',
       en: 'The <a href="ecosysteme.html">Togolese ecosystem</a> page lists communities, events, hubs and incubators worth knowing.',
+    },
+    "faq.c4.q3": { fr: "Puis-je travailler pour des entreprises étrangères depuis le Togo ?", en: "Can I work for foreign companies from Togo?" },
+    "faq.c4.a3": {
+      fr: 'Oui, le travail à distance (freelance ou salarié) est une vraie option pour un développeur togolais, via des plateformes comme Upwork, Contra ou Turing. C\'est exigeant (anglais, portfolio solide) mais ça élargit beaucoup le marché au-delà des employeurs locaux : détails dans le guide de la page <a href="stages-emploi.html#guide">Stages &amp; emploi</a>.',
+      en: 'Yes, remote work (freelance or salaried) is a real option for a Togolese developer, through platforms like Upwork, Contra or Turing. It\'s demanding (English, a solid portfolio) but it widens the market well beyond local employers: details in the guide on the <a href="stages-emploi.html#guide">Internships &amp; jobs</a> page.',
     },
 
     "temoin.s1.h2": { fr: "C'est un vrai métier", en: "It's a real career" },
