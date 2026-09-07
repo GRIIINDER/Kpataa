@@ -291,7 +291,7 @@
       return;
     }
 
-    document.title = `${tField(rm, "title")} — WIYAO`;
+    document.title = `${tField(rm, "title")} - WIYAO`;
 
     const total = countItems(rm);
     let progress = loadProgress();
@@ -560,7 +560,7 @@
 
   // ---- Test d'orientation ----
   // Le test est adaptatif en deux temps : 8 questions de domaine d'abord, puis
-  // — une fois le domaine dominant connu — 2 questions spécifiques à ce domaine
+  // : une fois le domaine dominant connu : 2 questions spécifiques à ce domaine
   // qui affinent la recommandation vers un métier précis (au lieu des 3 premiers
   // métiers du domaine par ordre d'insertion), avant les questions pratiques
   // (niveau, ville, budget, priorité). 14 questions au total, quel que soit le
@@ -712,8 +712,8 @@
     const isCloseCall = !!second && topScore > 0 && topScore - secondScore <= 1;
 
     // Métiers du domaine dominant, classés par le score des questions de
-    // deuxième niveau (voir ROLE_QUESTIONS) plutôt que par ordre d'insertion —
-    // les métiers jamais boostés (score 0) ne sont proposés que s'il n'y a pas
+    // deuxième niveau (voir ROLE_QUESTIONS) plutôt que par ordre d'insertion.
+    // Les métiers jamais boostés (score 0) ne sont proposés que s'il n'y a pas
     // assez de métiers mieux notés pour remplir les 3 recommandations.
     const matchingRoles = typeof ROLES !== "undefined"
       ? Object.keys(ROLES)
@@ -728,8 +728,8 @@
     let html = `
       <p class="quiz-disclaimer">${
         isEn
-          ? 'This result is a starting point, not a verdict — 14 questions can\'t know you 100%. Compare it against a <a href="temoignages.html">real testimonial</a> from someone in the role, and try the roadmap before committing financially to a school.'
-          : 'Ce résultat est un point de départ, pas un verdict — 14 questions ne peuvent pas te connaître à 100 %. Confronte-le à un <a href="temoignages.html">témoignage réel</a> de quelqu\'un du métier, et teste la roadmap avant de t\'engager financièrement dans une école.'
+          ? 'This result is a starting point, not a verdict : 14 questions can\'t know you 100%. Compare it against a <a href="temoignages.html">real testimonial</a> from someone in the role, and try the roadmap before committing financially to a school.'
+          : 'Ce résultat est un point de départ, pas un verdict : 14 questions ne peuvent pas te connaître à 100 %. Confronte-le à un <a href="temoignages.html">témoignage réel</a> de quelqu\'un du métier, et teste la roadmap avant de t\'engager financièrement dans une école.'
       }</p>
       <h2>${isEn ? "Your profile" : "Ton profil"} : ${topMeta.icon} ${topLabel}</h2>
       <p class="category-desc">${tField(topMeta, "description")}</p>
@@ -754,8 +754,8 @@
         <h3 class="quiz-scores-title">${isEn ? "Schools recommended for you" : "Écoles recommandées pour toi"}</h3>
         <p class="category-desc" style="text-align:center;">${
           isEn
-            ? "Based on your domain and your answers about level, city and budget — every checked criterion is verified, not guessed."
-            : "D'après ton domaine et tes réponses sur le niveau, la ville et le budget — chaque critère coché est vérifié, pas deviné."
+            ? "Based on your domain and your answers about level, city and budget : every checked criterion is verified, not guessed."
+            : "D'après ton domaine et tes réponses sur le niveau, la ville et le budget : chaque critère coché est vérifié, pas deviné."
         }</p>
         <div class="grid" id="quiz-school-grid"></div>
         <p class="quiz-secondary">
@@ -901,7 +901,7 @@
           "Description :",
           description,
           "",
-          `— Proposé par ${name} (${email})`,
+          `Proposé par ${name} (${email})`,
         ];
         window.location.href = `mailto:wiya.info@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
         return;
@@ -909,7 +909,7 @@
 
       const subject = form.elements["subject"].value.trim();
       const message = form.elements["message"].value.trim();
-      const body = `${message}\n\n— ${name} (${email})`;
+      const body = `${message}\n\n${name} (${email})`;
       window.location.href = `mailto:wiya.info@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     });
   }
@@ -957,7 +957,7 @@
       }
 
       if (dc && dc.anneeReference) {
-        bodyHtml += `<p class="dates-ref-note">Repère de calendrier (${dc.anneeReference})${dc.aVerifier ? " — à reconfirmer directement auprès de l'école" : ""}.</p>`;
+        bodyHtml += `<p class="dates-ref-note">Repère de calendrier (${dc.anneeReference})${dc.aVerifier ? " : à reconfirmer directement auprès de l'école" : ""}.</p>`;
       }
 
       if (dc && dc.contact) {
@@ -965,7 +965,7 @@
       }
 
       if (!dc) {
-        bodyHtml = `<p class="dates-note">Dates non publiées en ligne — vérifie directement sur le site de l'école.</p>`;
+        bodyHtml = `<p class="dates-note">Dates non publiées en ligne : vérifie directement sur le site de l'école.</p>`;
       }
 
       row.innerHTML = `
@@ -1140,7 +1140,7 @@
     initContactForm();
   });
 
-  // Exposé pour js/assistant.js — réutilise la même normalisation et le même
+  // Exposé pour js/assistant.js : réutilise la même normalisation et le même
   // index de recherche que la page Recherche, pas de logique dupliquée.
   window.WIYAO_SEARCH = { buildGlobalIndex, normalize, currentLang };
 })();

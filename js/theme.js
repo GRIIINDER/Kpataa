@@ -1,4 +1,4 @@
-// Thème clair/sombre — WIYAO
+// Thème clair/sombre : WIYAO
 // La détection initiale (localStorage ou préférence système) tourne dans un
 // script inline en tête de <head> pour éviter un flash du mauvais thème ;
 // ce fichier ne gère que le bouton de bascule et sa persistance.
@@ -29,7 +29,7 @@
       try {
         localStorage.setItem(STORAGE_KEY, next);
       } catch (e) {
-        // stockage indisponible (navigation privée, quota) — le thème reste actif pour la session
+        // stockage indisponible (navigation privée, quota) : le thème reste actif pour la session
       }
     });
   });

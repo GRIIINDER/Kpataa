@@ -101,7 +101,7 @@
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* Thème clair — mêmes rôles de variables, valeurs adaptées à un fond clair.
+/* Thème clair : mêmes rôles de variables, valeurs adaptées à un fond clair.
    Réutilise les tons déjà présents dans la palette (--accent, --text, --border)
    pour rester cohérent avec les cartes/chips qui sont déjà claires par défaut. */
 :root[data-theme="light"] {
@@ -190,7 +190,7 @@ a {
   border-color: var(--tk-primary);
 }
 
-/* Assistant WIYAO — bulle flottante + panneau de chat */
+/* Assistant WIYAO : bulle flottante + panneau de chat */
 .wiyao-assistant-toggle {
   position: fixed;
   right: 20px;
@@ -1646,7 +1646,7 @@ main {
   font-size: 0.88rem;
 }
 
-/* Le calendrier type — style Djanta Tech Hub : puce + ligne verticale, date en grand */
+/* Le calendrier type : style Djanta Tech Hub : puce + ligne verticale, date en grand */
 #timeline-general.timeline {
   gap: 0;
 }
@@ -2165,7 +2165,7 @@ footer.site-footer {
   }
 }
 
-/* Page Contact — style Djanta Tech Hub : pas de carte, gros titre à gauche, formulaire à plat à droite */
+/* Page Contact : style Djanta Tech Hub : pas de carte, gros titre à gauche, formulaire à plat à droite */
 .contact-layout {
   display: grid;
   grid-template-columns: 1fr 1.3fr;

@@ -1,4 +1,4 @@
-// Assistant WIYAO — guide conversationnel, sans API externe.
+// Assistant WIYAO : guide conversationnel, sans API externe.
 // Ne génère aucun texte libre : ne fait que reformuler et pointer vers du
 // contenu déjà vérifié du site (mêmes réponses que la FAQ, mêmes résultats
 // que la recherche globale). Zéro coût, zéro backend, cohérent avec le
@@ -205,8 +205,8 @@
       if (!opened) {
         opened = true;
         addMessage(messagesEl, "bot", isEn()
-          ? "Hi! I'm the WIYAO assistant 👋 I'm not a free-form AI — I only point you to WIYAO's own verified content (roadmaps, schools, scholarships, FAQ...). What do you need?"
-          : "Salut ! Je suis l'assistant WIYAO 👋 Je ne suis pas une IA conversationnelle libre — je t'oriente uniquement vers le contenu déjà vérifié de WIYAO (roadmaps, écoles, bourses, FAQ...). Qu'est-ce qu'il te faut ?");
+          ? "Hi! I'm the WIYAO assistant 👋 I'm not a free-form AI : I only point you to WIYAO's own verified content (roadmaps, schools, scholarships, FAQ...). What do you need?"
+          : "Salut ! Je suis l'assistant WIYAO 👋 Je ne suis pas une IA conversationnelle libre : je t'oriente uniquement vers le contenu déjà vérifié de WIYAO (roadmaps, écoles, bourses, FAQ...). Qu'est-ce qu'il te faut ?");
         renderChips(chipsEl, messagesEl);
       }
       input.focus();

@@ -964,7 +964,7 @@ const ROLES = {
         title: "6. Automatisation et gestion des services IT",
         items: [
           { label: "Scripts d'automatisation : Bash, PowerShell ou Ansible pour les tâches répétitives", level: "core", resource: { label: "Documentation Ansible", url: "https://docs.ansible.com/" } },
-          { label: "Gestion des services IT (ITSM) : tickets, incidents, changements — bases d'ITIL", level: "option" }
+          { label: "Gestion des services IT (ITSM) : tickets, incidents, changements, bases d'ITIL", level: "option" }
         ]
       },
       {
@@ -1989,7 +1989,7 @@ const ROLES = {
       {
         title: "5. Certifications",
         items: [
-          { label: "CISA (Certified Information Systems Auditor), ISACA — la certification de référence pour ce métier", level: "core", resource: { label: "ISACA - Certification CISA", url: "https://www.isaca.org/credentialing/cisa" } },
+          { label: "CISA (Certified Information Systems Auditor), ISACA : la certification de référence pour ce métier", level: "core", resource: { label: "ISACA - Certification CISA", url: "https://www.isaca.org/credentialing/cisa" } },
           { label: "CISSP ((ISC)²), pour les profils orientés sécurité globale", level: "option" }
         ]
       },
@@ -2606,7 +2606,7 @@ const ROLES = {
         title: "4. Certifications",
         items: [
           { label: "CEH (Certified Ethical Hacker)", level: "option" },
-          { label: "OSCP (Offensive Security Certified Professional) — référence pratique reconnue", level: "option" }
+          { label: "OSCP (Offensive Security Certified Professional) : référence pratique reconnue", level: "option" }
         ]
       }
     ]
@@ -2963,8 +2963,8 @@ const ROLES = {
       {
         title: "5. Certifications",
         items: [
-          { label: "ECBA (Entry Certificate in Business Analysis), IIBA — pour démarrer", level: "option", resource: { label: "IIBA - Certifications", url: "https://www.iiba.org/business-analysis-certifications/" } },
-          { label: "CBAP (Certified Business Analysis Professional), IIBA — niveau avancé", level: "option" }
+          { label: "ECBA (Entry Certificate in Business Analysis), IIBA : pour démarrer", level: "option", resource: { label: "IIBA - Certifications", url: "https://www.iiba.org/business-analysis-certifications/" } },
+          { label: "CBAP (Certified Business Analysis Professional), IIBA : niveau avancé", level: "option" }
         ]
       }
     ]
@@ -3463,13 +3463,13 @@ const ROLES = {
 };
 
 const DOMAINS = {
-  "Développement": { icon: "💻", nameEn: "Development", description: "Concevoir et construire des logiciels, applications et sites web.", descriptionEn: "Designing and building software, applications and websites.", presenceTogo: "Le domaine le plus représenté au Togo : recruté par l'Agence Togo Digital et Gozem, enseigné dans la quasi-totalité des 32 écoles du pays — comme dans le reste du monde, la base de toute la tech.", presenceTogoEn: "The most represented domain in Togo: hired by the Togo Digital Agency and Gozem, taught in almost all 32 schools nationwide — as everywhere else, the foundation of all tech." },
-  "Data & IA": { icon: "📊", nameEn: "Data & AI", description: "Exploiter, analyser et modéliser la donnée.", descriptionEn: "Working with, analyzing and modeling data.", presenceTogo: "Enseigné dans une quinzaine d'écoles togolaises (IA, Big Data) et recherché par l'Agence Togo Digital — en forte croissance au Togo comme dans le monde entier.", presenceTogoEn: "Taught in around fifteen Togolese schools (AI, Big Data) and sought after by the Togo Digital Agency — booming in Togo as it is worldwide." },
-  "Sécurité": { icon: "🔐", nameEn: "Security", description: "Protéger les systèmes, les données et les organisations.", descriptionEn: "Protecting systems, data and organizations.", presenceTogo: "Porté au Togo par Cyber Defense Africa (SOC/CERT national), l'ANCy et la BCEAO — une pénurie de profils que le pays partage avec le reste du monde.", presenceTogoEn: "Backed in Togo by Cyber Defense Africa (national SOC/CERT), ANCy and BCEAO — a talent shortage Togo shares with the rest of the world." },
+  "Développement": { icon: "💻", nameEn: "Development", description: "Concevoir et construire des logiciels, applications et sites web.", descriptionEn: "Designing and building software, applications and websites.", presenceTogo: "Le domaine le plus représenté au Togo : recruté par l'Agence Togo Digital et Gozem, enseigné dans la quasi-totalité des 32 écoles du pays, comme dans le reste du monde, la base de toute la tech.", presenceTogoEn: "The most represented domain in Togo: hired by the Togo Digital Agency and Gozem, taught in almost all 32 schools nationwide, as everywhere else, the foundation of all tech." },
+  "Data & IA": { icon: "📊", nameEn: "Data & AI", description: "Exploiter, analyser et modéliser la donnée.", descriptionEn: "Working with, analyzing and modeling data.", presenceTogo: "Enseigné dans une quinzaine d'écoles togolaises (IA, Big Data) et recherché par l'Agence Togo Digital : en forte croissance au Togo comme dans le monde entier.", presenceTogoEn: "Taught in around fifteen Togolese schools (AI, Big Data) and sought after by the Togo Digital Agency : booming in Togo as it is worldwide." },
+  "Sécurité": { icon: "🔐", nameEn: "Security", description: "Protéger les systèmes, les données et les organisations.", descriptionEn: "Protecting systems, data and organizations.", presenceTogo: "Porté au Togo par Cyber Defense Africa (SOC/CERT national), l'ANCy et la BCEAO : une pénurie de profils que le pays partage avec le reste du monde.", presenceTogoEn: "Backed in Togo by Cyber Defense Africa (national SOC/CERT), ANCy and BCEAO : a talent shortage Togo shares with the rest of the world." },
   "Produit & Design": { icon: "🎨", nameEn: "Product & Design", description: "Concevoir des produits et expériences centrées sur l'utilisateur.", descriptionEn: "Designing products and experiences centered on the user.", presenceTogo: "Encore émergent au Togo (filière UX/UI dans quelques écoles, recrutements ponctuels à l'Agence Togo Digital), plus mature à l'international.", presenceTogoEn: "Still emerging in Togo (UX/UI programs in a handful of schools, occasional hiring at the Togo Digital Agency), more established internationally." },
-  "Infrastructure & DevOps": { icon: "☁️", nameEn: "Infrastructure & DevOps", description: "Déployer, exploiter et fiabiliser les systèmes et réseaux.", descriptionEn: "Deploying, operating and ensuring the reliability of systems and networks.", presenceTogo: "Porté par les opérateurs télécoms (Togocom, Moov Africa) et la SIN — un socle indispensable à toute infrastructure numérique, au Togo comme ailleurs.", presenceTogoEn: "Driven by telecom operators (Togocom, Moov Africa) and SIN — an essential backbone for any digital infrastructure, in Togo as elsewhere." },
+  "Infrastructure & DevOps": { icon: "☁️", nameEn: "Infrastructure & DevOps", description: "Déployer, exploiter et fiabiliser les systèmes et réseaux.", descriptionEn: "Deploying, operating and ensuring the reliability of systems and networks.", presenceTogo: "Porté par les opérateurs télécoms (Togocom, Moov Africa) et la SIN : un socle indispensable à toute infrastructure numérique, au Togo comme ailleurs.", presenceTogoEn: "Driven by telecom operators (Togocom, Moov Africa) and SIN : an essential backbone for any digital infrastructure, in Togo as elsewhere." },
   "Marketing digital": { icon: "📣", nameEn: "Digital Marketing", description: "Faire connaître, acquérir et fidéliser via le numérique.", descriptionEn: "Building awareness, acquiring and retaining customers through digital channels.", presenceTogo: "Enseigné dans plusieurs écoles togolaises et très demandé par les PME et agences locales, à l'image de sa croissance mondiale portée par le e-commerce.", presenceTogoEn: "Taught in several Togolese schools and in high demand among local SMEs and agencies, mirroring its worldwide growth driven by e-commerce." },
-  "Gestion & Management": { icon: "🧭", nameEn: "Management", description: "Piloter des projets, des équipes et des transformations.", descriptionEn: "Steering projects, teams and transformations.", presenceTogo: "Recherché par les banques et institutions régionales de Lomé (BOAD, Ecobank) pour piloter leurs projets IT — une fonction transverse indispensable partout dans le monde.", presenceTogoEn: "Sought by banks and regional institutions in Lomé (BOAD, Ecobank) to lead their IT projects — an essential cross-cutting function everywhere in the world." }
+  "Gestion & Management": { icon: "🧭", nameEn: "Management", description: "Piloter des projets, des équipes et des transformations.", descriptionEn: "Steering projects, teams and transformations.", presenceTogo: "Recherché par les banques et institutions régionales de Lomé (BOAD, Ecobank) pour piloter leurs projets IT : une fonction transverse indispensable partout dans le monde.", presenceTogoEn: "Sought by banks and regional institutions in Lomé (BOAD, Ecobank) to lead their IT projects : an essential cross-cutting function everywhere in the world." }
 };
 
 const SKILLS = {
@@ -3516,7 +3516,7 @@ const SKILLS = {
       {
         title: "5. Certification",
         items: [
-          { label: "GitHub Foundations — certification d'entrée validant les bases de la plateforme", level: "option", resource: { label: "GitHub Learn - Certifications", url: "https://learn.github.com/certifications" } }
+          { label: "GitHub Foundations : certification d'entrée validant les bases de la plateforme", level: "option", resource: { label: "GitHub Learn - Certifications", url: "https://learn.github.com/certifications" } }
         ]
       }
     ]
@@ -3812,7 +3812,7 @@ const SKILLS = {
         title: "4. Cloud natif",
         items: [
           { label: "Fonctions serverless (AWS Lambda, Cloud Functions, Azure Functions)", level: "option" },
-          { label: "Conteneurs managés (ECS, Cloud Run) — voir aussi la roadmap compétence Docker", level: "option", resource: { label: "Voir roadmap compétence Docker", url: "roadmap.html?id=docker" } },
+          { label: "Conteneurs managés (ECS, Cloud Run) : voir aussi la roadmap compétence Docker", level: "option", resource: { label: "Voir roadmap compétence Docker", url: "roadmap.html?id=docker" } },
           { label: "CDN pour la distribution de contenu (CloudFront, Cloudflare)", level: "option" },
           { label: "Infrastructure as Code", level: "option", resource: { label: "Voir roadmap compétence Terraform", url: "roadmap.html?id=terraform" } }
         ]
@@ -4025,7 +4025,7 @@ const SKILLS = {
       {
         title: "5. Certification",
         items: [
-          { label: "Oracle Certified Professional: Java — certification de référence pour ce langage", level: "option", resource: { label: "Oracle University - Certifications", url: "https://education.oracle.com/" } }
+          { label: "Oracle Certified Professional: Java : certification de référence pour ce langage", level: "option", resource: { label: "Oracle University - Certifications", url: "https://education.oracle.com/" } }
         ]
       }
     ]
@@ -4668,7 +4668,7 @@ const ALL_ROADMAPS = Object.assign({}, ROLES, SKILLS);
 // Données vérifiées sur les sites officiels de chaque établissement (recherche août-septembre 2026).
 // Statut "agree" : présence confirmée dans la liste des établissements d'enseignement supérieur
 // accrédités par le Ministère togolais de l'Enseignement Supérieur et de la Recherche pour
-// l'année académique 2026-2027 (liste de 111 établissements — 13 publics, 98 privés —, publiée
+// l'année académique 2026-2027 (liste de 111 établissements : 13 publics, 98 privés, publiée
 // le 24 juillet 2026 sur edusup.gouv.tg, remplace la liste 2025-2026 de 93 établissements).
 // null = non applicable ou statut particulier.
 const SCHOOLS = {
@@ -4681,7 +4681,7 @@ const SCHOOLS = {
     filieres: ["Intelligence Artificielle", "Science des Données", "Génie Logiciel", "Cybersécurité", "Développement Web & Mobile", "Réseaux, Systèmes & Sécurité"],
     duree: "Licence : 3 ans · Master : 2 ans",
     admission: "Concours d'entrée post-BAC (dossier + épreuves) ; Licence en informatique requise pour le Master",
-    frais: "800 000 FCFA (L1) · 900 000 (L2) · 1 000 000 (L3) — exemple filière Cybersécurité, + inscription (50 000 FCFA puis 30 000 FCFA/an) et frais de dossier. Bourses sociales/mérite et paiement en 3 fois (source : ipnetuniversity.com, 2025).",
+    frais: "800 000 FCFA (L1) · 900 000 (L2) · 1 000 000 (L3) : exemple filière Cybersécurité, + inscription (50 000 FCFA puis 30 000 FCFA/an) et frais de dossier. Bourses sociales/mérite et paiement en 3 fois (source : ipnetuniversity.com, 2025).",
     site: "https://ipnetuniversity.com",
     description: "Institut privé fondé en 2003, très orienté pratique (80+ partenariats entreprises tech), élu « université la plus innovante du Togo » en 2022.",
     datesCles: {
@@ -4695,12 +4695,12 @@ const SCHOOLS = {
     ville: ["Lomé"],
     statut: "inter-etats",
     agree: true,
-    agreeNote: "École inter-États d'enseignement supérieur (réseau régional créé en 1971). Jusqu'à la liste 2025-2026, son statut inter-États le distinguait des établissements recensés par le Ministère togolais — mais la nouvelle liste officielle 2026-2027 (edusup.gouv.tg, publiée le 24 juillet 2026) l'inscrit désormais explicitement en position n°5 des établissements PUBLICS.",
+    agreeNote: "École inter-États d'enseignement supérieur (réseau régional créé en 1971). Jusqu'à la liste 2025-2026, son statut inter-États le distinguait des établissements recensés par le Ministère togolais : mais la nouvelle liste officielle 2026-2027 (edusup.gouv.tg, publiée le 24 juillet 2026) l'inscrit désormais explicitement en position n°5 des établissements PUBLICS.",
     niveaux: ["Licence Professionnelle", "Ingénieur des Travaux Informatiques", "Ingénieur Concepteur"],
     filieres: ["Génie Logiciel & Systèmes d'Information", "Administration des Systèmes et Réseaux", "Multimédia", "Technologies Web"],
     duree: "Cycle ITI / Licence Pro : 3 ans, avec stage en 2e et 3e années",
     admission: "Concours d'entrée (épreuves d'Anglais, Mathématiques, Français)",
-    frais: "Non communiqué publiquement — seuls les frais annexes sont connus (concours : 15 000 FCFA/an, assurance : 1 000 FCFA/an). Contacte l'établissement pour le montant de la scolarité.",
+    frais: "Non communiqué publiquement : seuls les frais annexes sont connus (concours : 15 000 FCFA/an, assurance : 1 000 FCFA/an). Contacte l'établissement pour le montant de la scolarité.",
     site: "https://new.iai-togo.tg/officiel",
     description: "École inter-États d'enseignement supérieur en informatique, présente au Togo depuis 2002, référence historique de la formation informatique dans la sous-région.",
     datesCles: {
@@ -4710,7 +4710,7 @@ const SCHOOLS = {
       concours: "1er septembre 2026",
       anneeReference: "2026-2027",
       urgent: true,
-      urgentNote: "Clôture des candidatures le 21 août 2026 — échéance imminente.",
+      urgentNote: "Clôture des candidatures le 21 août 2026 : échéance imminente.",
       aVerifier: true
     }
   },
@@ -4723,7 +4723,7 @@ const SCHOOLS = {
     filieres: ["Informatique de Gestion", "Développement d'Applications", "Systèmes et Réseaux", "Sécurité Informatique", "Intelligence Artificielle & Big Data", "Marketing Digital"],
     duree: "BTS : 2 ans · Licence : 3 ans · Master : 2 ans après la Licence",
     admission: "Ouvert à tous les bacheliers en 1ère année ; dossier + entretien pour une admission directe en cours de cursus",
-    frais: "Non communiqué publiquement — l'école renvoie explicitement au secrétariat local pour les tarifs. (Un document non officiel daté de 2021 circule en ligne mais n'est pas fiable pour l'année en cours.)",
+    frais: "Non communiqué publiquement : l'école renvoie explicitement au secrétariat local pour les tarifs. (Un document non officiel daté de 2021 circule en ligne mais n'est pas fiable pour l'année en cours.)",
     site: "https://www.esgis.org/",
     description: "École privée accréditée CAMES, présente au Togo, au Bénin et au Gabon, plus de 20 000 étudiants formés en 30 ans.",
     datesCles: {
@@ -4763,7 +4763,7 @@ const SCHOOLS = {
     description: "École agréée par l'État togolais, membre de l'Agence Universitaire de la Francophonie (AUF), plus de 36 ans d'expérience en gestion et technologie.",
     datesCles: {
       mode: "inconnu",
-      note: "Aucune date publiée en ligne — dossier PDF à soumettre directement.",
+      note: "Aucune date publiée en ligne : dossier PDF à soumettre directement.",
       contact: "esiba@esiba.tg / +228 90 81 41 78"
     }
   },
@@ -4787,7 +4787,7 @@ const SCHOOLS = {
     }
   },
   "ucao-uut": {
-    name: "UCAO-UUT — Département de Génie Informatique",
+    name: "UCAO-UUT : Département de Génie Informatique",
     ville: ["Lomé"],
     statut: "prive",
     agree: true,
@@ -4800,7 +4800,7 @@ const SCHOOLS = {
     description: "Université catholique de plus de 15 000 étudiants ; le Département de Génie Informatique relève de l'École Supérieure d'Ingénieurs, encadrée par le CAMES et la Commission des Titres d'Ingénieur.",
     datesCles: {
       mode: "continue",
-      note: "Pré-inscriptions ouvertes dès juillet, jusqu'à la rentrée — pas de date limite stricte.",
+      note: "Pré-inscriptions ouvertes dès juillet, jusqu'à la rentrée : pas de date limite stricte.",
       ouverture: "15 juillet (référence)",
       rentree: "23 octobre, rentrée solennelle (référence)",
       anneeReference: "2025-2026"
@@ -4815,7 +4815,7 @@ const SCHOOLS = {
     filieres: ["Développement Web / Génie Logiciel", "Big Data", "Cloud Computing", "Réseaux et Cybersécurité"],
     duree: null,
     admission: "Inscription en ligne selon le niveau du candidat (Première, Terminale, Bac, Licence, Master)",
-    frais: "900 000 FCFA/an (Bachelor) · 1 200 000 FCFA/an (Master) — inclut PC portable, kit et accès numérique (source : brochure officielle 2026-2027).",
+    frais: "900 000 FCFA/an (Bachelor) · 1 200 000 FCFA/an (Master) : inclut PC portable, kit et accès numérique (source : brochure officielle 2026-2027).",
     site: "https://lome-bs.com/",
     description: "Se présente comme la 1ère Business School du Togo, forte orientation professionnalisante (stages dès la 1ère année).",
     datesCles: {
@@ -4832,7 +4832,7 @@ const SCHOOLS = {
     ville: ["Lomé"],
     statut: "prive",
     agree: false,
-    agreeNote: "Absent de la liste officielle des établissements privés accrédités pour l'année académique 2026-2027 (publiée le 24 juillet 2026), alors qu'il figurait sur celle de 2025-2026 — à vérifier directement auprès de l'établissement avant de t'engager.",
+    agreeNote: "Absent de la liste officielle des établissements privés accrédités pour l'année académique 2026-2027 (publiée le 24 juillet 2026), alors qu'il figurait sur celle de 2025-2026 : à vérifier directement auprès de l'établissement avant de t'engager.",
     niveaux: ["Licence", "Master"],
     filieres: ["Intelligence Artificielle et Big Data", "Systèmes et Réseaux Informatiques", "Génie Logiciel"],
     duree: "Licence : 3 ans (180 crédits) · Master : 2 ans",
@@ -4877,7 +4877,7 @@ const SCHOOLS = {
     filieres: ["Mathématiques et Informatique Appliquées", "Sécurité Informatique et Cybersécurité", "Développement Web et Mobile", "Métiers du Multimédia et de l'Internet"],
     duree: "Licences en 3 ans, avec stage professionnel et soutenance en fin de cycle",
     admission: "Bac C, D ou E (session récente), sélection sur dossier",
-    frais: "Master : de 176 500 FCFA/an (recherche, étudiants togolais/UEMOA) à plus d'1 000 000 FCFA (professionnel, étranger) — arrêté officiel 2026-2027. Licence non communiquée publiquement. Bourses d'État togolaises et bourses internationales (France, Inde) existantes.",
+    frais: "Master : de 176 500 FCFA/an (recherche, étudiants togolais/UEMOA) à plus d'1 000 000 FCFA (professionnel, étranger) : arrêté officiel 2026-2027. Licence non communiquée publiquement. Bourses d'État togolaises et bourses internationales (France, Inde) existantes.",
     site: "https://univkara.tg/",
     description: "2e université publique du Togo ; la Faculté des Sciences et Techniques (FAST) porte plusieurs licences professionnelles tech.",
     datesCles: {
@@ -4903,7 +4903,7 @@ const SCHOOLS = {
     description: "École pluridisciplinaire fondée en 2010, plus de 33 filières, 1ère école togolaise certifiée ISO 9001.",
     datesCles: {
       mode: "continue",
-      note: "Admission continue, avis sous 48 à 72h après étude du dossier — pas de date limite.",
+      note: "Admission continue, avis sous 48 à 72h après étude du dossier : pas de date limite.",
       rentree: "5 octobre 2026, 8h (campus Agoè et Super Taco, confirmé)",
       anneeReference: "2026-2027"
     }
@@ -4913,12 +4913,12 @@ const SCHOOLS = {
     ville: ["Lomé"],
     statut: "prive",
     agree: true,
-    agreeNote: "Listé sous le nom « Ascencia Keyce (ex Institut Collège de Paris Supérieur) » sur la liste officielle 2026-2027 — anciennement agréé sous « Institut UPSILON Collège de Paris Supérieur ».",
+    agreeNote: "Listé sous le nom « Ascencia Keyce (ex Institut Collège de Paris Supérieur) » sur la liste officielle 2026-2027 : anciennement agréé sous « Institut UPSILON Collège de Paris Supérieur ».",
     niveaux: ["Licence (Bac+3)", "Master (Bac+5)"],
     filieres: ["Administrateur des Systèmes d'Information", "Intelligence Artificielle & Big Data", "Marketing Digital & Social Media", "Banque, Finance & Digital", "Achat & Logistique"],
     duree: "Licence : 3 ans · Master : 2 ans",
     admission: "Sur dossier (relevés de Bac, diplômes, lettre de motivation, CV)",
-    frais: "Non communiqué publiquement — aucun tarif affiché sur le site officiel au moment de la recherche.",
+    frais: "Non communiqué publiquement : aucun tarif affiché sur le site officiel au moment de la recherche.",
     site: "https://ascencia-keyce-togo.fr/",
     description: "Le campus togolais du réseau français Collège de Paris a été rebaptisé Ascencia · Keyce Togo (rebranding confirmé 2026), membre du réseau IUGEE (6 écoles européennes présentes en Afrique). Diplômes présentés comme reconnus en Europe.",
     datesCles: {
@@ -4929,7 +4929,7 @@ const SCHOOLS = {
     }
   },
   "isbic-alg": {
-    name: "ISBIC-ALG — Institut Supérieur Bilingue de l'Informatique et de Calcul « Auguste Le Grand »",
+    name: "ISBIC-ALG : Institut Supérieur Bilingue de l'Informatique et de Calcul « Auguste Le Grand »",
     ville: ["Lomé"],
     statut: "prive",
     agree: true,
@@ -4937,9 +4937,9 @@ const SCHOOLS = {
     filieres: ["Intelligence Artificielle", "Informatique et Systèmes d'Information", "Automatique et Informatique Industrielle"],
     duree: null,
     admission: "Concours d'entrée (1er concours organisé le 13 octobre 2025)",
-    frais: "750 000 FCFA (inclut supports pédagogiques, tenues, cantine et cours d'auto-école) — réduction spéciale pour les 30 premiers admis, dispositif de soutien pour les étudiantes (source : tdn.tg, septembre 2025).",
+    frais: "750 000 FCFA (inclut supports pédagogiques, tenues, cantine et cours d'auto-école) : réduction spéciale pour les 30 premiers admis, dispositif de soutien pour les étudiantes (source : tdn.tg, septembre 2025).",
     site: null,
-    description: "Institut lancé le 11 septembre 2025 à Amadahomé (Lomé) par le promoteur Auguste Dogbo — l'un des établissements informatique les plus récents du pays. Partenariats annoncés avec CERGI et l'Université Esprit de Tunis.",
+    description: "Institut lancé le 11 septembre 2025 à Amadahomé (Lomé) par le promoteur Auguste Dogbo : l'un des établissements informatique les plus récents du pays. Partenariats annoncés avec CERGI et l'Université Esprit de Tunis.",
     datesCles: {
       mode: "campagne",
       note: "Dates du tout premier concours (référence 2025-2026, à reconfirmer pour les prochaines sessions).",
@@ -4955,14 +4955,14 @@ const SCHOOLS = {
     ville: ["Lomé"],
     statut: "public",
     agree: true,
-    agreeNote: "Établissement public n°13 sur la liste officielle des établissements d'enseignement supérieur accrédités pour l'année académique 2026-2027 (edusup.gouv.tg, publiée le 24 juillet 2026). L'ENP a remplacé l'École Polytechnique de Lomé (EPL) en juillet 2026 (source : Togonews/AllAfrica, 23 juillet 2026) — les informations ci-dessous (frais, concours) datent de l'ère EPL et restent à recouper auprès de l'établissement.",
+    agreeNote: "Établissement public n°13 sur la liste officielle des établissements d'enseignement supérieur accrédités pour l'année académique 2026-2027 (edusup.gouv.tg, publiée le 24 juillet 2026). L'ENP a remplacé l'École Polytechnique de Lomé (EPL) en juillet 2026 (source : Togonews/AllAfrica, 23 juillet 2026) : les informations ci-dessous (frais, concours) datent de l'ère EPL et restent à recouper auprès de l'établissement.",
     niveaux: ["Licence Fondamentale", "Licence Professionnelle", "Master", "Diplôme d'Ingénieur"],
     filieres: ["Informatique et Systèmes", "Intelligence Artificielle & Big Data", "Génie Logiciel", "Systèmes et Réseaux Informatiques"],
     duree: null,
     admission: "Concours d'entrée post-Bac (Bac C, D, E scientifique pour la licence fondamentale)",
-    frais: "404 000 FCFA/an (étudiants togolais, inscription incluse) · 514 000 (salariés) · 754 000 (étrangers). Les 20% premiers au concours d'entrée ne paient que 50 000 FCFA de frais pédagogiques, le reste pris en charge par l'établissement (source : presse togolaise, recoupée sur 3 articles, sous l'ancien nom EPL — à confirmer que ces tarifs s'appliquent toujours sous l'ENP).",
+    frais: "404 000 FCFA/an (étudiants togolais, inscription incluse) · 514 000 (salariés) · 754 000 (étrangers). Les 20% premiers au concours d'entrée ne paient que 50 000 FCFA de frais pédagogiques, le reste pris en charge par l'établissement (source : presse togolaise, recoupée sur 3 articles, sous l'ancien nom EPL : à confirmer que ces tarifs s'appliquent toujours sous l'ENP).",
     site: "https://univ-lome.tg/",
-    description: "École nationale d'ingénieurs publique (ENP), qui a remplacé en juillet 2026 l'École Polytechnique de Lomé — elle-même composante de l'Université de Lomé depuis 2022 (fusion de l'ENSI et du Centre Informatique et de Calcul).",
+    description: "École nationale d'ingénieurs publique (ENP), qui a remplacé en juillet 2026 l'École Polytechnique de Lomé : elle-même composante de l'Université de Lomé depuis 2022 (fusion de l'ENSI et du Centre Informatique et de Calcul).",
     datesCles: {
       mode: "campagne",
       note: "Concours écrit annuel réservé aux nouveaux bacheliers, dépôt possible à Lomé, Kara (DAAS) et dans les directions régionales.",
@@ -4978,7 +4978,7 @@ const SCHOOLS = {
     ville: ["Lomé", "Kara"],
     statut: "prive",
     agree: true,
-    agreeNote: "Ne pas confondre avec le domaine iaec-university.tg, distinct et non vérifié — le site officiel de référence est iaectogo.com.",
+    agreeNote: "Ne pas confondre avec le domaine iaec-university.tg, distinct et non vérifié : le site officiel de référence est iaectogo.com.",
     niveaux: ["BTS", "Licence", "Master"],
     filieres: ["Génie Logiciel", "Génie Informatique", "Réseaux et Télécommunications", "Sciences Informatiques et Télécommunications (Master)"],
     duree: null,
@@ -4988,7 +4988,7 @@ const SCHOOLS = {
     description: "Un des tout premiers établissements privés d'enseignement supérieur du Togo (1986), membre du Groupe BK-Université.",
     datesCles: {
       mode: "inconnu",
-      note: "Aucun calendrier publié — confirmation de dossier sous 48h ouvrées après un entretien téléphonique obligatoire.",
+      note: "Aucun calendrier publié : confirmation de dossier sous 48h ouvrées après un entretien téléphonique obligatoire.",
       contact: "+228 93 90 66 66"
     }
   },
@@ -5003,7 +5003,7 @@ const SCHOOLS = {
     admission: "Sur dossier et test de niveau selon la filière et le cycle visé",
     site: "https://www.cifop-togo.org",
     description: "Centre de formation professionnelle fondé en 1992, seule école de ce comparatif présente hors de Lomé/Kara (campus à Sokodé et Bassar). Revendique 99% d'insertion professionnelle dans les 6 mois suivant le diplôme.",
-    frais: "Non communiqué publiquement — contacte l'établissement directement.",
+    frais: "Non communiqué publiquement : contacte l'établissement directement.",
     datesCles: {
       mode: "campagne",
       rentree: "6 octobre 2026 (Licence & BTS 1) · 15 septembre 2026 (BTS 2, BT) · 2-3 novembre 2026 (Master)",
@@ -5023,7 +5023,7 @@ const SCHOOLS = {
     admission: "Bacheliers scientifiques et étudiants en réorientation, concours d'entrée (10 000 FCFA)",
     site: "https://www.ifnti.com/",
     description: "Institut associatif fondé en 2009 à Sokodé, entièrement dédié à l'informatique (licence LMD), encadrement par des enseignants de niveau ingénieur, groupes de 24 étudiants maximum.",
-    frais: "590 000 FCFA/an + 30 000 FCFA d'inscription (source : Edunews, 2022 — à reconfirmer, ces tarifs peuvent avoir changé).",
+    frais: "590 000 FCFA/an + 30 000 FCFA d'inscription (source : Edunews, 2022 : à reconfirmer, ces tarifs peuvent avoir changé).",
     datesCles: {
       mode: "continue",
       note: "Inscriptions ouvertes chaque année après le Bac, concours d'entrée obligatoire, pas de date fixe publiée en ligne.",
@@ -5039,12 +5039,12 @@ const SCHOOLS = {
     filieres: ["Génie Logiciel", "Maintenance et Réseau Informatique"],
     duree: null,
     admission: "Cours du jour et du soir, ouverts aux bacheliers",
-    frais: "Non communiqué publiquement — le site les qualifie d'« abordables » sans montant précis.",
+    frais: "Non communiqué publiquement : le site les qualifie d'« abordables » sans montant précis.",
     site: "https://www.isactg.net/",
     description: "Institut catholique fondé par les Sœurs Canossiennes en 1999 (Agoè-Légbassito), reconnu par décret en 2015 et jugé « établissement de bonne qualité » par le Ministère en 2016.",
     datesCles: {
       mode: "inconnu",
-      note: "Aucun calendrier publié en ligne — contacte l'établissement directement."
+      note: "Aucun calendrier publié en ligne : contacte l'établissement directement."
     }
   },
   "ism-adonai": {
@@ -5056,7 +5056,7 @@ const SCHOOLS = {
     filieres: ["Systèmes Informatiques et Logiciels", "Réseaux Informatiques et Télécommunication", "Cybersécurité", "Maintenance et Réseaux Informatiques", "Génie Logiciel", "Développement d'Application"],
     duree: null,
     admission: "Sur dossier (relevé de notes du Bac certifié, acte de naissance, photo, fiche d'inscription)",
-    frais: "Tarif promotionnel constaté pour 2025-2026 : 350 000 FCFA (L1) · 450 000 (L2) · 600 000 (L3) · 700 000 (M1) · 800 000 (M2) — lié à une opération portes ouvertes, à reconfirmer pour les tarifs standards (source : synergieplus.net).",
+    frais: "Tarif promotionnel constaté pour 2025-2026 : 350 000 FCFA (L1) · 450 000 (L2) · 600 000 (L3) · 700 000 (M1) · 800 000 (M2), lié à une opération portes ouvertes, à reconfirmer pour les tarifs standards (source : synergieplus.net).",
     site: "https://www.ismadonai.net/fr/nos-formations/",
     description: "École privée multi-pays certifiée ISO 9001:2015, fondée en 2005, présente aussi au Bénin et en Côte d'Ivoire, forte orientation professionnalisante.",
     datesCles: {
@@ -5073,13 +5073,13 @@ const SCHOOLS = {
     niveaux: ["BTS", "Licence Professionnelle", "Master Professionnel"],
     filieres: ["Développeur d'Applications", "Administrateur de Réseaux Locaux d'Entreprises", "Maintenance Informatique", "Télécommunication"],
     duree: "BTS : 2 ans (référence)",
-    admission: "Non précisée publiquement — à confirmer directement",
+    admission: "Non précisée publiquement : à confirmer directement",
     frais: "Non communiqué publiquement.",
     site: "https://istm.tg/",
     description: "Institut privé créé en 2010 (Agoè Assiyéyé), plus de 2000 diplômés, offre diversifiée du BTS au Master en gestion, droit, logistique, informatique et télécoms, stages garantis.",
     datesCles: {
       mode: "inconnu",
-      note: "Aucun calendrier publié en ligne — contacte l'établissement directement."
+      note: "Aucun calendrier publié en ligne : contacte l'établissement directement."
     }
   },
   "issec-kouvahey": {
@@ -5096,7 +5096,7 @@ const SCHOOLS = {
     description: "École privée en sciences économiques et commerciales fondée en 2006, convention avec IPAC-France (Bachelor/MBA), cours du jour et du soir.",
     datesCles: {
       mode: "inconnu",
-      note: "Aucun calendrier publié en ligne — contacte l'établissement directement."
+      note: "Aucun calendrier publié en ligne : contacte l'établissement directement."
     }
   },
   "jumau-ita": {
@@ -5107,13 +5107,13 @@ const SCHOOLS = {
     niveaux: ["Licence", "Master", "Doctorat"],
     filieres: ["Génie Logiciel", "Maintenance et Réseaux", "Télécommunications", "Intelligence Artificielle"],
     duree: null,
-    admission: "Non précisée publiquement — à confirmer directement",
+    admission: "Non précisée publiquement : à confirmer directement",
     frais: "Non communiqué publiquement.",
     site: "https://jumau-ita.com/",
     description: "Institut fondé en 2010, membre de l'International Association of Universities (IAU/UNESCO), a lancé des programmes en intelligence artificielle en 2025.",
     datesCles: {
       mode: "inconnu",
-      note: "Aucun calendrier publié en ligne — contacte l'établissement directement."
+      note: "Aucun calendrier publié en ligne : contacte l'établissement directement."
     }
   },
   "imast": {
@@ -5124,13 +5124,13 @@ const SCHOOLS = {
     niveaux: ["BTS", "Licence Professionnelle"],
     filieres: ["Mathématiques-Informatique", "Sécurité Informatique", "Systèmes et Réseaux Informatiques", "Développement d'Applications"],
     duree: null,
-    admission: "Bac requis, dossier — cours du jour et du soir disponibles",
+    admission: "Bac requis, dossier : cours du jour et du soir disponibles",
     frais: "Non communiqué publiquement.",
     site: "https://imast.tg/",
     description: "Institut privé à Agoè-Nyivé, propose aussi BTS Télécommunications, classe prépa et licence Actuariat.",
     datesCles: {
       mode: "inconnu",
-      note: "Aucun calendrier publié en ligne — contacte l'établissement directement."
+      note: "Aucun calendrier publié en ligne : contacte l'établissement directement."
     }
   },
   "ecole-de-finance": {
@@ -5147,7 +5147,7 @@ const SCHOOLS = {
     description: "École reconnue par arrêté n°2019/037/MESR/SG/DES, propose surtout des filières gestion/finance/économie ; le pôle « Informatique et génie logiciel » couvre programmation, bases de données, administration système et cybersécurité appliquée en BTS et Licence (pas de Master informatique identifié).",
     datesCles: {
       mode: "inconnu",
-      note: "Aucun calendrier publié en ligne — contacte l'établissement directement."
+      note: "Aucun calendrier publié en ligne : contacte l'établissement directement."
     }
   },
   "global-wealth": {
@@ -5164,7 +5164,7 @@ const SCHOOLS = {
     description: "Fondée en 2012, propose des filières en anglais (Faculty of ICT et Faculty of Sciences), programmes IA/robotique et informatique.",
     datesCles: {
       mode: "inconnu",
-      note: "Aucun calendrier publié en ligne — contacte l'établissement directement."
+      note: "Aucun calendrier publié en ligne : contacte l'établissement directement."
     }
   },
   "hest": {
@@ -5176,7 +5176,7 @@ const SCHOOLS = {
     filieres: ["Systèmes et Réseaux Informatiques", "Développement d'Application", "Maintenance Informatique", "Informatique Industrielle", "Robotique et Intelligence Artificielle", "Cybersécurité", "UX/UI Design", "Génie Logiciel", "Ingénierie Informatique Mobile et Web"],
     duree: "BTS : 2 ans · Licence : 3 ans · Master : 2 ans",
     admission: "BTS : Bac toutes séries · Licence : Bac série scientifique ou équivalent · Master : Licence en sciences et technologies ou équivalent",
-    frais: "Non communiqué publiquement — bourses disponibles de 50 000 à 250 000 FCFA (Licence/Master).",
+    frais: "Non communiqué publiquement : bourses disponibles de 50 000 à 250 000 FCFA (Licence/Master).",
     site: "https://www.hest-edu.net/",
     description: "Une des offres informatique les plus complètes du comparatif (BTS à Master), à Tokoin Wuiti, propose aussi économie/gestion et sciences de l'information et de la communication.",
     datesCles: {
@@ -5191,17 +5191,17 @@ const SCHOOLS = {
     ville: ["Lomé"],
     statut: "prive",
     agree: true,
-    agreeNote: "La filière Intelligence Artificielle & Génie Logiciel n'existe qu'en Licence Professionnelle sur le site officiel (escen.university, vérifié) — le Master Professionnel actuellement proposé couvre Finance Digitale et Management de Projets & Transformation Digitale, pas l'informatique.",
+    agreeNote: "La filière Intelligence Artificielle & Génie Logiciel n'existe qu'en Licence Professionnelle sur le site officiel (escen.university, vérifié) : le Master Professionnel actuellement proposé couvre Finance Digitale et Management de Projets & Transformation Digitale, pas l'informatique.",
     niveaux: ["Licence Professionnelle"],
     filieres: ["Intelligence Artificielle & Génie Logiciel"],
     duree: "Licence Pro : 3 ans (180 crédits, 6 semestres, système LMD)",
-    admission: "Non précisée publiquement — à confirmer directement",
-    frais: "850 000 FCFA (Licence 1) — trouvé par recherche web, non recoupé sur une page officielle, à vérifier.",
+    admission: "Non précisée publiquement : à confirmer directement",
+    frais: "850 000 FCFA (Licence 1) : trouvé par recherche web, non recoupé sur une page officielle, à vérifier.",
     site: "https://escen.university/",
     description: "Se présente comme la 1ère école supérieure d'économie numérique d'Afrique subsaharienne francophone, filière IA & Génie Logiciel en partenariat avec l'école d'ingénieurs ESTIA (Biarritz, France), présentiel et à distance.",
     datesCles: {
       mode: "inconnu",
-      note: "Aucun calendrier publié en ligne — contacte l'établissement directement."
+      note: "Aucun calendrier publié en ligne : contacte l'établissement directement."
     }
   },
   "lucas": {
@@ -5218,7 +5218,7 @@ const SCHOOLS = {
     description: "Fondé en 2018, réseau panafricain (présent aussi au Ghana, Niger, Mali), partenariats pour doubles diplômes avec MBway et My Digital School (France) et Griffith College (Irlande), incubateur pour jeunes entrepreneurs.",
     datesCles: {
       mode: "inconnu",
-      note: "Aucun calendrier publié en ligne — contacte l'établissement directement."
+      note: "Aucun calendrier publié en ligne : contacte l'établissement directement."
     }
   },
   "knowbridge": {
@@ -5235,7 +5235,7 @@ const SCHOOLS = {
     description: "Institut privé fondé à Sokodé, formations en présentiel, à distance et modules flexibles, combine cybersécurité, développement logiciel et intelligence artificielle ; a ouvert un second campus à Lomé (Djidjolé) en juillet 2026 (source : blog officiel knowbridge.com).",
     datesCles: {
       mode: "inconnu",
-      note: "Aucun calendrier publié en ligne — contacte l'établissement directement (admission.knowbridge.com)."
+      note: "Aucun calendrier publié en ligne : contacte l'établissement directement (admission.knowbridge.com)."
     }
   },
   "bakpessi": {
@@ -5252,7 +5252,7 @@ const SCHOOLS = {
     description: "Institut privé fondé en 2004 à Tomdè (Kara) par l'ex-Secrétaire Général de l'Université de Lomé, 1er institut privé du nord du Togo ; le pôle « Sciences Technologiques » couvre l'informatique parmi 8 pôles de formation (source : institut-bakpessi.com).",
     datesCles: {
       mode: "inconnu",
-      note: "Aucun calendrier publié — contact direct uniquement.",
+      note: "Aucun calendrier publié : contact direct uniquement.",
       contact: "+228 26 60 13 67 / isgmgrb@gmail.com"
     }
   },
@@ -5260,17 +5260,17 @@ const SCHOOLS = {
     name: "Lomé Digital School",
     ville: ["Lomé"],
     statut: "prive",
-    agreeNote: "Bootcamp accrédité ICDL, pas un cursus académique classique — aucun agrément d'État confirmé pour l'instant.",
+    agreeNote: "Bootcamp accrédité ICDL, pas un cursus académique classique : aucun agrément d'État confirmé pour l'instant.",
     niveaux: ["Bootcamp / Formation courte"],
     filieres: ["Design UX/UI", "Développement Web & Mobile", "Marketing Digital", "Data Analytics & Power BI", "Product Management", "Intelligence Artificielle pour les professionnels", "Stratégie & Création de contenu"],
     duree: "Bootcamps de 3 à 7 mois selon le programme (5 samedis à 12 semaines, 400h+ en présentiel)",
-    admission: "Ouvert aux débutants, étudiants, jeunes diplômés et professionnels en reconversion — formations adaptées au niveau du candidat",
-    frais: "90 000 FCFA (Stratégie & Création de contenu) · 180 000 (Design UX/UI) · 220 000 (IA pour les professionnels) · 350 000 (Data Analytics, Développement web & mobile, ou Marketing Digital) — source : lomedigitalschool.com.",
+    admission: "Ouvert aux débutants, étudiants, jeunes diplômés et professionnels en reconversion : formations adaptées au niveau du candidat",
+    frais: "90 000 FCFA (Stratégie & Création de contenu) · 180 000 (Design UX/UI) · 220 000 (IA pour les professionnels) · 350 000 (Data Analytics, Développement web & mobile, ou Marketing Digital) : source : lomedigitalschool.com.",
     site: "https://lomedigitalschool.com/",
     description: "Se présente comme le premier bootcamp numérique du Togo : formations courtes et pratiques (UX/UI, marketing digital, data, dev, IA), pensées pour une insertion professionnelle rapide plutôt qu'un diplôme académique long.",
     datesCles: {
       mode: "continue",
-      note: "Sessions ouvertes en continu selon les programmes — pas de calendrier académique fixe comme les autres écoles du comparatif."
+      note: "Sessions ouvertes en continu selon les programmes : pas de calendrier académique fixe comme les autres écoles du comparatif."
     }
   }
 };
@@ -5647,7 +5647,7 @@ const ROLE_QUESTIONS = {
 // ---- Calendrier académique togolais (repère général) ----
 // Enchaînement habituel d'une année de candidature au Togo. Les mois sont
 // volontairement donnés comme des périodes indicatives ("généralement") : ils
-// varient d'un établissement à l'autre — voir les dates précises par école
+// varient d'un établissement à l'autre : voir les dates précises par école
 // dans SCHOOLS[id].datesCles quand elles existent.
 const ACADEMIC_TIMELINE = [
   {
@@ -5693,7 +5693,7 @@ const ACADEMIC_TIMELINE = [
 ];
 
 // Mots-clés utilisés pour relier un domaine (voir DOMAINS) aux filières réelles
-// des écoles (voir SCHOOLS) — recherche insensible à la casse dans les filières.
+// des écoles (voir SCHOOLS) : recherche insensible à la casse dans les filières.
 const DOMAIN_KEYWORDS = {
   "Développement": ["développement", "génie logiciel", "logiciel", "programmeur", "application", "web", "mobile", "software engineering", "computer science"],
   "Data & IA": ["intelligence artificielle", "artificial intelligence", "data", "science des données", "statistique", "robotique", "robotics"],
