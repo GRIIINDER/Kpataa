@@ -3472,6 +3472,39 @@ const DOMAINS = {
   "Gestion & Management": { icon: "🧭", nameEn: "Management", description: "Piloter des projets, des équipes et des transformations.", descriptionEn: "Steering projects, teams and transformations.", presenceTogo: "Recherché par les banques et institutions régionales de Lomé (BOAD, Ecobank) pour piloter leurs projets IT : une fonction transverse indispensable partout dans le monde.", presenceTogoEn: "Sought by banks and regional institutions in Lomé (BOAD, Ecobank) to lead their IT projects : an essential cross-cutting function everywhere in the world." }
 };
 
+// Communautés togolaises réelles (déjà listées et sourcées sur ecosysteme.html)
+// les plus pertinentes pour chaque domaine, affichées sur les pages roadmap.
+// Un domaine sans communauté suffisamment ciblée reste volontairement absent
+// plutôt que d'y forcer une correspondance approximative.
+const COMMUNITY_BY_DOMAIN = {
+  "Développement": [
+    { name: "GDG Lomé", url: "https://gdg.community.dev/gdg-lome/", note: "Meetups réguliers web, mobile, cloud.", noteEn: "Regular meetups on web, mobile and cloud." },
+    { name: "Python Togo", url: "https://www.pytogo.org/", note: "Ateliers mensuels, organise le PyDay Togo.", noteEn: "Monthly workshops, organizes PyDay Togo." },
+    { name: "TDEV : Communauté des Développeurs Togolais", url: "https://www.tdev228.org/", note: "Talks, sessions de code, événement annuel Code Moment.", noteEn: "Talks, coding sessions, annual Code Moment event." },
+  ],
+  "Data & IA": [
+    { name: "CoTIA : Communauté Togolaise d'Intelligence Artificielle", url: "https://cotia.tg/", note: "Organise IndabaX Togo depuis 2021.", noteEn: "Has organized IndabaX Togo since 2021." },
+    { name: "Python Togo", url: "https://www.pytogo.org/", note: "Communauté Python, langage central en data/IA.", noteEn: "Python community, the core language for data/AI." },
+  ],
+  "Sécurité": [
+    { name: "Tech Communities Club (TCC), IAI-Togo", url: "https://www.linkedin.com/company/tech-communities-clubs-iai-togo", note: "Organise le hackathon/CTF Hack &amp; Defend.", noteEn: "Organizes the Hack &amp; Defend hackathon/CTF." },
+  ],
+  "Produit & Design": [
+    { name: "Togo Designers", url: null, note: "1ʳᵉ alliance des designers numériques togolais.", noteEn: "1st alliance of Togolese digital designers." },
+  ],
+  "Infrastructure & DevOps": [
+    { name: "GDG Lomé", url: "https://gdg.community.dev/gdg-lome/", note: "Ateliers Google Cloud.", noteEn: "Google Cloud workshops." },
+    { name: "MLSA Togo", url: "https://mlsatogo.vercel.app/", note: "Programme Microsoft (Azure, GitHub) avec parcours de mentorat intégré.", noteEn: "Microsoft program (Azure, GitHub) with a built-in mentorship track." },
+    { name: "Chapitre Togolais d'Internet Society (ISOC Togo)", url: "http://www.internetsociety.tg", note: "Réseaux communautaires locaux pour l'accès à Internet.", noteEn: "Local community networks for Internet access." },
+  ],
+  "Marketing digital": [
+    { name: "LinkedIn Local Togo", url: "https://www.facebook.com/people/Linkedln-Local-Togo/61557712180082/", note: "Réseautage professionnel togolais.", noteEn: "Togolese professional networking." },
+  ],
+  "Gestion & Management": [
+    { name: "LinkedIn Local Togo", url: "https://www.facebook.com/people/Linkedln-Local-Togo/61557712180082/", note: "Réseautage professionnel togolais.", noteEn: "Togolese professional networking." },
+  ],
+};
+
 const SKILLS = {
   "git-github": {
     type: "skill",

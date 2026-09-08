@@ -277,6 +277,54 @@
     return section;
   }
 
+  // ---- Communautés du domaine (mentorat/réseau, pas juste des roadmaps) ----
+  function buildCommunitySection(rm) {
+    if (!rm.domain || typeof COMMUNITY_BY_DOMAIN === "undefined") return null;
+    const items = COMMUNITY_BY_DOMAIN[rm.domain];
+    if (!items || !items.length) return null;
+
+    const isEn = currentLang() === "en";
+    const section = document.createElement("div");
+    section.className = "related-section";
+
+    const heading = document.createElement("h2");
+    heading.textContent = isEn ? "Join the community" : "Rejoins la communauté";
+    section.appendChild(heading);
+
+    const intro = document.createElement("p");
+    intro.className = "category-desc";
+    intro.innerHTML = isEn
+      ? 'These active Togolese communities are a concrete way to meet people already working in this field and find an informal mentor. More on the <a href="ecosysteme.html#communautes">Togolese ecosystem</a> page.'
+      : 'Ces communautés togolaises actives sont un moyen concret de rencontrer des personnes déjà dans ce métier et de trouver un mentor informel. Plus de communautés sur la page <a href="ecosysteme.html#communautes">Écosystème togolais</a>.';
+    section.appendChild(intro);
+
+    const list = document.createElement("div");
+    list.className = "eco-list";
+    items.forEach((c) => {
+      const item = document.createElement("div");
+      item.className = "eco-item";
+      const h4 = document.createElement("h4");
+      h4.textContent = c.name;
+      item.appendChild(h4);
+      const p = document.createElement("p");
+      p.innerHTML = isEn ? c.noteEn : c.note;
+      item.appendChild(p);
+      if (c.url) {
+        const a = document.createElement("a");
+        a.className = "eco-link";
+        a.href = c.url;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = c.url.replace(/^https?:\/\//, "").replace(/\/$/, "");
+        item.appendChild(a);
+      }
+      list.appendChild(item);
+    });
+    section.appendChild(list);
+
+    return section;
+  }
+
   // ---- Page roadmap détail ----
   function renderRoadmap() {
     const container = document.getElementById("roadmap-detail");
@@ -431,6 +479,9 @@
       ? 'School fees shouldn\'t be what stops you: see <a href="bourses-financement.html">scholarships &amp; funding</a>. Question about this path? Check the <a href="faq.html">FAQ</a>.'
       : 'Les frais de scolarité ne doivent pas être ce qui t\'arrête : voir les <a href="bourses-financement.html">bourses &amp; financement</a>. Une question sur ce parcours ? Regarde la <a href="faq.html">FAQ</a>.';
     container.appendChild(helpLinks);
+
+    const communitySection = buildCommunitySection(rm);
+    if (communitySection) container.appendChild(communitySection);
 
     const relatedSection = buildRelatedSection(id, rm);
     if (relatedSection) container.appendChild(relatedSection);

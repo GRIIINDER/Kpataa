@@ -700,10 +700,10 @@
       fr: 'Direction la page <a href="stages-emploi.html">Stages &amp; emploi</a> : plateformes togolaises et employeurs numériques qui recrutent régulièrement.',
       en: 'Head to the <a href="stages-emploi.html">Internships &amp; jobs</a> page: Togolese platforms and digital employers that hire regularly.',
     },
-    "faq.c4.q2": { fr: "Comment rencontrer d'autres personnes dans la tech togolaise ?", en: "How do I meet other people in Togolese tech?" },
+    "faq.c4.q2": { fr: "Comment rencontrer d'autres personnes dans la tech togolaise, trouver un mentor ?", en: "How do I meet other people in Togolese tech, find a mentor?" },
     "faq.c4.a2": {
-      fr: 'La page <a href="ecosysteme.html">Écosystème togolais</a> liste communautés, événements, hubs et incubateurs à connaître.',
-      en: 'The <a href="ecosysteme.html">Togolese ecosystem</a> page lists communities, events, hubs and incubators worth knowing.',
+      fr: 'Rejoins une communauté active dans ton domaine : par exemple <a href="https://gdg.community.dev/gdg-lome/" target="_blank" rel="noopener">GDG Lomé</a> ou <a href="https://www.tdev228.org/" target="_blank" rel="noopener">TDEV</a> en développement, <a href="https://cotia.tg/" target="_blank" rel="noopener">CoTIA</a> en IA. Chaque <a href="index.html">roadmap</a> te propose maintenant celles qui correspondent à ton métier. La page <a href="ecosysteme.html#communautes">Écosystème togolais</a> liste toutes les communautés, événements, hubs et incubateurs : le moyen le plus concret de rencontrer des professionnels et un mentor informel, mieux qu\'un contact anonyme sur le site.',
+      en: 'Join an active community in your field : for example <a href="https://gdg.community.dev/gdg-lome/" target="_blank" rel="noopener">GDG Lomé</a> or <a href="https://www.tdev228.org/" target="_blank" rel="noopener">TDEV</a> for development, <a href="https://cotia.tg/" target="_blank" rel="noopener">CoTIA</a> for AI. Every <a href="index.html">roadmap</a> now suggests the ones matching your role. The <a href="ecosysteme.html#communautes">Togolese ecosystem</a> page lists every community, event, hub and incubator : the most concrete way to meet professionals and an informal mentor, better than an anonymous contact on the site.',
     },
     "faq.c4.q3": { fr: "Puis-je travailler pour des entreprises étrangères depuis le Togo ?", en: "Can I work for foreign companies from Togo?" },
     "faq.c4.a3": {
@@ -1076,6 +1076,10 @@
     "bourses.s5.i4.link": { fr: "Voir les roadmaps", en: "See the roadmaps" },
 
     "eco.main.h2": { fr: "Communautés et événements", en: "Communities and events" },
+    "eco.main.intro": {
+      fr: "Pas de programme de mentorat centralisé sur WIYAO : ces communautés en sont le meilleur substitut réel, la plupart accueillent les débutants et permettent de rencontrer des professionnels en personne. Deux proposent un mentorat structuré : MLSA Togo (parcours Alpha/Beta/Gold) et le Kara Digital Summit.",
+      en: "No centralized mentorship program on WIYAO : these communities are the closest real substitute, most welcome beginners and let you meet professionals in person. Two offer structured mentorship: MLSA Togo (Alpha/Beta/Gold track) and the Kara Digital Summit.",
+    },
     "eco.sub1": { fr: "Communautés actives (à rejoindre toute l'année)", en: "Active communities (join anytime)" },
     "eco.c1.p": { fr: "Google Developer Group : meetups réguliers sur le web, le mobile et le cloud.", en: "Google Developer Group: regular meetups on web, mobile and cloud." },
     "eco.c2.p": { fr: "Communauté togolaise de développeurs Python, partenaire de la Python Software Foundation et de la Django Software Foundation. Ateliers et rencontres mensuelles, organise le PyDay Togo.", en: "Togolese community of Python developers, a partner of the Python Software Foundation and the Django Software Foundation. Monthly workshops and meetups, organizes PyDay Togo." },
