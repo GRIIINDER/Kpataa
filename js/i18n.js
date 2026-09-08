@@ -947,8 +947,8 @@
       en: "The country's second telecom operator. Active careers page; recent history of hiring for networks, telecom and systems roles.",
     },
     "stages.s2.i4.p": {
-      fr: "Opérateur télécom historique du Togo (fixe, mobile, Mobile Money), né de la fusion de Togo Telecom et Togocel en 2017. Recrute régulièrement des profils informatiques (développement, systèmes d'information, réseaux OSS/BSS). Pas de portail carrières dédié identifié : les candidatures se font par e-mail directement auprès du service recrutement.",
-      en: "Togo's historic telecom operator (fixed line, mobile, Mobile Money), born from the 2017 merger of Togo Telecom and Togocel. Regularly hires IT profiles (development, information systems, OSS/BSS networks). No dedicated careers portal identified : applications go by email directly to the recruitment department.",
+      fr: "Opérateur télécom historique du Togo (fixe, mobile, Mobile Money), né de la fusion de Togo Telecom et Togocel en 2017, rebaptisé Yas Togo en novembre 2024 dans le cadre du rebranding panafricain du groupe Axian (le Mobile Money Tmoney devient Mixx by Yas). Page carrière active ; recrute régulièrement des profils informatiques (développement, systèmes d'information, réseaux OSS/BSS, data).",
+      en: "Togo's historic telecom operator (fixed line, mobile, Mobile Money), born from the 2017 merger of Togo Telecom and Togocel, renamed Yas Togo in November 2024 as part of the Axian group's pan-African rebrand (its Tmoney mobile money service becomes Mixx by Yas). Active careers page ; regularly hires IT profiles (development, information systems, OSS/BSS networks, data).",
     },
     "stages.s2.i5.p": {
       fr: "Application de mobilité et de super-app (courses, livraison, paiement mobile) fondée et lancée à Lomé en 2018 : l'un des succès tech les plus visibles nés au Togo, aujourd'hui présente dans plusieurs pays d'Afrique francophone. Recrute régulièrement des profils tech (développement, data, produit) via son portail carrières.",
@@ -981,6 +981,10 @@
     "stages.s2.i12.p": {
       fr: "Fintech togolaise fondée à Lomé en 2016, spécialisée dans le paiement digital et la digitalisation du cash (solution Cashpay), présente dans 13 pays d'Afrique. Recrute des profils tech, notamment via son profil sur Emploi.tg.",
       en: "Togolese fintech founded in Lomé in 2016, specializing in digital payments and cash digitization (Cashpay solution), present in 13 African countries. Hires tech profiles, notably via its Emploi.tg profile.",
+    },
+    "stages.s2.i13.p": {
+      fr: "Cabinet togolais d'ingénierie informatique, de conseil et de formation fondé en 2001 à Lomé, présent dans 11 pays africains : édite des solutions de finance digitale, de mésofinance et des plateformes étatiques. Recrutements réguliers confirmés sur plusieurs mois (développeurs Java/Flutter/Spring, techniciens réseaux). Pas de portail carrières dédié identifié : les candidatures se font par e-mail.",
+      en: "Togolese IT engineering, consulting and training firm founded in 2001 in Lomé, present in 11 African countries: builds digital finance, microfinance and government software solutions. Regular hiring confirmed over several months (Java/Flutter/Spring developers, network technicians). No dedicated careers portal identified: applications go by email.",
     },
     "stages.s2.note": {
       fr: "D'autres grandes entreprises togolaises recrutent aussi des profils tech, sans page carrière dédiée et fiable identifiée au moment de la rédaction : les offres y passent surtout par les plateformes ci-dessus ou par candidature spontanée directe.",

@@ -468,7 +468,7 @@ const ROLES = {
         items: [
           { label: "Notifications push", level: "core" },
           { label: "Géolocalisation et permissions", level: "core" },
-          { label: "Paiement mobile (Flooz, T-Money, Mobile Money)", level: "option", note: "Intégrations pertinentes pour le marché togolais." }
+          { label: "Paiement mobile (Flooz, Mixx by Yas, Mobile Money)", level: "option", note: "Intégrations pertinentes pour le marché togolais." }
         ]
       },
       {
@@ -1036,7 +1036,7 @@ const ROLES = {
         title: "6. Écosystème togolais",
         items: [
           { label: "ESGIS et ESSEYI : bachelor Informatique Réseaux et Télécommunication", level: "core" },
-          { label: "Togocom et Moov Africa Togo : principaux employeurs du secteur télécom", level: "option" },
+          { label: "Yas Togo (ex-Togocom) et Moov Africa Togo : principaux employeurs du secteur télécom", level: "option" },
           { label: "ARCEP : autorité togolaise de régulation des télécommunications", level: "option", resource: { label: "arcep.tg", url: "https://arcep.tg/" } }
         ]
       }
@@ -1758,7 +1758,7 @@ const ROLES = {
       {
         title: "3. Paiement",
         items: [
-          { label: "Intégration des paiements mobiles (Flooz, T-Money, Mobile Money)", level: "core", note: "Essentiel pour le marché togolais." },
+          { label: "Intégration des paiements mobiles (Flooz, Mixx by Yas, Mobile Money)", level: "core", note: "Essentiel pour le marché togolais." },
           { label: "Sécurité des transactions en ligne (notions PCI-DSS)", level: "option" },
           { label: "Gestion des fraudes et des litiges de paiement", level: "option" }
         ]
@@ -3467,7 +3467,7 @@ const DOMAINS = {
   "Data & IA": { icon: "📊", nameEn: "Data & AI", description: "Exploiter, analyser et modéliser la donnée.", descriptionEn: "Working with, analyzing and modeling data.", presenceTogo: "Enseigné dans une quinzaine d'écoles togolaises (IA, Big Data) et recherché par l'Agence Togo Digital : en forte croissance au Togo comme dans le monde entier.", presenceTogoEn: "Taught in around fifteen Togolese schools (AI, Big Data) and sought after by the Togo Digital Agency : booming in Togo as it is worldwide." },
   "Sécurité": { icon: "🔐", nameEn: "Security", description: "Protéger les systèmes, les données et les organisations.", descriptionEn: "Protecting systems, data and organizations.", presenceTogo: "Porté au Togo par Cyber Defense Africa (SOC/CERT national), l'ANCy et la BCEAO : une pénurie de profils que le pays partage avec le reste du monde.", presenceTogoEn: "Backed in Togo by Cyber Defense Africa (national SOC/CERT), ANCy and BCEAO : a talent shortage Togo shares with the rest of the world." },
   "Produit & Design": { icon: "🎨", nameEn: "Product & Design", description: "Concevoir des produits et expériences centrées sur l'utilisateur.", descriptionEn: "Designing products and experiences centered on the user.", presenceTogo: "Encore émergent au Togo (filière UX/UI dans quelques écoles, recrutements ponctuels à l'Agence Togo Digital), plus mature à l'international.", presenceTogoEn: "Still emerging in Togo (UX/UI programs in a handful of schools, occasional hiring at the Togo Digital Agency), more established internationally." },
-  "Infrastructure & DevOps": { icon: "☁️", nameEn: "Infrastructure & DevOps", description: "Déployer, exploiter et fiabiliser les systèmes et réseaux.", descriptionEn: "Deploying, operating and ensuring the reliability of systems and networks.", presenceTogo: "Porté par les opérateurs télécoms (Togocom, Moov Africa) et la SIN : un socle indispensable à toute infrastructure numérique, au Togo comme ailleurs.", presenceTogoEn: "Driven by telecom operators (Togocom, Moov Africa) and SIN : an essential backbone for any digital infrastructure, in Togo as elsewhere." },
+  "Infrastructure & DevOps": { icon: "☁️", nameEn: "Infrastructure & DevOps", description: "Déployer, exploiter et fiabiliser les systèmes et réseaux.", descriptionEn: "Deploying, operating and ensuring the reliability of systems and networks.", presenceTogo: "Porté par les opérateurs télécoms (Yas Togo, Moov Africa) et la SIN : un socle indispensable à toute infrastructure numérique, au Togo comme ailleurs.", presenceTogoEn: "Driven by telecom operators (Yas Togo, Moov Africa) and SIN : an essential backbone for any digital infrastructure, in Togo as elsewhere." },
   "Marketing digital": { icon: "📣", nameEn: "Digital Marketing", description: "Faire connaître, acquérir et fidéliser via le numérique.", descriptionEn: "Building awareness, acquiring and retaining customers through digital channels.", presenceTogo: "Enseigné dans plusieurs écoles togolaises et très demandé par les PME et agences locales, à l'image de sa croissance mondiale portée par le e-commerce.", presenceTogoEn: "Taught in several Togolese schools and in high demand among local SMEs and agencies, mirroring its worldwide growth driven by e-commerce." },
   "Gestion & Management": { icon: "🧭", nameEn: "Management", description: "Piloter des projets, des équipes et des transformations.", descriptionEn: "Steering projects, teams and transformations.", presenceTogo: "Recherché par les banques et institutions régionales de Lomé (BOAD, Ecobank) pour piloter leurs projets IT : une fonction transverse indispensable partout dans le monde.", presenceTogoEn: "Sought by banks and regional institutions in Lomé (BOAD, Ecobank) to lead their IT projects : an essential cross-cutting function everywhere in the world." }
 };
