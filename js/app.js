@@ -920,7 +920,7 @@
         const el = document.getElementById(id);
         if (el) el.required = isProposer;
       });
-      if (introTitle) introTitle.innerHTML = isProposer ? "Proposer un<br>événement ou une communauté" : "Nous laisser<br>un message";
+      if (introTitle) introTitle.innerHTML = isProposer ? "Proposer un<br>contenu" : "Nous laisser<br>un message";
       if (submitBtn) submitBtn.innerHTML = isProposer ? 'Envoyer la proposition <span aria-hidden="true">↗</span>' : 'Envoyer <span aria-hidden="true">↗</span>';
     }
 
@@ -949,7 +949,7 @@
           `Nom : ${nom}`,
           `Ville : ${ville || "non précisée"}`,
           `Lien / source : ${lien}`,
-          `Date (si événement) : ${date || "non précisée"}`,
+          `Date (si applicable) : ${date || "non précisée"}`,
           "",
           "Description :",
           description,

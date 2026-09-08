@@ -5,18 +5,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact - WIYAO</title>
-<meta name="description" content="Une question, une erreur à signaler, une école ou un événement à ajouter sur WIYAO ? Contacte-nous par email ou via GitHub.">
+<meta name="description" content="Une question, une erreur à signaler, une école, une entreprise ou un événement à ajouter sur WIYAO ? Contacte-nous par email ou via GitHub.">
 <link rel="canonical" href="https://wiyao.vercel.app/contact.html">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://wiyao.vercel.app/contact.html">
 <meta property="og:site_name" content="WIYAO">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:title" content="Contact - WIYAO">
-<meta property="og:description" content="Une question, une erreur à signaler, une école ou un événement à ajouter sur WIYAO ? Contacte-nous par email ou via GitHub.">
+<meta property="og:description" content="Une question, une erreur à signaler, une école, une entreprise ou un événement à ajouter sur WIYAO ? Contacte-nous par email ou via GitHub.">
 <meta property="og:image" content="https://wiyao.vercel.app/icons/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Contact - WIYAO">
-<meta name="twitter:description" content="Une question, une erreur à signaler, une école ou un événement à ajouter sur WIYAO ? Contacte-nous par email ou via GitHub.">
+<meta name="twitter:description" content="Une question, une erreur à signaler, une école, une entreprise ou un événement à ajouter sur WIYAO ? Contacte-nous par email ou via GitHub.">
 <meta name="twitter:image" content="https://wiyao.vercel.app/icons/og-image.png">
 <link rel="stylesheet" href="css/style.css?v=21">
 <link rel="manifest" href="manifest.json">
@@ -69,7 +69,7 @@
   <p id="i18n-notice" class="i18n-notice" hidden>🇬🇧 This page isn't fully translated yet : some sections below remain in French.</p>
   <section class="hero">
     <h1 data-i18n-key="contact.hero.title">Contacte-<span class="hero-accent">nous</span></h1>
-    <p data-i18n-key="contact.hero.subtitle">Une question, une correction à proposer, une école ou un événement à ajouter ? Écris-nous.</p>
+    <p data-i18n-key="contact.hero.subtitle">Une question, une correction à proposer, une école, une entreprise ou un événement à ajouter ? Écris-nous.</p>
   </section>
 
   <section class="roadmap-category">
@@ -82,7 +82,7 @@
       <form id="contact-form" class="contact-form">
         <div class="domain-filters" id="contact-mode-filters">
           <button type="button" class="domain-chip active" data-mode="message">Nous écrire</button>
-          <button type="button" class="domain-chip" data-mode="proposer">Proposer un événement ou une communauté</button>
+          <button type="button" class="domain-chip" data-mode="proposer">Proposer un contenu</button>
         </div>
 
         <div class="contact-form-row">
@@ -116,6 +116,8 @@
                 <option value="" disabled selected>Choisis un type</option>
                 <option value="Événement">Événement (meetup, conférence, hackathon...)</option>
                 <option value="Communauté">Communauté (groupe, association, collectif...)</option>
+                <option value="Établissement">Établissement (école, université, centre de formation)</option>
+                <option value="Entreprise">Entreprise (employeur, offre de stage ou d'emploi)</option>
                 <option value="Autre ressource">Autre ressource</option>
               </select>
             </div>
@@ -125,15 +127,15 @@
             </div>
           </div>
           <div class="contact-form-field">
-            <label for="proposal-nom">Nom de l'événement / de la communauté <span class="required-mark">*</span></label>
-            <input type="text" id="proposal-nom" name="nom" placeholder="Ex : DevFest Lomé, GDG Lomé...">
+            <label for="proposal-nom">Nom <span class="required-mark">*</span></label>
+            <input type="text" id="proposal-nom" name="nom" placeholder="Ex : DevFest Lomé, GDG Lomé, ESGIS, Semoa...">
           </div>
           <div class="contact-form-field">
             <label for="proposal-lien">Lien ou source de vérification <span class="required-mark">*</span></label>
             <input type="url" id="proposal-lien" name="lien" placeholder="Site web, page Facebook, groupe WhatsApp public...">
           </div>
           <div class="contact-form-field">
-            <label for="proposal-date">Date (si événement)</label>
+            <label for="proposal-date">Date (si applicable)</label>
             <input type="text" id="proposal-date" name="date" placeholder="Ex : 15 novembre 2026, ou récurrent">
           </div>
           <div class="contact-form-field">
@@ -202,7 +204,7 @@
         <div class="footer-links-grid">
           <div class="footer-links-col">
             <h5>Parcours</h5>
-            <a href="recherche.html">Recherche</a>
+            <a href="contact.html#proposer">Proposer un contenu</a>
             <a href="test-orientation.html">Test d'orientation</a>
             <a href="index.html">Roadmaps</a>
             <a href="ecoles.html">Écoles &amp; universités</a>
@@ -240,10 +242,10 @@
 </footer>
 
 <script src="js/data.js?v=29"></script>
-<script src="js/app.js?v=21"></script>
+<script src="js/app.js?v=22"></script>
 <script src="js/nav.js?v=3"></script>
 <script src="js/theme.js?v=1"></script>
 <script src="js/assistant.js?v=2"></script>
-<script src="js/i18n.js?v=27"></script>
+<script src="js/i18n.js?v=28"></script>
 </body>
 </html>

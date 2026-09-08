@@ -6,7 +6,7 @@
   // Traductions des liens de nav/footer, indexées par href : partagées par
   // toutes les pages sans avoir à taguer chaque lien individuellement.
   const BY_HREF = {
-    "recherche.html": { fr: "Recherche", en: "Search" },
+    "contact.html#proposer": { fr: "Proposer un contenu", en: "Suggest content" },
     "test-orientation.html": { fr: "Test d'orientation", en: "Orientation test" },
     "index.html": { fr: "Roadmaps", en: "Roadmaps" },
     "ecoles.html": { fr: "Écoles & universités", en: "Schools & universities" },
@@ -143,6 +143,10 @@
       fr: "32 écoles et universités togolaises qui forment à l'informatique et au numérique, avec leurs filières, niveaux et conditions d'admission.",
       en: "32 Togolese schools and universities teaching computing and digital skills, with their programs, levels and admission requirements.",
     },
+    "ecoles.hero.propose": {
+      fr: 'Une école togolaise qui manque ici ? <a href="contact.html#proposer">Propose-la</a> : on vérifie et on ajoute.',
+      en: 'A Togolese school missing here? <a href="contact.html#proposer">Suggest it</a> : we verify and add it.',
+    },
 
     "calendrier.hero.title": {
       fr: 'Ne rate pas ta <span class="hero-accent">date limite</span>',
@@ -179,6 +183,10 @@
     "stages.hero.subtitle": {
       fr: "Où chercher un stage ou un premier emploi tech au Togo, et comment mettre toutes les chances de ton côté.\n       Ceci est un annuaire de ressources durables, pas un fil d'offres : les offres du moment changent trop vite\n       pour être fiables ici, direction les plateformes ci-dessous pour ça.",
       en: "Where to look for an internship or a first tech job in Togo, and how to give yourself the best chance. This is a directory of lasting resources, not a listings feed : current openings change too fast to be reliable here, head to the platforms below for that.",
+    },
+    "stages.hero.propose": {
+      fr: 'Une entreprise togolaise qui recrute et qui manque ici ? <a href="contact.html#proposer">Propose-la</a> : on vérifie et on ajoute.',
+      en: 'A hiring Togolese company missing here? <a href="contact.html#proposer">Suggest it</a> : we verify and add it.',
     },
 
     "quiz.hero.title": {
@@ -253,8 +261,8 @@
       en: 'Contact <span class="hero-accent">us</span>',
     },
     "contact.hero.subtitle": {
-      fr: "Une question, une correction à proposer, une école ou un événement à ajouter ? Écris-nous.",
-      en: "A question, a correction to suggest, a school or event to add? Write to us.",
+      fr: "Une question, une correction à proposer, une école, une entreprise ou un événement à ajouter ? Écris-nous.",
+      en: "A question, a correction to suggest, a school, a company or an event to add? Write to us.",
     },
 
 
