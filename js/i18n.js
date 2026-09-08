@@ -986,6 +986,10 @@
       fr: "Cabinet togolais d'ingénierie informatique, de conseil et de formation fondé en 2001 à Lomé, présent dans 11 pays africains : édite des solutions de finance digitale, de mésofinance et des plateformes étatiques. Recrutements réguliers confirmés sur plusieurs mois (développeurs Java/Flutter/Spring, techniciens réseaux). Pas de portail carrières dédié identifié : les candidatures se font par e-mail.",
       en: "Togolese IT engineering, consulting and training firm founded in 2001 in Lomé, present in 11 African countries: builds digital finance, microfinance and government software solutions. Regular hiring confirmed over several months (Java/Flutter/Spring developers, network technicians). No dedicated careers portal identified: applications go by email.",
     },
+    "stages.s2.i14.p": {
+      fr: "Filiale togolaise du groupe bancaire panafricain Coris Bank International. Page carrière active avec des postes IT confirmés (support monétique, sécurité opérationnelle, infrastructures techniques), aux côtés des autres métiers de la banque.",
+      en: "Togolese subsidiary of the pan-African banking group Coris Bank International. Active careers page with confirmed IT roles (monetics support, operational security, technical infrastructure), alongside the bank's other professions.",
+    },
     "stages.s2.note": {
       fr: "D'autres grandes entreprises togolaises recrutent aussi des profils tech, sans page carrière dédiée et fiable identifiée au moment de la rédaction : les offres y passent surtout par les plateformes ci-dessus ou par candidature spontanée directe.",
       en: "Other large Togolese companies also hire tech profiles, without a dedicated and reliable careers page identified at the time of writing : their openings mostly flow through the platforms above or direct unsolicited applications.",
