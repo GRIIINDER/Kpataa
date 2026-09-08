@@ -313,8 +313,8 @@
 
     "about.s1.h2": { fr: "Le projet", en: "The project" },
     "about.s1.p1": {
-      fr: "WIYAO est un projet communautaire indépendant, sans statut commercial, édité et maintenu à titre personnel : inspiré de roadmap.sh et adapté au contexte togolais. Ce n'est pas une startup : pas de compte à créer, pas d'abonnement, pas de publicité, rien à vendre.",
-      en: "WIYAO is an independent community project, with no commercial status, published and maintained on a personal basis : inspired by roadmap.sh and adapted to the Togolese context. It's not a startup: no account to create, no subscription, no ads, nothing to sell.",
+      fr: 'WIYAO est un projet communautaire indépendant, sans statut commercial, créé et maintenu à titre personnel par <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a> : inspiré de roadmap.sh et adapté au contexte togolais. Ce n\'est pas une startup : pas de compte à créer, pas d\'abonnement, pas de publicité, rien à vendre.',
+      en: 'WIYAO is an independent community project, with no commercial status, created and maintained personally by <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a>: inspired by roadmap.sh and adapted to the Togolese context. It\'s not a startup: no account to create, no subscription, no ads, nothing to sell.',
     },
     "about.s1.p2": {
       fr: 'C\'est un guide qui accompagne le bachelier togolais à chaque étape de son parcours tech : orientation, choix de domaine, de filière et d\'université, roadmaps de carrière et de compétences, bourses, stages et emploi, écosystème local à connaître. Le site est gratuit, utilisable sans inscription, et hébergé par Vercel : détails complets dans les <a href="mentions-legales.html">mentions légales</a> et la <a href="politique-confidentialite.html">politique de confidentialité</a>.',
@@ -347,8 +347,8 @@
 
     "mentions.s1.h2": { fr: "Éditeur du site", en: "Site publisher" },
     "mentions.s1.p1": {
-      fr: "WIYAO est un projet communautaire indépendant, sans statut commercial, édité et maintenu à titre personnel. Il n'est affilié à aucune administration ni institution togolaise citée sur le site.",
-      en: "WIYAO is an independent community project, with no commercial status, published and maintained on a personal basis. It is not affiliated with any Togolese administration or institution mentioned on the site.",
+      fr: 'WIYAO est un projet communautaire indépendant, sans statut commercial, édité et maintenu à titre personnel par <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a>. Il n\'est affilié à aucune administration ni institution togolaise citée sur le site.',
+      en: 'WIYAO is an independent community project, with no commercial status, published and maintained personally by <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a>. It is not affiliated with any Togolese administration or institution mentioned on the site.',
     },
     "mentions.s1.p2": {
       fr: 'Contact : <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>, Lomé, Togo.',
@@ -376,8 +376,8 @@
       en: "This privacy policy takes into account law n°2019-014 of October 29, 2019 on the protection of personal data, applicable in Togo.",
     },
     "conf.s1.p2": {
-      fr: 'WIYAO est un projet communautaire indépendant, édité et maintenu à titre personnel : voir les <a href="mentions-legales.html">mentions légales</a>. L\'accès et la navigation sur WIYAO sont volontaires et gratuits et confèrent automatiquement à la personne intéressée le statut de « Visiteur » (ci-après, « Visiteur », « vous »).',
-      en: 'WIYAO is an independent community project, published and maintained on a personal basis : see the <a href="mentions-legales.html">legal notice</a>. Access to and browsing of WIYAO are voluntary and free, and automatically grant the person concerned the status of "Visitor" (hereinafter, "Visitor", "you").',
+      fr: 'WIYAO est un projet communautaire indépendant, édité et maintenu à titre personnel par <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a> : voir les <a href="mentions-legales.html">mentions légales</a>. L\'accès et la navigation sur WIYAO sont volontaires et gratuits et confèrent automatiquement à la personne intéressée le statut de « Visiteur » (ci-après, « Visiteur », « vous »).',
+      en: 'WIYAO is an independent community project, published and maintained personally by <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a> : see the <a href="mentions-legales.html">legal notice</a>. Access to and browsing of WIYAO are voluntary and free, and automatically grant the person concerned the status of "Visitor" (hereinafter, "Visitor", "you").',
     },
     "conf.s1.p3": {
       fr: "Le site ne proposant ni compte, ni inscription, ni candidature en ligne, il n'existe pas de statut « Utilisateur » distinct : tout le monde navigue sur WIYAO en tant que Visiteur, y compris pour utiliser le test d'orientation ou suivre sa progression sur les roadmaps.",
@@ -436,8 +436,8 @@
 
     "cgu.s1.h2": { fr: "1. Généralités", en: "1. General" },
     "cgu.s1.p1": {
-      fr: 'WIYAO est un projet communautaire indépendant, édité et maintenu à titre personnel : voir les <a href="mentions-legales.html">mentions légales</a> pour le détail sur l\'éditeur du site.',
-      en: 'WIYAO is an independent community project, published and maintained on a personal basis : see the <a href="mentions-legales.html">legal notice</a> for details on the site publisher.',
+      fr: 'WIYAO est un projet communautaire indépendant, édité et maintenu à titre personnel par <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a> : voir les <a href="mentions-legales.html">mentions légales</a> pour le détail sur l\'éditeur du site.',
+      en: 'WIYAO is an independent community project, published and maintained personally by <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a> : see the <a href="mentions-legales.html">legal notice</a> for details on the site publisher.',
     },
     "cgu.s1.p2": {
       fr: "L'accès et la navigation sur WIYAO sont volontaires, libres et gratuits, et confèrent automatiquement à la personne intéressée le statut d'« Utilisateur » (ci-après, « Utilisateur », « vous »).",
@@ -550,8 +550,8 @@
     },
     "faq.c1.q5": { fr: "Qui a créé WIYAO ?", en: "Who created WIYAO?" },
     "faq.c1.a5": {
-      fr: 'Un projet communautaire indépendant, sans statut commercial, maintenu à titre personnel, inspiré de roadmap.sh et adapté au contexte togolais. Détails dans <a href="about.html">À propos &amp; méthodologie</a> et les <a href="mentions-legales.html">mentions légales</a>.',
-      en: 'An independent community project, with no commercial status, maintained on a personal basis, inspired by roadmap.sh and adapted to the Togolese context. Details in <a href="about.html">About &amp; methodology</a> and the <a href="mentions-legales.html">legal notice</a>.',
+      fr: 'Un projet communautaire indépendant, sans statut commercial, créé et maintenu à titre personnel par <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a>, inspiré de roadmap.sh et adapté au contexte togolais. Détails dans <a href="about.html">À propos &amp; méthodologie</a> et les <a href="mentions-legales.html">mentions légales</a>.',
+      en: 'An independent community project, with no commercial status, created and maintained personally by <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a>, inspired by roadmap.sh and adapted to the Togolese context. Details in <a href="about.html">About &amp; methodology</a> and the <a href="mentions-legales.html">legal notice</a>.',
     },
     "faq.c1.q6": { fr: "Les informations du site sont-elles vérifiées ?", en: "Is the site's information verified?" },
     "faq.c1.a6": {
