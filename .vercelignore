@@ -1,0 +1,3 @@
+# Fichiers de tooling interne (CI, scripts) : jamais servis sur le site public.
+.github
+scripts
