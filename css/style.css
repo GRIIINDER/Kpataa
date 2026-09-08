@@ -1334,6 +1334,39 @@ main {
   margin-bottom: 6px;
 }
 
+.founder-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.founder-photo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: 0 0 auto;
+  border: 1px solid var(--tk-border);
+}
+
+.founder-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.founder-name {
+  font-weight: 700;
+  color: var(--tk-text);
+}
+
+.founder-links {
+  display: flex;
+  gap: 12px;
+  font-size: 0.85rem;
+}
+
 /* Écoles & universités */
 .school-card {
   display: flex;

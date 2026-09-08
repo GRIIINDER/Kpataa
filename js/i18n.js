@@ -313,8 +313,8 @@
 
     "about.s1.h2": { fr: "Le projet", en: "The project" },
     "about.s1.p1": {
-      fr: 'WIYAO est un projet communautaire indépendant, sans statut commercial, créé et maintenu à titre personnel par <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a> (<a href="https://github.com/GRIIINDER" target="_blank" rel="noopener">GitHub</a>) : inspiré de roadmap.sh et adapté au contexte togolais. Ce n\'est pas une startup : pas de compte à créer, pas d\'abonnement, pas de publicité, rien à vendre.',
-      en: 'WIYAO is an independent community project, with no commercial status, created and maintained personally by <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a> (<a href="https://github.com/GRIIINDER" target="_blank" rel="noopener">GitHub</a>): inspired by roadmap.sh and adapted to the Togolese context. It\'s not a startup: no account to create, no subscription, no ads, nothing to sell.',
+      fr: 'WIYAO est un projet communautaire indépendant, sans statut commercial, créé et maintenu à titre personnel par Crédo Ahiafor : inspiré de roadmap.sh et adapté au contexte togolais. Ce n\'est pas une startup : pas de compte à créer, pas d\'abonnement, pas de publicité, rien à vendre.',
+      en: 'WIYAO is an independent community project, with no commercial status, created and maintained personally by Crédo Ahiafor: inspired by roadmap.sh and adapted to the Togolese context. It\'s not a startup: no account to create, no subscription, no ads, nothing to sell.',
     },
     "about.s1.p2": {
       fr: 'C\'est un guide qui accompagne le bachelier togolais à chaque étape de son parcours tech : orientation, choix de domaine, de filière et d\'université, roadmaps de carrière et de compétences, bourses, stages et emploi, écosystème local à connaître. Le site est gratuit, utilisable sans inscription, et hébergé par Vercel : détails complets dans les <a href="mentions-legales.html">mentions légales</a> et la <a href="politique-confidentialite.html">politique de confidentialité</a>.',
