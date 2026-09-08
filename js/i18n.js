@@ -932,6 +932,10 @@
       fr: "Agence togolaise de placement et d'intérim, avec une catégorie Informatique dédiée dans son moteur de recherche d'offres et une couverture au-delà de Lomé (Kara, Sokodé, Atakpamé, Kpalimé, Dapaong...).",
       en: "Togolese staffing and interim placement agency, with a dedicated IT category in its job search engine and coverage beyond Lomé (Kara, Sokodé, Atakpamé, Kpalimé, Dapaong...).",
     },
+    "stages.s1.i14.p": {
+      fr: "Agrégateur togolais assisté par IA : rassemble en une seule recherche les offres des principales plateformes du pays, classées selon le profil du candidat, actualisées chaque jour.",
+      en: "AI-assisted Togolese aggregator: gathers offers from the country's main platforms into a single search, ranked to match the candidate's profile, updated daily.",
+    },
 
     "stages.s2.h2": { fr: "Employeurs qui recrutent des profils tech", en: "Employers hiring tech profiles" },
     "stages.s2.i1.p": {
