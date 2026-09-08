@@ -1,0 +1,43 @@
+name: Vérification quotidienne de fraîcheur
+
+# Ne modifie jamais le contenu du site : vérifie les liens externes et
+# liste les échéances "urgent" à reconfirmer, puis publie le résultat
+# dans une issue GitHub persistante pour revue humaine.
+on:
+  schedule:
+    - cron: "0 7 * * *" # 07h00 UTC chaque jour
+  workflow_dispatch: {} # déclenchement manuel depuis l'onglet Actions
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  check-freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Lancer la vérification
+        run: node scripts/check-freshness.js
+
+      - name: Publier le rapport dans une issue GitHub
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="🔍 Rapport de fraîcheur automatique"
+          ISSUE_NUMBER=$(gh issue list --search "$TITLE in:title" --state open --json number,title \
+            --jq ".[] | select(.title == \"$TITLE\") | .number" | head -n1)
+
+          if [ -n "$ISSUE_NUMBER" ]; then
+            gh issue edit "$ISSUE_NUMBER" --body-file freshness-report.md
+            gh issue comment "$ISSUE_NUMBER" --body "Mise à jour automatique du $(date -u +%Y-%m-%d)."
+          else
+            gh issue create --title "$TITLE" --body-file freshness-report.md
+          fi
