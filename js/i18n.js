@@ -336,8 +336,8 @@
       en: 'The job market and the Togolese tech ecosystem evolve quickly: some information (contacts, training programs, organizations listed in the <a href="ecosysteme.html">Togolese ecosystem</a>) may change. Always check directly with the relevant institutions and organizations before committing.',
     },
     "about.s4.p2": {
-      fr: "Contenu vérifié pour la dernière fois en juillet 2026 (60 métiers, 29 compétences).",
-      en: "Content last verified in July 2026 (60 roles, 29 skills).",
+      fr: "Contenu vérifié pour la dernière fois en septembre 2026 (60 métiers, 29 compétences).",
+      en: "Content last verified in September 2026 (60 roles, 29 skills).",
     },
     "about.s5.h2": { fr: "Contribuer", en: "Contribute" },
     "about.s5.p": {
