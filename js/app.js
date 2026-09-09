@@ -921,7 +921,7 @@
         if (el) el.required = isProposer;
       });
       if (introTitle) introTitle.innerHTML = isProposer ? "Proposer un<br>contenu" : "Nous laisser<br>un message";
-      if (submitBtn) submitBtn.innerHTML = isProposer ? 'Envoyer la proposition <span aria-hidden="true">↗</span>' : 'Envoyer <span aria-hidden="true">↗</span>';
+      if (submitBtn) submitBtn.innerHTML = isProposer ? 'Envoyer la proposition <span class="btn-send-icon" aria-hidden="true">↗</span>' : 'Envoyer <span class="btn-send-icon" aria-hidden="true">↗</span>';
     }
 
     modeButtons.forEach((btn) => {
