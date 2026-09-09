@@ -4851,13 +4851,13 @@ const SCHOOLS = {
     admission: "Inscription en ligne selon le niveau du candidat (Première, Terminale, Bac, Licence, Master)",
     frais: "900 000 FCFA/an (Bachelor) · 1 200 000 FCFA/an (Master) : inclut PC portable, kit et accès numérique (source : brochure officielle 2026-2027).",
     site: "https://lome-bs.com/",
-    description: "Se présente comme la 1ère Business School du Togo, forte orientation professionnalisante (stages dès la 1ère année).",
+    description: "Se présente comme la 1ère Business School du Togo, forte orientation professionnalisante (stages dès la 1ère année) ; classée 6ᵉ meilleure Grande École de Business d'Afrique subsaharienne francophone par Jeune Afrique (source : lome-bs.com).",
     datesCles: {
       mode: "campagne",
       note: "Campagne annuelle avec test écrit (maths, français, culture générale ou logique selon le niveau) et entretien de motivation.",
-      ouverture: "4 août, « semaines du bachelier » (référence)",
+      ouverture: "4 juillet, journée portes ouvertes (référence)",
       cloture: "26 septembre (référence)",
-      anneeReference: "2025-2026",
+      anneeReference: "2026-2027",
       aVerifier: true
     }
   },
