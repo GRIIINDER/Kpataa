@@ -30,7 +30,7 @@ const ROLES = {
         title: "2. HTML",
         items: [
           { label: "Structure sémantique (header, main, section, article)", level: "core", resource: { label: "MDN - HTML", url: "https://developer.mozilla.org/fr/docs/Web/HTML" } },
-          { label: "Formulaires et validation native", level: "core", resource: { label: "MDN - Formulaires web", url: "https://developer.mozilla.org/fr/docs/Learn/Forms" } },
+          { label: "Formulaires et validation native", level: "core", resource: { label: "MDN - Formulaires web", url: "https://developer.mozilla.org/fr/docs/Learn_web_development/Extensions/Forms" } },
           { label: "Accessibilité de base (attributs ARIA, alt, labels)", level: "option", resource: { label: "MDN - Accessibilité", url: "https://developer.mozilla.org/fr/docs/Web/Accessibility" } }
         ]
       },
@@ -386,7 +386,7 @@ const ROLES = {
       {
         title: "4. Machine Learning",
         items: [
-          { label: "Scikit-learn : régression, classification, clustering", level: "core", resource: { label: "Scikit-learn - Tutoriels", url: "https://scikit-learn.org/stable/tutorial/index.html" } },
+          { label: "Scikit-learn : régression, classification, clustering", level: "core", resource: { label: "Scikit-learn - Tutoriels", url: "https://scikit-learn.org/stable/getting_started.html" } },
           { label: "Évaluation de modèles (validation croisée, métriques)", level: "core" },
           { label: "Feature engineering", level: "option" }
         ]
@@ -834,7 +834,7 @@ const ROLES = {
         title: "5. Certifications",
         items: [
           { label: "PMP (Project Management Professional)", level: "option", resource: { label: "PMI - Certification PMP", url: "https://www.pmi.org/certifications/project-management-pmp" } },
-          { label: "PRINCE2", level: "option", resource: { label: "PRINCE2 - Certification", url: "https://www.prince2.com/eur/prince2-certification" } },
+          { label: "PRINCE2", level: "option", resource: { label: "PRINCE2 - Certification", url: "https://www.prince2.com/" } },
           { label: "Professional Scrum Master (PSM)", level: "option", resource: { label: "Scrum.org - Certifications PSM", url: "https://www.scrum.org/professional-scrum-certifications" } }
         ]
       },
@@ -3517,7 +3517,7 @@ const SKILLS = {
       {
         title: "1. Bases de Git",
         items: [
-          { label: "Installation et configuration (git config)", level: "core", resource: { label: "Git - Guide de démarrage", url: "https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Les-bases-de-Git" } },
+          { label: "Installation et configuration (git config)", level: "core", resource: { label: "Git - Guide de démarrage", url: "https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Param%C3%A9trage-%C3%A0-la-premi%C3%A8re-utilisation-de-Git" } },
           { label: "init, add, commit, status, log", level: "core" },
           { label: "Fichier .gitignore", level: "core" }
         ]
@@ -4469,7 +4469,7 @@ const SKILLS = {
       {
         title: "2. Apprentissage supervisé",
         items: [
-          { label: "Régression et classification", level: "core", resource: { label: "Scikit-learn - Tutoriels", url: "https://scikit-learn.org/stable/tutorial/index.html" } },
+          { label: "Régression et classification", level: "core", resource: { label: "Scikit-learn - Tutoriels", url: "https://scikit-learn.org/stable/getting_started.html" } },
           { label: "Surapprentissage (overfitting) et régularisation", level: "core" },
           { label: "Validation croisée et métriques d'évaluation", level: "core" }
         ]
