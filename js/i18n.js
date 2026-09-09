@@ -630,8 +630,8 @@
     },
     "faq.c1.q9": { fr: "Comment installer WIYAO comme application sur mon téléphone ?", en: "How do I install WIYAO as an app on my phone?" },
     "faq.c1.a9": {
-      fr: "Sur Android (Chrome) : menu ⋮ → « Ajouter à l'écran d'accueil » ou « Installer l'application ». Sur iPhone (Safari) : bouton de partage 􀈂 → « Sur l'écran d'accueil ». Une icône WIYAO apparaît alors comme une application classique, avec accès hors connexion aux pages déjà visitées.",
-      en: 'On Android (Chrome): ⋮ menu → "Add to Home screen" or "Install app". On iPhone (Safari): Share button 􀈂 → "Add to Home Screen". A WIYAO icon then appears like a regular app, with offline access to pages already visited.',
+      fr: "Sur Android (Chrome) : menu ⋮ → « Ajouter à l'écran d'accueil » ou « Installer l'application ». Sur iPhone (Safari) : bouton de partage (icône carrée avec une flèche vers le haut) → « Sur l'écran d'accueil ». Une icône WIYAO apparaît alors comme une application classique, avec accès hors connexion aux pages déjà visitées.",
+      en: 'On Android (Chrome): ⋮ menu → "Add to Home screen" or "Install app". On iPhone (Safari): Share button (square icon with an upward arrow) → "Add to Home Screen". A WIYAO icon then appears like a regular app, with offline access to pages already visited.',
     },
     "faq.c1.q10": { fr: "WIYAO est-il accessible si j'ai un handicap (visuel, auditif, moteur) ?", en: "Is WIYAO accessible if I have a disability (visual, hearing, motor)?" },
     "faq.c1.a10": {
