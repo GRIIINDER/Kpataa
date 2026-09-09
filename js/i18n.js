@@ -1121,8 +1121,8 @@
     },
     "bourses.s2.i2.h4": { fr: "Bourses de coopération (étudier à l'étranger)", en: "Cooperation scholarships (studying abroad)" },
     "bourses.s2.i2.p": {
-      fr: "Accords bilatéraux gérés par la DBS : bourses AMCI (Maroc), bourse d'excellence de l'UEMOA, bourses vers le\n           Brésil et d'autres pays partenaires. Chaque programme a ses propres critères et dates, publiés au fil de\n           l'année : l'appel pour l'AMCI 2026-2027 a par exemple été publié début août 2026.",
-      en: "Bilateral agreements managed by the DBS: AMCI scholarships (Morocco), UEMOA excellence scholarship, scholarships to Brazil and other partner countries. Each program has its own criteria and dates, published throughout the year : the call for AMCI 2026-2027, for instance, was published in early August 2026.",
+      fr: "Accords bilatéraux gérés par la DBS : bourses AMCI (Maroc), bourse d'excellence de l'UEMOA, bourses vers le\n           Brésil et d'autres pays partenaires. Chaque programme a ses propres critères et dates, publiés au fil de\n           l'année : l'appel pour l'AMCI 2026-2027 a par exemple été publié le 20 mai 2026, avec candidatures closes dès le 29 mai 2026.",
+      en: "Bilateral agreements managed by the DBS: AMCI scholarships (Morocco), UEMOA excellence scholarship, scholarships to Brazil and other partner countries. Each program has its own criteria and dates, published throughout the year : the call for AMCI 2026-2027, for instance, was published on May 20, 2026, with applications closing as early as May 29, 2026.",
     },
     "bourses.s2.i3.h4": { fr: "Allocations de secours", en: "Emergency grants" },
     "bourses.s2.i3.p": {
