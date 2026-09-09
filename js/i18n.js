@@ -355,8 +355,8 @@
       en: "Crédo Ahiafor is also the publication director, within the meaning of the Press and Communication Code (law n°2020-001).",
     },
     "mentions.s1.p3": {
-      fr: 'Contact : <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>, Lomé, Togo.',
-      en: 'Contact: <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>, Lomé, Togo.',
+      fr: 'Contact : <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>, <a href="tel:+22892236379">+228 92 23 63 79</a> · <a href="tel:+22899113199">+228 99 11 31 99</a>, Lomé, Togo.',
+      en: 'Contact: <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>, <a href="tel:+22892236379">+228 92 23 63 79</a> · <a href="tel:+22899113199">+228 99 11 31 99</a>, Lomé, Togo.',
     },
     "mentions.s2.h2": { fr: "Hébergement", en: "Hosting" },
     "mentions.s2.p": {
