@@ -473,14 +473,10 @@
       en: "User status implies full and complete acceptance of these Terms of Use. We recommend you read them carefully before using the site. If you do not accept to be bound by these Terms of Use, you must not use WIYAO.",
     },
     "cgu.s1.p4": {
-      fr: "Les présentes CGU peuvent être mises à jour à tout moment, notamment pour suivre l'évolution des fonctionnalités du site. Les nouvelles CGU sont applicables dès leur publication sur cette page ; il est de la responsabilité de l'Utilisateur de les consulter périodiquement.",
-      en: "These Terms of Use may be updated at any time, in particular to keep up with the evolution of the site's features. The new Terms of Use apply as soon as they are published on this page; it is the User's responsibility to review them periodically.",
-    },
-    "cgu.s1.p5": {
       fr: "L'Utilisateur s'engage à utiliser et naviguer sur WIYAO dans le respect des lois et réglementations applicables ainsi que des présentes CGU.",
       en: "The User agrees to use and browse WIYAO in compliance with applicable laws and regulations as well as these Terms of Use.",
     },
-    "cgu.s1.p6": {
+    "cgu.s1.p5": {
       fr: "Si une clause des présentes CGU est déclarée nulle et non avenue par une décision de justice, les autres clauses restent valables.",
       en: "If a clause of these Terms of Use is declared null and void by a court decision, the other clauses remain valid.",
     },
@@ -559,6 +555,26 @@
     "cgu.s5.p3": {
       fr: "L'accès et l'utilisation de WIYAO ne transfèrent en aucun cas à l'Utilisateur les droits de propriété intellectuelle sur des éléments qui ne lui appartiennent pas déjà.",
       en: "Access to and use of WIYAO does not, under any circumstances, transfer to the User any intellectual property rights over elements that do not already belong to them.",
+    },
+    "cgu.s6.h2": { fr: "6. Liens et contenus tiers", en: "6. Third-party links and content" },
+    "cgu.s6.p": {
+      fr: "WIYAO renvoie vers de nombreux sites tiers (écoles, plateformes d'emploi, communautés, organismes publics togolais). Ces liens sont fournis à titre informatif : WIYAO ne contrôle pas le contenu de ces sites, n'en garantit ni l'exactitude ni la disponibilité, et n'est pas responsable des candidatures, transactions ou échanges que l'Utilisateur effectuerait directement avec eux.",
+      en: "WIYAO links to many third-party sites (schools, job platforms, communities, Togolese public bodies). These links are provided for information purposes: WIYAO does not control the content of these sites, does not guarantee their accuracy or availability, and is not responsible for applications, transactions or exchanges the User carries out directly with them.",
+    },
+    "cgu.s7.h2": { fr: "7. Droit applicable et règlement des litiges", en: "7. Governing law and dispute resolution" },
+    "cgu.s7.p": {
+      fr: 'Les présentes CGU sont régies par le droit togolais. En cas de litige lié à l\'utilisation de WIYAO, contacte-nous d\'abord via la page <a href="contact.html">Contact</a> pour une résolution à l\'amiable. À défaut d\'accord amiable, les tribunaux togolais sont seuls compétents.',
+      en: 'These Terms of Use are governed by Togolese law. In the event of a dispute related to the use of WIYAO, please contact us first via the <a href="contact.html">Contact</a> page for an amicable resolution. Failing an amicable agreement, the Togolese courts have sole jurisdiction.',
+    },
+    "cgu.s8.h2": { fr: "8. Modifications des CGU", en: "8. Changes to these Terms" },
+    "cgu.s8.p": {
+      fr: "Les présentes CGU peuvent être mises à jour à tout moment, notamment pour suivre l'évolution des fonctionnalités du site. Les nouvelles CGU sont applicables dès leur publication sur cette page ; il est de la responsabilité de l'Utilisateur de les consulter périodiquement. Dernière mise à jour : septembre 2026.",
+      en: "These Terms of Use may be updated at any time, in particular to keep up with the evolution of the site's features. The new Terms of Use apply as soon as they are published on this page; it is the User's responsibility to review them periodically. Last updated: September 2026.",
+    },
+    "cgu.s9.h2": { fr: "9. Contact", en: "9. Contact" },
+    "cgu.s9.p": {
+      fr: 'Pour toute question sur ces CGU, écris-nous via la page <a href="contact.html">Contact</a> ou par email à <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>.',
+      en: 'For any question about these Terms of Use, write to us via the <a href="contact.html">Contact</a> page or by email at <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>.',
     },
 
     "faq.cat1.h2": { fr: "Sur WIYAO", en: "About WIYAO" },
