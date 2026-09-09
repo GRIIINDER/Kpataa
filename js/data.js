@@ -4713,13 +4713,17 @@ const SCHOOLS = {
     niveaux: ["Licence", "Master", "Formations certifiantes"],
     filieres: ["Intelligence Artificielle", "Science des Données", "Génie Logiciel", "Cybersécurité", "Développement Web & Mobile", "Réseaux, Systèmes & Sécurité"],
     duree: "Licence : 3 ans · Master : 2 ans",
-    admission: "Concours d'entrée post-BAC (dossier + épreuves) ; Licence en informatique requise pour le Master",
+    admission: "Concours d'entrée post-BAC (dossier + épreuves écrites), ouvert aux séries A4, C, D, E, F1/F2/F3, G2/G3 ; Licence en informatique requise pour le Master.",
     frais: "800 000 FCFA (L1) · 900 000 (L2) · 1 000 000 (L3) : exemple filière Cybersécurité, + inscription (50 000 FCFA puis 30 000 FCFA/an) et frais de dossier. Bourses sociales/mérite et paiement en 3 fois (source : ipnetuniversity.com, 2025).",
     site: "https://ipnetuniversity.com",
     description: "Institut privé fondé en 2003, très orienté pratique (80+ partenariats entreprises tech), élu « université la plus innovante du Togo » en 2022.",
     datesCles: {
-      mode: "continue",
-      note: "Pas de calendrier fixe publié en ligne : test d'admission et entretien de motivation, sans date annoncée.",
+      mode: "campagne",
+      note: "Concours d'entrée écrit dans 5 centres (IPNET à Lomé, Collège Chaminade à Kara, LETP Atakpamé, LETP Sokodé, LETP Dapaong). Une admission sur étude de dossier reste possible en parallèle, jusqu'au 30 septembre 2026.",
+      concours: "4 septembre 2026",
+      cloture: "30 septembre 2026 (admission sur étude de dossier)",
+      anneeReference: "2026-2027",
+      aVerifier: true,
       contact: "ipnet@ipnetinstitute.com"
     }
   },
