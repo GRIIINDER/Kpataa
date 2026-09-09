@@ -351,6 +351,10 @@
       en: 'WIYAO is an independent community project, with no commercial status, published and maintained personally by <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a> (<a href="https://github.com/GRIIINDER" target="_blank" rel="noopener">GitHub</a>). It is not affiliated with any Togolese administration or institution mentioned on the site.',
     },
     "mentions.s1.p2": {
+      fr: "Crédo Ahiafor en est également le directeur de la publication, au sens du Code de la presse et de la communication (loi n°2020-001).",
+      en: "Crédo Ahiafor is also the publication director, within the meaning of the Press and Communication Code (law n°2020-001).",
+    },
+    "mentions.s1.p3": {
       fr: 'Contact : <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>, Lomé, Togo.',
       en: 'Contact: <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>, Lomé, Togo.',
     },
@@ -364,10 +368,25 @@
       fr: 'Le code source du site est ouvert et consultable sur le <a href="https://github.com/GRIIINDER/Wiyao" target="_blank" rel="noopener">dépôt GitHub</a>. Les contenus (roadmaps, fiches écoles, guides) sont proposés à titre informatif et peuvent être réutilisés en citant la source.',
       en: 'The site\'s source code is open and available on the <a href="https://github.com/GRIIINDER/Wiyao" target="_blank" rel="noopener">GitHub repository</a>. The content (roadmaps, school profiles, guides) is provided for informational purposes and may be reused with attribution.',
     },
-    "mentions.s4.h2": { fr: "Responsabilité", en: "Liability" },
+    "mentions.s4.h2": { fr: "Transactions électroniques", en: "Electronic transactions" },
     "mentions.s4.p": {
+      fr: "WIYAO ne réalise aucune transaction électronique : pas de vente, pas de paiement, pas de contrat conclu en ligne. La loi n°2017-007 relative aux transactions électroniques, qui encadre notamment le commerce électronique togolais, ne s'applique donc pas aux activités du site.",
+      en: "WIYAO carries out no electronic transaction: no sale, no payment, no contract concluded online. Law n°2017-007 on electronic transactions, which notably governs Togolese e-commerce, therefore does not apply to the site's activities.",
+    },
+    "mentions.s5.h2": { fr: "Responsabilité", en: "Liability" },
+    "mentions.s5.p": {
       fr: 'Les informations publiées (dates d\'admission, filières, coordonnées d\'écoles ou d\'employeurs) proviennent de sources publiques vérifiées au moment de la rédaction, mais peuvent évoluer. Vérifie toujours les informations sensibles directement auprès des établissements concernés avant de t\'engager : voir aussi la page <a href="about.html">À propos &amp; méthodologie</a>.',
       en: 'The information published (admission dates, programs, contact details for schools or employers) comes from public sources verified at the time of writing, but may change. Always check sensitive information directly with the relevant institutions before committing : see also the <a href="about.html">About &amp; methodology</a> page.',
+    },
+    "mentions.s6.h2": { fr: "Droit applicable", en: "Governing law" },
+    "mentions.s6.p": {
+      fr: 'Ces mentions légales sont régies par le droit togolais. Pour les modalités de résolution des litiges, voir les <a href="conditions-utilisation.html">Conditions d\'utilisation</a>.',
+      en: 'This legal notice is governed by Togolese law. For dispute resolution details, see the <a href="conditions-utilisation.html">Terms of Use</a>.',
+    },
+    "mentions.s7.h2": { fr: "Mise à jour de ces mentions légales", en: "Updates to this legal notice" },
+    "mentions.s7.p": {
+      fr: "Ces mentions légales peuvent être mises à jour à tout moment, notamment pour refléter un changement dans le fonctionnement du site ou dans la réglementation applicable. Dernière mise à jour : septembre 2026.",
+      en: "This legal notice may be updated at any time, in particular to reflect a change in how the site works or in applicable regulations. Last updated: September 2026.",
     },
 
     "conf.s1.h2": { fr: "1. Généralités", en: "1. General" },
