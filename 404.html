@@ -4,20 +4,9 @@
 <script>(function(){try{var t=localStorage.getItem("wiyao-theme")||(window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");document.documentElement.dataset.theme=t;}catch(e){}})();</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact - WIYAO</title>
-<meta name="description" content="Une question, une erreur à signaler, une école, une entreprise ou un événement à ajouter sur WIYAO ? Contacte-nous par email ou via GitHub.">
-<link rel="canonical" href="https://wiyao.vercel.app/contact.html">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://wiyao.vercel.app/contact.html">
-<meta property="og:site_name" content="WIYAO">
-<meta property="og:locale" content="fr_FR">
-<meta property="og:title" content="Contact - WIYAO">
-<meta property="og:description" content="Une question, une erreur à signaler, une école, une entreprise ou un événement à ajouter sur WIYAO ? Contacte-nous par email ou via GitHub.">
-<meta property="og:image" content="https://wiyao.vercel.app/icons/og-image.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Contact - WIYAO">
-<meta name="twitter:description" content="Une question, une erreur à signaler, une école, une entreprise ou un événement à ajouter sur WIYAO ? Contacte-nous par email ou via GitHub.">
-<meta name="twitter:image" content="https://wiyao.vercel.app/icons/og-image.png">
+<title>Page introuvable - WIYAO</title>
+<meta name="description" content="Cette page n'existe pas ou plus. Retourne à l'accueil ou cherche ce que tu voulais trouver sur WIYAO.">
+<meta name="robots" content="noindex">
 <link rel="stylesheet" href="css/style.css?v=24">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#0a0d1c">
@@ -44,13 +33,13 @@
       <a href="stages-emploi.html">Stages &amp; emploi</a>
       <a href="ecosysteme.html">Écosystème togolais</a>
       <div class="nav-more">
-        <button class="nav-more-toggle active" type="button" aria-expanded="false" aria-haspopup="true">Plus ▾</button>
+        <button class="nav-more-toggle" type="button" aria-expanded="false" aria-haspopup="true">Plus ▾</button>
         <div class="nav-more-menu">
           <a href="bourses-financement.html">Bourses &amp; financement</a>
           <a href="actualites.html">Actualités</a>
           <a href="temoignages.html">Témoignages</a>
           <a href="faq.html">FAQ</a>
-          <a href="contact.html" class="active" aria-current="page">Contact</a>
+          <a href="contact.html">Contact</a>
         </div>
       </div>
     </nav>
@@ -66,121 +55,17 @@
 </header>
 
 <main id="main-content">
-  <p id="i18n-notice" class="i18n-notice" hidden>🇬🇧 This page isn't fully translated yet : some sections below remain in French.</p>
-  <section class="hero">
-    <h1 data-i18n-key="contact.hero.title">Contacte-<span class="hero-accent">nous</span></h1>
-    <p data-i18n-key="contact.hero.subtitle">Une question, une correction à proposer, une école, une entreprise ou un événement à ajouter ? Écris-nous.</p>
-  </section>
-
-  <section class="contact-section">
-    <div class="contact-card">
-      <div class="contact-intro">
-        <h2 id="contact-intro-title">Nous laisser<br>un message</h2>
-        <p class="contact-intro-desc">Une question, une correction, une école ou un événement à faire connaître : écris-nous, on répond directement par email.</p>
-
-        <div class="contact-details">
-          <div class="contact-detail-item">
-            <span class="contact-detail-label">E-mail</span>
-            <p class="contact-detail-value"><a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a></p>
-          </div>
-          <div class="contact-detail-item">
-            <span class="contact-detail-label">Téléphone</span>
-            <p class="contact-detail-value"><a href="tel:+22892236379">+228 92 23 63 79</a> · <a href="tel:+22899113199">+228 99 11 31 99</a></p>
-          </div>
-          <div class="contact-detail-item">
-            <span class="contact-detail-label">Adresse</span>
-            <p class="contact-detail-value">Lomé, Togo</p>
-          </div>
-        </div>
-      </div>
-
-      <form id="contact-form" class="contact-form">
-        <div class="domain-filters" id="contact-mode-filters">
-          <button type="button" class="domain-chip active" data-mode="message">Nous écrire</button>
-          <button type="button" class="domain-chip" data-mode="proposer">Proposer un contenu</button>
-        </div>
-        <p class="contact-required-note">Tous les champs avec un <span class="required-mark">*</span> sont obligatoires.</p>
-
-        <div class="contact-form-row">
-          <div class="contact-form-field">
-            <label for="contact-name">Nom et prénom(s) <span class="required-mark">*</span></label>
-            <input type="text" id="contact-name" name="name" placeholder="Nom et prénom(s)" required>
-          </div>
-          <div class="contact-form-field">
-            <label for="contact-email">E-mail <span class="required-mark">*</span></label>
-            <input type="email" id="contact-email" name="email" placeholder="E-mail" required>
-          </div>
-        </div>
-
-        <div class="contact-mode-fields" data-mode-fields="message">
-          <div class="contact-form-field">
-            <label for="contact-subject">Votre sujet <span class="required-mark">*</span></label>
-            <input type="text" id="contact-subject" name="subject" placeholder="Votre sujet" required>
-          </div>
-          <div class="contact-form-field">
-            <label for="contact-message">Votre message <span class="required-mark">*</span></label>
-            <textarea id="contact-message" name="message" rows="6" placeholder="Votre message" required></textarea>
-          </div>
-        </div>
-
-        <div class="contact-mode-fields" data-mode-fields="proposer" hidden>
-          <p class="contact-required-note">Chaque proposition est vérifiée manuellement avant d'être ajoutée au site : aucune publication automatique.</p>
-          <div class="contact-form-row">
-            <div class="contact-form-field">
-              <label for="proposal-type">Type de contenu <span class="required-mark">*</span></label>
-              <select id="proposal-type" name="type">
-                <option value="" disabled selected>Choisis un type</option>
-                <option value="Événement">Événement (meetup, conférence, hackathon...)</option>
-                <option value="Communauté">Communauté (groupe, association, collectif...)</option>
-                <option value="Établissement">Établissement (école, université, centre de formation)</option>
-                <option value="Entreprise">Entreprise (employeur, offre de stage ou d'emploi)</option>
-                <option value="Autre ressource">Autre ressource</option>
-              </select>
-            </div>
-            <div class="contact-form-field">
-              <label for="proposal-ville">Ville</label>
-              <input type="text" id="proposal-ville" name="ville" placeholder="Ex : Lomé, Kara...">
-            </div>
-          </div>
-          <div class="contact-form-field">
-            <label for="proposal-nom">Nom <span class="required-mark">*</span></label>
-            <input type="text" id="proposal-nom" name="nom" placeholder="Ex : DevFest Lomé, GDG Lomé, ESGIS, Semoa...">
-          </div>
-          <div class="contact-form-field">
-            <label for="proposal-lien">Lien ou source de vérification <span class="required-mark">*</span></label>
-            <input type="url" id="proposal-lien" name="lien" placeholder="Site web, page Facebook, groupe WhatsApp public...">
-          </div>
-          <div class="contact-form-field">
-            <label for="proposal-date">Date (si applicable)</label>
-            <input type="text" id="proposal-date" name="date" placeholder="Ex : 15 novembre 2026, ou récurrent">
-          </div>
-          <div class="contact-form-field">
-            <label for="proposal-description">Description courte <span class="required-mark">*</span></label>
-            <textarea id="proposal-description" name="description" rows="4" placeholder="En quelques phrases : quoi, pour qui, pourquoi ça a sa place sur WIYAO"></textarea>
-          </div>
-        </div>
-
-        <button type="submit" class="btn-send" id="contact-submit-btn">Envoyer <span class="btn-send-icon" aria-hidden="true">↗</span></button>
-        <p class="contact-form-note">WIYAO est un site statique, sans serveur pour recevoir des messages : « Envoyer » ouvre ton client email habituel avec le message pré-rempli.</p>
-      </form>
+  <section class="hero error-hero">
+    <p class="error-code" aria-hidden="true">404</p>
+    <h1 data-i18n-key="error404.title">Page introuvable</h1>
+    <p data-i18n-key="error404.subtitle">Cette page n'existe pas, plus, ou l'adresse contient une faute de frappe.</p>
+    <div class="error-actions">
+      <a class="btn-primary" href="index.html" data-i18n-key="error404.cta.home">Retour à l'accueil →</a>
+      <a class="btn-primary error-btn-secondary" href="recherche.html" data-i18n-key="error404.cta.search">Chercher sur WIYAO →</a>
     </div>
+    <p class="hero-guide" data-i18n-key="error404.note">Si tu penses qu'un lien est cassé, dis-le nous via la page <a href="contact.html">Contact</a>.</p>
   </section>
 </main>
-
-<section class="newsletter-section">
-  <div class="newsletter-inner">
-    <div class="newsletter-text">
-      <h5 data-i18n-key="footer.newsletter.title">Reste informé·e</h5>
-      <p data-i18n-key="footer.newsletter.desc">Le résumé mensuel de ce qui change sur WIYAO (nouvelles écoles, dates de concours, offres de stage) directement dans ta boîte mail.</p>
-    </div>
-    <form class="newsletter-form" action="https://buttondown.com/api/emails/embed-subscribe/credo" method="post" target="popupwindow">
-      <label for="newsletter-email" class="sr-only" data-i18n-key="footer.newsletter.label">Ton adresse e-mail</label>
-      <input type="email" name="email" id="newsletter-email" placeholder="ton@email.com" required autocomplete="email">
-      <input type="hidden" value="1" name="embed">
-      <button type="submit" class="btn-primary newsletter-submit" data-i18n-key="footer.newsletter.submit">S'abonner</button>
-    </form>
-  </div>
-</section>
 
 <footer class="site-footer">
   <div class="footer-lower">
@@ -240,8 +125,6 @@
   </div>
 </footer>
 
-<script src="js/data.js?v=34"></script>
-<script src="js/app.js?v=23"></script>
 <script src="js/nav.js?v=3"></script>
 <script src="js/theme.js?v=1"></script>
 <script src="js/assistant.js?v=2"></script>

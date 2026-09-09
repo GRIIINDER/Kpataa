@@ -865,6 +865,34 @@ main {
   transform: translateY(-1px);
 }
 
+/* Page 404 */
+.error-hero {
+  padding-top: 60px;
+}
+
+.hero p.error-code {
+  margin: 0;
+  max-width: none;
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--tk-primary);
+  opacity: 0.35;
+}
+
+.error-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.error-btn-secondary {
+  background: var(--tk-surface);
+  color: var(--tk-primary);
+  border: 1px solid var(--tk-border);
+}
+
 .roadmap-category {
   margin-top: 50px;
 }

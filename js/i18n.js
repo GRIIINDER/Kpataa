@@ -275,6 +275,18 @@
       en: "One search for the entire site: roadmaps, schools, the Togolese ecosystem, scholarships, internships &amp; jobs, and news.",
     },
 
+    "error404.title": { fr: "Page introuvable", en: "Page not found" },
+    "error404.subtitle": {
+      fr: "Cette page n'existe pas, plus, ou l'adresse contient une faute de frappe.",
+      en: "This page doesn't exist, no longer exists, or the address has a typo.",
+    },
+    "error404.cta.home": { fr: "Retour à l'accueil →", en: "Back to home →" },
+    "error404.cta.search": { fr: "Chercher sur WIYAO →", en: "Search WIYAO →" },
+    "error404.note": {
+      fr: 'Si tu penses qu\'un lien est cassé, dis-le nous via la page <a href="contact.html">Contact</a>.',
+      en: 'If you think a link is broken, let us know via the <a href="contact.html">Contact</a> page.',
+    },
+
     "about.hero.title": {
       fr: 'À propos &amp; <span class="hero-accent">méthodologie</span>',
       en: 'About &amp; <span class="hero-accent">methodology</span>',
