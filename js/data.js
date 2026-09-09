@@ -4736,17 +4736,16 @@ const SCHOOLS = {
     niveaux: ["Licence Professionnelle", "Ingénieur des Travaux Informatiques", "Ingénieur Concepteur"],
     filieres: ["Génie Logiciel & Systèmes d'Information", "Administration des Systèmes et Réseaux", "Multimédia", "Technologies Web"],
     duree: "Cycle ITI / Licence Pro : 3 ans, avec stage en 2e et 3e années",
-    admission: "Concours d'entrée (épreuves d'Anglais, Mathématiques, Français)",
-    frais: "Non communiqué publiquement : seuls les frais annexes sont connus (concours : 15 000 FCFA/an, assurance : 1 000 FCFA/an). Contacte l'établissement pour le montant de la scolarité.",
+    admission: "Concours d'entrée réservé aux BAC II séries C, D, E, F1 ou F2 : présélection sur dossier puis épreuves écrites de Mathématiques (coef. 6), Techniques d'expression (coef. 2) et Anglais (coef. 3).",
+    frais: "Non communiqué publiquement : seuls les frais annexes sont connus (10 000 FCFA pour l'étude de dossier, concours : 15 000 FCFA/an, assurance : 1 000 FCFA/an). Contacte l'établissement pour le montant de la scolarité.",
     site: "https://new.iai-togo.tg/officiel",
     description: "École inter-États d'enseignement supérieur en informatique, présente au Togo depuis 2002, référence historique de la formation informatique dans la sous-région.",
     datesCles: {
       mode: "campagne",
-      note: "Campagne annuelle avec concours écrit (mathématiques, techniques d'expression, anglais). Campagne 2026-2027 close : résultats du concours du 1er septembre 2026 déjà publiés.",
+      note: "Campagne annuelle avec concours écrit (mathématiques, techniques d'expression, anglais). Campagne 2026-2027 close : résultats du concours du 1er septembre 2026 publiés (confirmé sur new.iai-togo.tg, rubrique informations urgentes).",
       cloture: "21 août 2026, 17h00",
       concours: "1er septembre 2026",
-      anneeReference: "2026-2027",
-      aVerifier: true
+      anneeReference: "2026-2027"
     }
   },
   "esgis": {
