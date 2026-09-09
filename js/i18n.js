@@ -466,8 +466,8 @@
     },
     "conf.s8.h2": { fr: "8. Cookies et suivi", en: "8. Cookies and tracking" },
     "conf.s8.p": {
-      fr: "WIYAO n'utilise aucun cookie, aucun outil de suivi ou d'analyse tierce (Google Analytics ou équivalent), et n'affiche aucune publicité. Le site utilise uniquement le stockage local (localStorage) de ton navigateur, décrit à la section 2 : ta progression sur les roadmaps, ta langue et ta préférence de thème (clair/sombre) y sont enregistrées, uniquement sur ton appareil, sans jamais être transmises à un serveur.",
-      en: "WIYAO uses no cookies, no third-party tracking or analytics tool (Google Analytics or equivalent), and displays no advertising. The site only uses your browser's local storage (localStorage), described in section 2: your progress on roadmaps, your language and your theme preference (light/dark) are saved there, only on your device, never sent to a server.",
+      fr: "WIYAO n'utilise aucun cookie, aucun outil de suivi ou d'analyse tierce (Google Analytics ou équivalent), et n'affiche aucune publicité. Le site utilise uniquement le stockage local (localStorage) de ton navigateur, décrit à la section 2 : ta progression sur les roadmaps et ta langue y sont enregistrées, uniquement sur ton appareil, sans jamais être transmises à un serveur.",
+      en: "WIYAO uses no cookies, no third-party tracking or analytics tool (Google Analytics or equivalent), and displays no advertising. The site only uses your browser's local storage (localStorage), described in section 2: your progress on roadmaps and your language are saved there, only on your device, never sent to a server.",
     },
     "conf.s9.h2": { fr: "9. Liens externes", en: "9. External links" },
     "conf.s9.p": {
@@ -647,8 +647,8 @@
     },
     "faq.c1.q10": { fr: "WIYAO est-il accessible si j'ai un handicap (visuel, auditif, moteur) ?", en: "Is WIYAO accessible if I have a disability (visual, hearing, motor)?" },
     "faq.c1.a10": {
-      fr: 'Le site applique les bases : navigation au clavier, structure HTML lisible par un lecteur d\'écran, lien d\'évitement vers le contenu, et contrastes de couleur vérifiés en thème clair comme sombre. Ce n\'est pas (encore) un site audité pour l\'accessibilité (RGAA/WCAG) : certaines pages peuvent donc rester imparfaites avec un lecteur d\'écran ou un autre outil d\'assistance. Si tu rencontres un blocage, dis-le nous par email à <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a> : on corrige en priorité ce qui empêche réellement d\'utiliser le site.',
-      en: 'The site covers the basics: keyboard navigation, screen-reader-friendly HTML structure, a skip link to the main content, and color contrast checked in both light and dark theme. It hasn\'t (yet) been audited for accessibility (WCAG), so some pages may still work imperfectly with a screen reader or other assistive tool. If you hit a blocker, let us know at <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>: we\'ll prioritize fixing whatever actually prevents you from using the site.',
+      fr: 'Le site applique les bases : navigation au clavier, structure HTML lisible par un lecteur d\'écran, lien d\'évitement vers le contenu, et contrastes de couleur vérifiés. Ce n\'est pas (encore) un site audité pour l\'accessibilité (RGAA/WCAG) : certaines pages peuvent donc rester imparfaites avec un lecteur d\'écran ou un autre outil d\'assistance. Si tu rencontres un blocage, dis-le nous par email à <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a> : on corrige en priorité ce qui empêche réellement d\'utiliser le site.',
+      en: 'The site covers the basics: keyboard navigation, screen-reader-friendly HTML structure, a skip link to the main content, and checked color contrast. It hasn\'t (yet) been audited for accessibility (WCAG), so some pages may still work imperfectly with a screen reader or other assistive tool. If you hit a blocker, let us know at <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>: we\'ll prioritize fixing whatever actually prevents you from using the site.',
     },
 
     "faq.cat2.h2": { fr: "Sur l'orientation et les roadmaps", en: "About orientation and roadmaps" },
