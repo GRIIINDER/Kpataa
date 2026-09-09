@@ -3480,7 +3480,7 @@ const COMMUNITY_BY_DOMAIN = {
   "Développement": [
     { name: "GDG Lomé", url: "https://gdg.community.dev/gdg-lome/", note: "Meetups réguliers web, mobile, cloud.", noteEn: "Regular meetups on web, mobile and cloud." },
     { name: "Python Togo", url: "https://www.pytogo.org/", note: "Ateliers mensuels, organise le PyDay Togo.", noteEn: "Monthly workshops, organizes PyDay Togo." },
-    { name: "TDEV : Communauté des Développeurs Togolais", url: "https://www.tdev228.org/", note: "Talks, sessions de code, événement annuel Code Moment.", noteEn: "Talks, coding sessions, annual Code Moment event." },
+    { name: "TDEV : Communauté des Développeurs Togolais", url: "https://www.linkedin.com/company/tdev228/", note: "Talks, sessions de code, événement annuel Code Moment.", noteEn: "Talks, coding sessions, annual Code Moment event." },
   ],
   "Data & IA": [
     { name: "CoTIA : Communauté Togolaise d'Intelligence Artificielle", url: "https://cotia.tg/", note: "Organise IndabaX Togo depuis 2021.", noteEn: "Has organized IndabaX Togo since 2021." },
