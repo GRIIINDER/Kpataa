@@ -5075,7 +5075,7 @@ const SCHOOLS = {
     duree: null,
     admission: "Cours du jour et du soir, ouverts aux bacheliers",
     frais: "Non communiqué publiquement : le site les qualifie d'« abordables » sans montant précis.",
-    site: "https://www.isactg.net/",
+    site: "https://www.facebook.com/Agatacarelli1/",
     description: "Institut catholique fondé par les Sœurs Canossiennes en 1999 (Agoè-Légbassito), reconnu par décret en 2015 et jugé « établissement de bonne qualité » par le Ministère en 2016.",
     datesCles: {
       mode: "inconnu",
@@ -5127,7 +5127,7 @@ const SCHOOLS = {
     duree: "BT : 3 ans · BTS : 2 ans",
     admission: "Bac série C, D, G2, G3, ou BT Comptabilité/Commerce",
     frais: "Non communiqué publiquement.",
-    site: "https://www.isseck.com",
+    site: "https://www.facebook.com/isseckouvahey/",
     description: "École privée en sciences économiques et commerciales fondée en 2006, convention avec IPAC-France (Bachelor/MBA), cours du jour et du soir.",
     datesCles: {
       mode: "inconnu",
