@@ -400,36 +400,61 @@
       fr: 'Si tu utilises la page <a href="contact.html">Contact</a>, les informations que tu choisis d\'y saisir (nom, email, message) ne sont pas envoyées à un serveur : le bouton « Envoyer » ouvre ton client email habituel avec le message pré-rempli, à toi de l\'envoyer depuis là.',
       en: 'If you use the <a href="contact.html">Contact</a> page, the information you choose to enter there (name, email, message) is not sent to a server: the "Send" button opens your usual email client with the message pre-filled, for you to send from there.',
     },
-    "conf.s3.h2": { fr: "3. Droits de la personne dont les données font l'objet d'un traitement", en: "3. Rights of the person whose data is processed" },
-    "conf.s3.p1": {
-      fr: "La loi togolaise n°2019-014 garantit à toute personne dont les données sont traitées un droit à l'information, un droit d'accès, un droit d'opposition, un droit de rectification et de suppression, ainsi qu'un droit à l'effacement lorsque les données ont été rendues publiques.",
-      en: "Togolese law n°2019-014 guarantees anyone whose data is processed a right to information, a right of access, a right to object, a right of rectification and deletion, as well as a right to erasure when the data has been made public.",
+    "conf.s3.h2": { fr: "3. Base légale du traitement", en: "3. Legal basis for processing" },
+    "conf.s3.p": {
+      fr: "Le traitement de ton adresse email lors de l'abonnement à la newsletter repose sur ton consentement : renseigner ton email et cliquer sur « S'abonner » est une action volontaire et affirmative, conforme au principe de consentement posé par la loi n°2019-014. Aucune autre base légale n'est nécessaire, puisque WIYAO ne traite aucune autre donnée personnelle en dehors de ce cas précis.",
+      en: "Processing your email address when you subscribe to the newsletter is based on your consent: entering your email and clicking \"Subscribe\" is a voluntary, affirmative action, in line with the consent principle set by law n°2019-014. No other legal basis is needed, since WIYAO processes no other personal data outside this specific case.",
     },
-    "conf.s3.p2": {
+    "conf.s4.h2": { fr: "4. Droits de la personne dont les données font l'objet d'un traitement", en: "4. Rights of the person whose data is processed" },
+    "conf.s4.p1": {
+      fr: "La loi togolaise n°2019-014 garantit à toute personne dont les données sont traitées un droit à l'information (art. 35), un droit d'accès (art. 39), un droit d'opposition, un droit de rectification et de suppression, ainsi qu'un droit à l'effacement lorsque les données ont été rendues publiques.",
+      en: "Togolese law n°2019-014 guarantees anyone whose data is processed a right to information (art. 35), a right of access (art. 39), a right to object, a right of rectification and deletion, as well as a right to erasure when the data has been made public.",
+    },
+    "conf.s4.p2": {
       fr: "En dehors des abonnés à la newsletter (dont l'email est traité par Buttondown selon les modalités décrites en section 2, et qui peuvent se désabonner à tout moment via chaque email reçu), WIYAO ne traite aucune donnée personnelle côté serveur. La seule autre donnée qui existe, ta progression sur les roadmaps, reste sur ton appareil et sous ton contrôle exclusif : tu peux la consulter, la modifier ou la supprimer toi-même directement dans le navigateur, sans avoir à nous solliciter.",
       en: "Aside from newsletter subscribers (whose email is processed by Buttondown as described in section 2, and who can unsubscribe at any time via every email received), WIYAO processes no personal data server-side. The only other data that exists, your progress on roadmaps, stays on your device under your exclusive control: you can view, edit or delete it yourself directly in the browser, without needing to contact us.",
     },
-    "conf.s3.p3": {
+    "conf.s4.p3": {
       fr: 'Pour toute question sur ces droits, contacte-nous via la page <a href="contact.html">Contact</a> ou par email à <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>.',
       en: 'For any question about these rights, contact us via the <a href="contact.html">Contact</a> page or by email at <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>.',
     },
-    "conf.s4.h2": { fr: "4. Sécurité", en: "4. Security" },
-    "conf.s4.p": {
+    "conf.s5.h2": { fr: "5. Conservation des données", en: "5. Data retention" },
+    "conf.s5.p": {
+      fr: "Ta progression sur les roadmaps reste dans le stockage local de ton navigateur tant que tu ne la supprimes pas toi-même : WIYAO n'a aucun moyen de la supprimer à distance, puisqu'elle ne lui est jamais transmise. Ton adresse email d'abonné·e à la newsletter est conservée par Buttondown tant que tu restes abonné·e : elle est supprimée dès que tu te désabonnes via le lien présent dans chaque email. WIYAO ne conserve aucune autre donnée.",
+      en: "Your progress on roadmaps stays in your browser's local storage until you delete it yourself: WIYAO has no way to remove it remotely, since it is never sent to WIYAO. Your email address as a newsletter subscriber is kept by Buttondown for as long as you stay subscribed: it is deleted as soon as you unsubscribe via the link in every email. WIYAO keeps no other data.",
+    },
+    "conf.s6.h2": { fr: "6. Sécurité", en: "6. Security" },
+    "conf.s6.p": {
       fr: "En dehors des adresses email des abonnés à la newsletter, hébergées et sécurisées par Buttondown, WIYAO ne stocke aucune donnée personnelle sur un serveur : il n'y a pas de base de données propre à protéger contre une fuite ou un accès non autorisé. La connexion au site est chiffrée (HTTPS), via l'hébergeur Vercel.",
       en: "Aside from the email addresses of newsletter subscribers, hosted and secured by Buttondown, WIYAO stores no personal data on a server: there is no database of our own to protect against a leak or unauthorized access. The connection to the site is encrypted (HTTPS), via the host Vercel.",
     },
-    "conf.s5.h2": { fr: "5. Pas de suivi ni de publicité", en: "5. No tracking or advertising" },
-    "conf.s5.p": {
-      fr: "Le site n'utilise aucun outil d'analyse tierce (Google Analytics ou équivalent), aucun cookie de suivi, et n'affiche aucune publicité.",
-      en: "The site uses no third-party analytics tool (Google Analytics or equivalent), no tracking cookie, and displays no advertising.",
+    "conf.s7.h2": { fr: "7. Mineurs", en: "7. Minors" },
+    "conf.s7.p": {
+      fr: "WIYAO s'adresse en priorité aux bacheliers togolais, dont une partie est mineure. Le site ne demande jamais d'informations sur l'âge ou l'identité pour naviguer, faire le test d'orientation ou comparer les écoles. Si tu es mineur·e et que tu souhaites t'abonner à la newsletter, l'accord d'un parent ou tuteur est recommandé avant de transmettre ton email à un service tiers (Buttondown, voir section 2). Aucune autre donnée n'est demandée sur le reste du site.",
+      en: "WIYAO is aimed primarily at Togolese high-school graduates, some of whom are minors. The site never asks for age or identity information to browse, take the orientation test or compare schools. If you are a minor and want to subscribe to the newsletter, a parent or guardian's agreement is recommended before your email is sent to a third-party service (Buttondown, see section 2). No other data is requested anywhere else on the site.",
     },
-    "conf.s6.h2": { fr: "6. Liens externes", en: "6. External links" },
-    "conf.s6.p": {
+    "conf.s8.h2": { fr: "8. Cookies et suivi", en: "8. Cookies and tracking" },
+    "conf.s8.p": {
+      fr: "WIYAO n'utilise aucun cookie, aucun outil de suivi ou d'analyse tierce (Google Analytics ou équivalent), et n'affiche aucune publicité. Le site utilise uniquement le stockage local (localStorage) de ton navigateur, décrit à la section 2 : ta progression sur les roadmaps, ta langue et ta préférence de thème (clair/sombre) y sont enregistrées, uniquement sur ton appareil, sans jamais être transmises à un serveur.",
+      en: "WIYAO uses no cookies, no third-party tracking or analytics tool (Google Analytics or equivalent), and displays no advertising. The site only uses your browser's local storage (localStorage), described in section 2: your progress on roadmaps, your language and your theme preference (light/dark) are saved there, only on your device, never sent to a server.",
+    },
+    "conf.s9.h2": { fr: "9. Liens externes", en: "9. External links" },
+    "conf.s9.p": {
       fr: "WIYAO renvoie vers des sites tiers (écoles, plateformes d'emploi, dépôt GitHub, réseaux communautaires...). Ces sites ont leurs propres règles de confidentialité, indépendantes de celles de WIYAO.",
       en: "WIYAO links to third-party sites (schools, job platforms, GitHub repository, community networks...). These sites have their own privacy rules, independent of WIYAO's.",
     },
-    "conf.s7.h2": { fr: "7. Contact", en: "7. Contact" },
-    "conf.s7.p": {
+    "conf.s10.h2": { fr: "10. Déclaration auprès de l'autorité togolaise (IPDCP)", en: "10. Declaration to the Togolese authority (IPDCP)" },
+    "conf.s10.p": {
+      fr: 'La loi n°2019-014 soumet en principe tout traitement de données à caractère personnel à une déclaration préalable auprès de l\'Instance de Protection des Données à Caractère Personnel (IPDCP), l\'autorité togolaise compétente (art. 6), qui délivre un récépissé sous un mois. Elle prévoit aussi que l\'IPDCP peut publier des normes simplifiant ou exonérant cette obligation pour les catégories de traitement les plus courantes et à faible risque (art. 7). Pour toute question sur l\'application de cette règle à un cas précis, l\'IPDCP reste l\'autorité de référence : <a href="mailto:contact@ipdcp.tg">contact@ipdcp.tg</a>, (+228) 22 25 13 34, <a href="https://ipdcp.tg" target="_blank" rel="noopener">ipdcp.tg</a>.',
+      en: 'Law n°2019-014 in principle requires any processing of personal data to be declared beforehand to the Instance de Protection des Données à Caractère Personnel (IPDCP), the competent Togolese authority (art. 6), which issues a receipt within one month. It also provides that the IPDCP may publish rules simplifying or exempting this requirement for the most common, low-risk categories of processing (art. 7). For any question about how this applies to a specific case, the IPDCP is the reference authority: <a href="mailto:contact@ipdcp.tg">contact@ipdcp.tg</a>, (+228) 22 25 13 34, <a href="https://ipdcp.tg" target="_blank" rel="noopener">ipdcp.tg</a>.',
+    },
+    "conf.s11.h2": { fr: "11. Modifications de cette politique", en: "11. Changes to this policy" },
+    "conf.s11.p": {
+      fr: "Cette politique peut être mise à jour pour refléter un changement dans le fonctionnement du site ou dans la réglementation applicable. Dernière mise à jour : septembre 2026.",
+      en: "This policy may be updated to reflect a change in how the site works or in applicable regulations. Last updated: September 2026.",
+    },
+    "conf.s12.h2": { fr: "12. Contact", en: "12. Contact" },
+    "conf.s12.p": {
       fr: 'Pour toute question sur cette politique, écris-nous via la page <a href="contact.html">Contact</a> ou par email à <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>.',
       en: 'For any question about this policy, write to us via the <a href="contact.html">Contact</a> page or by email at <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>.',
     },
