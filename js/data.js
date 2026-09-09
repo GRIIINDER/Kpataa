@@ -4831,10 +4831,10 @@ const SCHOOLS = {
     description: "Université catholique de plus de 15 000 étudiants ; le Département de Génie Informatique relève de l'École Supérieure d'Ingénieurs, encadrée par le CAMES et la Commission des Titres d'Ingénieur.",
     datesCles: {
       mode: "continue",
-      note: "Pré-inscriptions ouvertes dès juillet, jusqu'à la rentrée : pas de date limite stricte.",
-      ouverture: "15 juillet (référence)",
+      note: "Préinscription en ligne sur preinscription.ucao-uut.tg, ouverte depuis le 1er juillet 2026, jusqu'à la rentrée : pas de date limite stricte. Dépôt physique du dossier possible sur les campus de Sanguéra ou près de St-Jo (Lomé), du lundi au vendredi, 8h-17h30.",
+      ouverture: "1er juillet 2026 (confirmée)",
       rentree: "23 octobre, rentrée solennelle (référence)",
-      anneeReference: "2025-2026"
+      anneeReference: "2026-2027"
     }
   },
   "lbs": {
