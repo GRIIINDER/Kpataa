@@ -1,6 +1,7 @@
 // Enregistrement du service worker - WIYAO
-// Placé dans nav.js (chargé sur les 17 pages) pour que le SW s'installe
-// quelle que soit la première page visitée, pas seulement celles avec app.js.
+// Placé dans nav.js (chargé sur les 18 pages, 404.html comprise) pour que le
+// SW s'installe quelle que soit la première page visitée, pas seulement
+// celles avec app.js.
 (function () {
   "use strict";
 
