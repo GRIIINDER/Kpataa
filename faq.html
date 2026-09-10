@@ -17,7 +17,7 @@
 <meta name="twitter:title" content="FAQ - WIYAO">
 <meta name="twitter:description" content="Questions fréquentes sur WIYAO : gratuité, données personnelles, fiabilité des informations, roadmaps, écoles, frais de scolarité, stages et emploi.">
 <meta name="twitter:image" content="https://wiyao.vercel.app/icons/og-image.png">
-<link rel="stylesheet" href="css/style.css?v=28">
+<link rel="stylesheet" href="css/style.css?v=30">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#0a0d1c">
 <link rel="icon" href="icons/favicon-48.png" sizes="48x48" type="image/png">
@@ -72,183 +72,203 @@
 </header>
 
 <main id="main-content">
-  <section class="hero">
+  <section class="hero faq-hero">
+    <span class="faq-badge" data-i18n-key="faq.badge">Aide &amp; réponses</span>
     <h1 data-i18n-key="faq.hero.title">Questions <span class="hero-accent">fréquentes</span></h1>
     <p data-i18n-key="faq.hero.subtitle">Tout ce qu'on te demande le plus souvent sur WIYAO, en un seul endroit.</p>
   </section>
 
-  <section class="roadmap-category" id="wiyao">
-    <h2 data-i18n-key="faq.cat1.h2">Sur WIYAO</h2>
-    <div class="faq-list">
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c1.q1">C'est gratuit ?</summary>
-        <p data-i18n-key="faq.c1.a1">Oui, entièrement. Pas de compte à créer, pas d'abonnement, pas de publicité.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c1.q2">Il faut créer un compte pour utiliser le site ?</summary>
-        <p data-i18n-key="faq.c1.a2">Non. Tout le site (roadmaps, test d'orientation, comparateur d'écoles, calendrier) s'utilise sans compte ni inscription.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c1.q3">Comment ma progression sur les roadmaps est-elle sauvegardée ?</summary>
-        <p data-i18n-key="faq.c1.a3">Uniquement dans le stockage local (localStorage) de ton navigateur, jamais envoyée à un serveur. Si tu changes d'appareil ou de navigateur, ou si tu vides les données de ton navigateur, ta progression est perdue.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c1.q4">Est-ce que WIYAO collecte mes données personnelles ?</summary>
-        <p data-i18n-key="faq.c1.a4">Pour naviguer, faire le test ou comparer des écoles, non : aucune collecte, aucun outil de suivi (analytics), aucune publicité. Seule exception si tu le fais volontairement : t'abonner à la newsletter transmet ton email à Buttondown, notre prestataire d'envoi. Détails dans la <a href="politique-confidentialite.html">politique de confidentialité</a>.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c1.q5">Qui a créé WIYAO ?</summary>
-        <p data-i18n-key="faq.c1.a5">Un projet communautaire indépendant, sans statut commercial, créé et maintenu à titre personnel par <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a> (<a href="https://github.com/GRIIINDER" target="_blank" rel="noopener">GitHub</a>), inspiré de <a href="https://roadmap.sh" target="_blank" rel="noopener">roadmap.sh</a> et adapté au contexte togolais. Détails dans <a href="about.html">À propos &amp; méthodologie</a> et les <a href="mentions-legales.html">mentions légales</a>.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c1.q6">Les informations du site sont-elles vérifiées ?</summary>
-        <p data-i18n-key="faq.c1.a6">Oui : sourcées activement (sites officiels, presse togolaise, documents signés). Quand une information ne peut pas être confirmée (par exemple des frais de scolarité), le site l'indique clairement plutôt que d'inventer un chiffre. Le marché évolue vite : vérifie toujours en direct auprès de l'établissement ou l'organisme concerné avant de t'engager.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c1.q7">Comment signaler une erreur ou proposer un ajout ?</summary>
-        <p data-i18n-key="faq.c1.a7">Via le <a href="https://github.com/GRIIINDER/Wiyao/issues" target="_blank" rel="noopener">dépôt GitHub</a> ou par email à <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c1.q8">WIYAO fonctionne hors connexion ?</summary>
-        <p data-i18n-key="faq.c1.a8">Oui. WIYAO est une application web installable (PWA) : une fois une page visitée, elle reste accessible même sans connexion Internet.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c1.q9">Comment installer WIYAO comme application sur mon téléphone ?</summary>
-        <p data-i18n-key="faq.c1.a9">Sur Android (Chrome) : menu ⋮ → « Ajouter à l'écran d'accueil » ou « Installer l'application ». Sur iPhone (Safari) : bouton de partage (icône carrée avec une flèche vers le haut) → « Sur l'écran d'accueil ». Une icône WIYAO apparaît alors comme une application classique, avec accès hors connexion aux pages déjà visitées.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c1.q10">WIYAO est-il accessible si j'ai un handicap (visuel, auditif, moteur) ?</summary>
-        <p data-i18n-key="faq.c1.a10">Le site applique les bases : navigation au clavier, structure HTML lisible par un lecteur d'écran, lien d'évitement vers le contenu, et contrastes de couleur vérifiés. Ce n'est pas (encore) un site audité pour l'accessibilité (RGAA/WCAG) : certaines pages peuvent donc rester imparfaites avec un lecteur d'écran ou un autre outil d'assistance. Si tu rencontres un blocage, dis-le nous par email à <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a> : on corrige en priorité ce qui empêche réellement d'utiliser le site.</p>
-      </details>
-    </div>
-  </section>
+  <div class="faq-layout">
+    <aside class="faq-sidebar">
+      <p class="faq-sidebar-title" data-i18n-key="faq.categories">Catégories</p>
+      <nav class="faq-cat-nav" aria-label="Catégories de la FAQ">
+        <button type="button" class="faq-cat-link active" data-target="wiyao" aria-current="true" data-i18n-key="faq.cat1.h2">Sur WIYAO</button>
+        <button type="button" class="faq-cat-link" data-target="orientation" data-i18n-key="faq.cat2.h2">Sur l'orientation et les roadmaps</button>
+        <button type="button" class="faq-cat-link" data-target="ecoles-frais" data-i18n-key="faq.cat3.h2">Sur les écoles et les frais</button>
+        <button type="button" class="faq-cat-link" data-target="bourses" data-i18n-key="faq.cat5.h2">Sur les bourses et le financement</button>
+        <button type="button" class="faq-cat-link" data-target="apres-le-choix" data-i18n-key="faq.cat4.h2">Après le choix</button>
+      </nav>
+    </aside>
 
-  <section class="roadmap-category" id="orientation">
-    <h2 data-i18n-key="faq.cat2.h2">Sur l'orientation et les roadmaps</h2>
-    <div class="faq-list">
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c2.q1">Je ne sais pas du tout quoi choisir, par où je commence ?</summary>
-        <p data-i18n-key="faq.c2.a1">Par le <a href="test-orientation.html">test d'orientation</a> : 14 questions pour identifier le domaine tech qui te correspond, puis le métier précis et les écoles adaptés.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c2.q2">Quelle est la différence entre roadmap « par métier » et « par compétence » ?</summary>
-        <p data-i18n-key="faq.c2.a2">Une roadmap par métier (ex : Développeur Web) est le chemin complet à suivre pour viser un rôle donné. Une roadmap par compétence (ex : Git &amp; GitHub) couvre un sujet précis, indépendant du métier : utile en complément d'une roadmap métier.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c2.q3">Je dois suivre toute la roadmap dans l'ordre ?</summary>
-        <p data-i18n-key="faq.c2.a3">Les étapes marquées comme essentielles sont recommandées dans l'ordre. Les étapes optionnelles peuvent être sautées ou reportées selon ton niveau et ton objectif.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c2.q4">Le test d'orientation est-il fiable à 100 % ?</summary>
-        <p data-i18n-key="faq.c2.a4">Non, et c'est assumé : 14 questions ne peuvent pas connaître quelqu'un parfaitement. Le résultat est un point de départ solide, pas un verdict définitif. Confronte-le à un <a href="temoignages.html">témoignage réel</a> de quelqu'un du métier et explore la roadmap correspondante avant de t'engager dans une école.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c2.q5">Le métier suggéré par le test ne me plaît pas, que faire ?</summary>
-        <p data-i18n-key="faq.c2.a5">Refais le test avec des réponses différentes, ou explore directement les <a href="index.html">roadmaps</a> des autres domaines qui t'intéressent : rien n'empêche de comparer plusieurs métiers avant de choisir. Le test aide à démarrer, il ne t'enferme pas dans un seul chemin.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c2.q6">Faut-il un Bac scientifique (série C, D) pour faire de l'informatique ?</summary>
-        <p data-i18n-key="faq.c2.a6">Non, mais ça aide selon le métier visé. Les séries C, D et E sont les plus courantes en développement, cybersécurité et infrastructure, en particulier pour les concours publics. Les séries littéraires ou économiques (A, B, G) restent accessibles pour le marketing digital, le product management ou l'UX writing, parfois avec une remise à niveau en logique. Détails dans le guide <a href="ecoles.html#bac">« Quelle série de bac pour quelle filière »</a>.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c2.q7">Que signifie le badge « Vérifié Togo » sur une roadmap ?</summary>
-        <p data-i18n-key="faq.c2.a7">Il indique que ce métier a des offres d'emploi confirmées sur le marché togolais actuel. Son absence ne veut pas dire que le métier est inutile : seulement qu'aucune donnée fiable sur le marché local n'a encore été trouvée : les compétences restent transférables et recherchées à l'international.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c2.q8">Je n'ai pas d'ordinateur à la maison, puis-je quand même me former ?</summary>
-        <p data-i18n-key="faq.c2.a8">Oui, en t'organisant : cybercafés, salles informatiques des <a href="ecoles.html">écoles</a>, ou espaces gratuits comme les <a href="ecosysteme.html#hubs">hubs et incubateurs</a> (WoeLab, Djanta Tech Hub, Campus 42...). Beaucoup de bases (algorithmique, HTML/CSS) peuvent même s'apprendre sur smartphone avant de passer à la pratique sur ordinateur.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c2.q9">Peut-on apprendre l'informatique seul, sans passer par une école ?</summary>
-        <p data-i18n-key="faq.c2.a9">Oui pour beaucoup de métiers du développement, de la data ou du design : les roadmaps WIYAO sont justement conçues pour l'auto-formation, avec des ressources gratuites à chaque étape. D'autres métiers (réseaux, cybersécurité avancée, gestion) bénéficient davantage d'un encadrement académique ou de certifications reconnues. Dans tous les cas, un <a href="ecosysteme.html">réseau</a> et des projets concrets comptent autant que le diplôme aux yeux des recruteurs tech.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c2.q10">Comment convaincre mes parents que la tech est un vrai métier ?</summary>
-        <p data-i18n-key="faq.c2.a10">Les chiffres et les parcours réels convainquent souvent mieux que les arguments abstraits : la page <a href="temoignages.html">Témoignages</a> réunit les statistiques du numérique togolais (croissance du secteur, salaires) et des portraits sourcés de professionnels togolais qui en vivent, justement pour appuyer la conversation en famille.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c2.q11">Combien gagne-t-on dans la tech au Togo ?</summary>
-        <p data-i18n-key="faq.c2.a11">Ça varie selon le métier, l'expérience et l'employeur, mais la page <a href="temoignages.html">Témoignages</a> donne des fourchettes de salaires sourcées (développeur, ingénieur système, chef de projet IT...), généralement nettement au-dessus du salaire moyen national togolais.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c2.q12">Je suis déjà en cours d'études et je pense m'être trompé de filière, je fais quoi ?</summary>
-        <p data-i18n-key="faq.c2.a12">Ça arrive, et ce n'est pas une catastrophe : plusieurs professionnels togolais de la tech ont changé de voie en cours de route (voir les <a href="temoignages.html">Témoignages</a>). Deux cas différents : si c'est le domaine qui ne te convient plus, refais le <a href="test-orientation.html">test d'orientation</a> avec un regard neuf : un changement proche (développement vers data, par exemple) réutilise souvent une bonne partie de ce que tu as déjà appris. Si c'est plutôt l'école qui pose problème alors que le domaine te plaît toujours, renseigne-toi sur un transfert vers une autre école pour la même filière plutôt que de tout recommencer. Dans les deux cas, parle-en au service scolarité de ton école actuelle et à quelqu'un du métier visé avant de décider seul·e : tu sauras concrètement ce que tu perds et gagnes à changer.</p>
-      </details>
+    <div class="faq-content">
+      <section class="faq-panel" id="wiyao">
+        <h2 class="sr-only" data-i18n-key="faq.cat1.h2">Sur WIYAO</h2>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c1.q1">C'est gratuit ?</summary>
+            <p data-i18n-key="faq.c1.a1">Oui, entièrement. Pas de compte à créer, pas d'abonnement, pas de publicité.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c1.q2">Il faut créer un compte pour utiliser le site ?</summary>
+            <p data-i18n-key="faq.c1.a2">Non. Tout le site (roadmaps, test d'orientation, comparateur d'écoles, calendrier) s'utilise sans compte ni inscription.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c1.q3">Comment ma progression sur les roadmaps est-elle sauvegardée ?</summary>
+            <p data-i18n-key="faq.c1.a3">Uniquement dans le stockage local (localStorage) de ton navigateur, jamais envoyée à un serveur. Si tu changes d'appareil ou de navigateur, ou si tu vides les données de ton navigateur, ta progression est perdue.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c1.q4">Est-ce que WIYAO collecte mes données personnelles ?</summary>
+            <p data-i18n-key="faq.c1.a4">Pour naviguer, faire le test ou comparer des écoles, non : aucune collecte, aucun outil de suivi (analytics), aucune publicité. Seule exception si tu le fais volontairement : t'abonner à la newsletter transmet ton email à Buttondown, notre prestataire d'envoi. Détails dans la <a href="politique-confidentialite.html">politique de confidentialité</a>.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c1.q5">Qui a créé WIYAO ?</summary>
+            <p data-i18n-key="faq.c1.a5">Un projet communautaire indépendant, sans statut commercial, créé et maintenu à titre personnel par <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a> (<a href="https://github.com/GRIIINDER" target="_blank" rel="noopener">GitHub</a>), inspiré de <a href="https://roadmap.sh" target="_blank" rel="noopener">roadmap.sh</a> et adapté au contexte togolais. Détails dans <a href="about.html">À propos &amp; méthodologie</a> et les <a href="mentions-legales.html">mentions légales</a>.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c1.q6">Les informations du site sont-elles vérifiées ?</summary>
+            <p data-i18n-key="faq.c1.a6">Oui : sourcées activement (sites officiels, presse togolaise, documents signés). Quand une information ne peut pas être confirmée (par exemple des frais de scolarité), le site l'indique clairement plutôt que d'inventer un chiffre. Le marché évolue vite : vérifie toujours en direct auprès de l'établissement ou l'organisme concerné avant de t'engager.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c1.q7">Comment signaler une erreur ou proposer un ajout ?</summary>
+            <p data-i18n-key="faq.c1.a7">Via le <a href="https://github.com/GRIIINDER/Wiyao/issues" target="_blank" rel="noopener">dépôt GitHub</a> ou par email à <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a>.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c1.q8">WIYAO fonctionne hors connexion ?</summary>
+            <p data-i18n-key="faq.c1.a8">Oui. WIYAO est une application web installable (PWA) : une fois une page visitée, elle reste accessible même sans connexion Internet.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c1.q9">Comment installer WIYAO comme application sur mon téléphone ?</summary>
+            <p data-i18n-key="faq.c1.a9">Sur Android (Chrome) : menu ⋮ → « Ajouter à l'écran d'accueil » ou « Installer l'application ». Sur iPhone (Safari) : bouton de partage (icône carrée avec une flèche vers le haut) → « Sur l'écran d'accueil ». Une icône WIYAO apparaît alors comme une application classique, avec accès hors connexion aux pages déjà visitées.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c1.q10">WIYAO est-il accessible si j'ai un handicap (visuel, auditif, moteur) ?</summary>
+            <p data-i18n-key="faq.c1.a10">Le site applique les bases : navigation au clavier, structure HTML lisible par un lecteur d'écran, lien d'évitement vers le contenu, et contrastes de couleur vérifiés. Ce n'est pas (encore) un site audité pour l'accessibilité (RGAA/WCAG) : certaines pages peuvent donc rester imparfaites avec un lecteur d'écran ou un autre outil d'assistance. Si tu rencontres un blocage, dis-le nous par email à <a href="mailto:wiya.info@gmail.com">wiya.info@gmail.com</a> : on corrige en priorité ce qui empêche réellement d'utiliser le site.</p>
+          </details>
+        </div>
+      </section>
+      <section class="faq-panel" id="orientation" hidden>
+        <h2 class="sr-only" data-i18n-key="faq.cat2.h2">Sur l'orientation et les roadmaps</h2>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c2.q1">Je ne sais pas du tout quoi choisir, par où je commence ?</summary>
+            <p data-i18n-key="faq.c2.a1">Par le <a href="test-orientation.html">test d'orientation</a> : 14 questions pour identifier le domaine tech qui te correspond, puis le métier précis et les écoles adaptés.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c2.q2">Quelle est la différence entre roadmap « par métier » et « par compétence » ?</summary>
+            <p data-i18n-key="faq.c2.a2">Une roadmap par métier (ex : Développeur Web) est le chemin complet à suivre pour viser un rôle donné. Une roadmap par compétence (ex : Git &amp; GitHub) couvre un sujet précis, indépendant du métier : utile en complément d'une roadmap métier.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c2.q3">Je dois suivre toute la roadmap dans l'ordre ?</summary>
+            <p data-i18n-key="faq.c2.a3">Les étapes marquées comme essentielles sont recommandées dans l'ordre. Les étapes optionnelles peuvent être sautées ou reportées selon ton niveau et ton objectif.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c2.q4">Le test d'orientation est-il fiable à 100 % ?</summary>
+            <p data-i18n-key="faq.c2.a4">Non, et c'est assumé : 14 questions ne peuvent pas connaître quelqu'un parfaitement. Le résultat est un point de départ solide, pas un verdict définitif. Confronte-le à un <a href="temoignages.html">témoignage réel</a> de quelqu'un du métier et explore la roadmap correspondante avant de t'engager dans une école.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c2.q5">Le métier suggéré par le test ne me plaît pas, que faire ?</summary>
+            <p data-i18n-key="faq.c2.a5">Refais le test avec des réponses différentes, ou explore directement les <a href="index.html">roadmaps</a> des autres domaines qui t'intéressent : rien n'empêche de comparer plusieurs métiers avant de choisir. Le test aide à démarrer, il ne t'enferme pas dans un seul chemin.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c2.q6">Faut-il un Bac scientifique (série C, D) pour faire de l'informatique ?</summary>
+            <p data-i18n-key="faq.c2.a6">Non, mais ça aide selon le métier visé. Les séries C, D et E sont les plus courantes en développement, cybersécurité et infrastructure, en particulier pour les concours publics. Les séries littéraires ou économiques (A, B, G) restent accessibles pour le marketing digital, le product management ou l'UX writing, parfois avec une remise à niveau en logique. Détails dans le guide <a href="ecoles.html#bac">« Quelle série de bac pour quelle filière »</a>.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c2.q7">Que signifie le badge « Vérifié Togo » sur une roadmap ?</summary>
+            <p data-i18n-key="faq.c2.a7">Il indique que ce métier a des offres d'emploi confirmées sur le marché togolais actuel. Son absence ne veut pas dire que le métier est inutile : seulement qu'aucune donnée fiable sur le marché local n'a encore été trouvée : les compétences restent transférables et recherchées à l'international.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c2.q8">Je n'ai pas d'ordinateur à la maison, puis-je quand même me former ?</summary>
+            <p data-i18n-key="faq.c2.a8">Oui, en t'organisant : cybercafés, salles informatiques des <a href="ecoles.html">écoles</a>, ou espaces gratuits comme les <a href="ecosysteme.html#hubs">hubs et incubateurs</a> (WoeLab, Djanta Tech Hub, Campus 42...). Beaucoup de bases (algorithmique, HTML/CSS) peuvent même s'apprendre sur smartphone avant de passer à la pratique sur ordinateur.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c2.q9">Peut-on apprendre l'informatique seul, sans passer par une école ?</summary>
+            <p data-i18n-key="faq.c2.a9">Oui pour beaucoup de métiers du développement, de la data ou du design : les roadmaps WIYAO sont justement conçues pour l'auto-formation, avec des ressources gratuites à chaque étape. D'autres métiers (réseaux, cybersécurité avancée, gestion) bénéficient davantage d'un encadrement académique ou de certifications reconnues. Dans tous les cas, un <a href="ecosysteme.html">réseau</a> et des projets concrets comptent autant que le diplôme aux yeux des recruteurs tech.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c2.q10">Comment convaincre mes parents que la tech est un vrai métier ?</summary>
+            <p data-i18n-key="faq.c2.a10">Les chiffres et les parcours réels convainquent souvent mieux que les arguments abstraits : la page <a href="temoignages.html">Témoignages</a> réunit les statistiques du numérique togolais (croissance du secteur, salaires) et des portraits sourcés de professionnels togolais qui en vivent, justement pour appuyer la conversation en famille.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c2.q11">Combien gagne-t-on dans la tech au Togo ?</summary>
+            <p data-i18n-key="faq.c2.a11">Ça varie selon le métier, l'expérience et l'employeur, mais la page <a href="temoignages.html">Témoignages</a> donne des fourchettes de salaires sourcées (développeur, ingénieur système, chef de projet IT...), généralement nettement au-dessus du salaire moyen national togolais.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c2.q12">Je suis déjà en cours d'études et je pense m'être trompé de filière, je fais quoi ?</summary>
+            <p data-i18n-key="faq.c2.a12">Ça arrive, et ce n'est pas une catastrophe : plusieurs professionnels togolais de la tech ont changé de voie en cours de route (voir les <a href="temoignages.html">Témoignages</a>). Deux cas différents : si c'est le domaine qui ne te convient plus, refais le <a href="test-orientation.html">test d'orientation</a> avec un regard neuf : un changement proche (développement vers data, par exemple) réutilise souvent une bonne partie de ce que tu as déjà appris. Si c'est plutôt l'école qui pose problème alors que le domaine te plaît toujours, renseigne-toi sur un transfert vers une autre école pour la même filière plutôt que de tout recommencer. Dans les deux cas, parle-en au service scolarité de ton école actuelle et à quelqu'un du métier visé avant de décider seul·e : tu sauras concrètement ce que tu perds et gagnes à changer.</p>
+          </details>
+        </div>
+      </section>
+      <section class="faq-panel" id="ecoles-frais" hidden>
+        <h2 class="sr-only" data-i18n-key="faq.cat3.h2">Sur les écoles et les frais</h2>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c3.q1">Toutes les écoles listées sont-elles reconnues par l'État ?</summary>
+            <p data-i18n-key="faq.c3.a1">Le badge « 🏛️ Agréé État » indique une présence sur la liste officielle du Ministère togolais de l'Enseignement Supérieur et de la Recherche (liste des établissements accrédités pour l'année académique 2026-2027, publiée le 24 juillet 2026, 111 établissements dont 13 publics).</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c3.q2">Comment sont trouvés les frais de scolarité affichés ?</summary>
+            <p data-i18n-key="faq.c3.a2">Par une recherche active sur les sites officiels des écoles, des documents PDF signés et la presse togolaise. Chaque montant publié est sourcé.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c3.q3">Pourquoi certaines écoles n'ont pas leurs frais affichés ?</summary>
+            <p data-i18n-key="faq.c3.a3">Parce que l'information n'a pas été trouvée quelque part de fiable et public. Plutôt que d'inventer un montant, WIYAO l'indique « non communiqué publiquement » : il faut alors contacter l'école directement.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c3.q4">WIYAO couvre quelles villes du Togo ?</summary>
+            <p data-i18n-key="faq.c3.a4">Majoritairement Lomé et Kara, avec des écoles également référencées à Sokodé, Bassar et Atakpamé.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c3.q5">Quelle est la différence entre BTS, Licence et Master ?</summary>
+            <p data-i18n-key="faq.c3.a5">Le BTS (Bac+2) est un diplôme professionnalisant court. La Licence (Bac+3) peut être académique ou professionnelle. Le Master (Bac+5, souvent en 2 ans après la Licence) approfondit une spécialisation. Le <a href="ecoles.html#lexique">lexique des écoles</a> détaille aussi les autres sigles courants (LMD, CAMES, cursus ingénieur...).</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c3.q6">Puis-je étudier dans une école togolaise puis continuer mes études à l'étranger ?</summary>
+            <p data-i18n-key="faq.c3.a6">Oui, c'est un parcours courant. Un diplôme accrédité CAMES (Conseil Africain et Malgache pour l'Enseignement Supérieur) ou reconnu par une université partenaire facilite la poursuite d'études à l'étranger. Vérifie ce point directement auprès de l'école visée, et regarde aussi les <a href="bourses-financement.html#international">bourses internationales</a> pour financer une mobilité après une Licence.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c3.q7">Que faire si je rate un concours d'entrée ?</summary>
+            <p data-i18n-key="faq.c3.a7">Ce n'est pas une impasse : plusieurs écoles togolaises, en particulier privées, admettent en continu sur dossier et entretien, sans concours à date fixe. Le <a href="calendrier.html">calendrier</a> précise, école par école, lesquelles fonctionnent ainsi et à quel moment candidater.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c3.q8">Où trouver les dates d'ouverture des candidatures et des concours ?</summary>
+            <p data-i18n-key="faq.c3.a8">Sur la page <a href="calendrier.html">Calendrier</a> : le calendrier type d'une candidature au Togo, puis les dates connues école par école (clôture, concours, rentrée), avec la source et l'année de référence pour chacune.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c3.q9">Un BTS ou une Licence suffit pour trouver un emploi, ou faut-il un Master ?</summary>
+            <p data-i18n-key="faq.c3.a9">Pour beaucoup de métiers du développement, le niveau de diplôme compte moins qu'on ne le pense : un portfolio de projets concrets pèse souvent plus qu'un BTS ou une Licence seule aux yeux d'un recruteur tech togolais (voir le guide de la page <a href="stages-emploi.html#guide">Stages &amp; emploi</a>). Un Master reste utile pour se spécialiser ou viser des postes à responsabilité, mais n'est pas un prérequis pour démarrer.</p>
+          </details>
+        </div>
+      </section>
+      <section class="faq-panel" id="bourses" hidden>
+        <h2 class="sr-only" data-i18n-key="faq.cat5.h2">Sur les bourses et le financement</h2>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c5.q1">Existe-t-il des bourses pour financer mes études d'informatique au Togo ?</summary>
+            <p data-i18n-key="faq.c5.a1">Oui, plusieurs types : bourses propres à certaines écoles privées, bourse d'État togolaise pour les universités publiques, bourses internationales (AUF, coopération bilatérale) et solutions bancaires comme le crédit scolaire. Tout est centralisé sur la page <a href="bourses-financement.html">Bourses &amp; financement</a>.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c5.q2">Qui peut bénéficier de la bourse d'État togolaise ?</summary>
+            <p data-i18n-key="faq.c5.a2">Elle est réservée aux étudiants de nationalité togolaise déjà inscrits dans une université publique (Université de Lomé ou Université de Kara), avec une moyenne « assez-bien » ou plus. Elle ne concerne pas les écoles privées. Le dossier se dépose physiquement auprès de la Direction des Bourses et Stages (DBS), selon un calendrier fixé chaque année : détails dans la section <a href="bourses-financement.html#etat">Bourse d'État togolaise</a>.</p>
+          </details>
+        </div>
+      </section>
+      <section class="faq-panel" id="apres-le-choix" hidden>
+        <h2 class="sr-only" data-i18n-key="faq.cat4.h2">Après le choix</h2>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c4.q1">Comment trouver un stage ou un emploi ?</summary>
+            <p data-i18n-key="faq.c4.a1">Direction la page <a href="stages-emploi.html">Stages &amp; emploi</a> : plateformes togolaises et employeurs numériques qui recrutent régulièrement.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c4.q2">Comment rencontrer d'autres personnes dans la tech togolaise, trouver un mentor ?</summary>
+            <p data-i18n-key="faq.c4.a2">Rejoins une communauté active dans ton domaine : par exemple <a href="https://gdg.community.dev/gdg-lome/" target="_blank" rel="noopener">GDG Lomé</a> ou <a href="https://www.linkedin.com/company/tdev228/" target="_blank" rel="noopener">TDEV</a> en développement, <a href="https://cotia.tg/" target="_blank" rel="noopener">CoTIA</a> en IA. Chaque <a href="index.html">roadmap</a> te propose maintenant celles qui correspondent à ton métier. La page <a href="ecosysteme.html#communautes">Écosystème togolais</a> liste toutes les communautés, événements, hubs et incubateurs : le moyen le plus concret de rencontrer des professionnels et un mentor informel, mieux qu'un contact anonyme sur le site.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n-key="faq.c4.q3">Puis-je travailler pour des entreprises étrangères depuis le Togo ?</summary>
+            <p data-i18n-key="faq.c4.a3">Oui, le travail à distance (freelance ou salarié) est une vraie option pour un développeur togolais, via des plateformes comme Upwork, Contra ou Turing. C'est exigeant (anglais, portfolio solide) mais ça élargit beaucoup le marché au-delà des employeurs locaux : détails dans le guide de la page <a href="stages-emploi.html#guide">Stages &amp; emploi</a>.</p>
+          </details>
+        </div>
+      </section>
     </div>
-  </section>
+  </div>
 
-  <section class="roadmap-category" id="ecoles-frais">
-    <h2 data-i18n-key="faq.cat3.h2">Sur les écoles et les frais</h2>
-    <div class="faq-list">
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c3.q1">Toutes les écoles listées sont-elles reconnues par l'État ?</summary>
-        <p data-i18n-key="faq.c3.a1">Le badge « 🏛️ Agréé État » indique une présence sur la liste officielle du Ministère togolais de l'Enseignement Supérieur et de la Recherche (liste des établissements accrédités pour l'année académique 2026-2027, publiée le 24 juillet 2026, 111 établissements dont 13 publics).</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c3.q2">Comment sont trouvés les frais de scolarité affichés ?</summary>
-        <p data-i18n-key="faq.c3.a2">Par une recherche active sur les sites officiels des écoles, des documents PDF signés et la presse togolaise. Chaque montant publié est sourcé.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c3.q3">Pourquoi certaines écoles n'ont pas leurs frais affichés ?</summary>
-        <p data-i18n-key="faq.c3.a3">Parce que l'information n'a pas été trouvée quelque part de fiable et public. Plutôt que d'inventer un montant, WIYAO l'indique « non communiqué publiquement » : il faut alors contacter l'école directement.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c3.q4">WIYAO couvre quelles villes du Togo ?</summary>
-        <p data-i18n-key="faq.c3.a4">Majoritairement Lomé et Kara, avec des écoles également référencées à Sokodé, Bassar et Atakpamé.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c3.q5">Quelle est la différence entre BTS, Licence et Master ?</summary>
-        <p data-i18n-key="faq.c3.a5">Le BTS (Bac+2) est un diplôme professionnalisant court. La Licence (Bac+3) peut être académique ou professionnelle. Le Master (Bac+5, souvent en 2 ans après la Licence) approfondit une spécialisation. Le <a href="ecoles.html#lexique">lexique des écoles</a> détaille aussi les autres sigles courants (LMD, CAMES, cursus ingénieur...).</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c3.q6">Puis-je étudier dans une école togolaise puis continuer mes études à l'étranger ?</summary>
-        <p data-i18n-key="faq.c3.a6">Oui, c'est un parcours courant. Un diplôme accrédité CAMES (Conseil Africain et Malgache pour l'Enseignement Supérieur) ou reconnu par une université partenaire facilite la poursuite d'études à l'étranger. Vérifie ce point directement auprès de l'école visée, et regarde aussi les <a href="bourses-financement.html#international">bourses internationales</a> pour financer une mobilité après une Licence.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c3.q7">Que faire si je rate un concours d'entrée ?</summary>
-        <p data-i18n-key="faq.c3.a7">Ce n'est pas une impasse : plusieurs écoles togolaises, en particulier privées, admettent en continu sur dossier et entretien, sans concours à date fixe. Le <a href="calendrier.html">calendrier</a> précise, école par école, lesquelles fonctionnent ainsi et à quel moment candidater.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c3.q8">Où trouver les dates d'ouverture des candidatures et des concours ?</summary>
-        <p data-i18n-key="faq.c3.a8">Sur la page <a href="calendrier.html">Calendrier</a> : le calendrier type d'une candidature au Togo, puis les dates connues école par école (clôture, concours, rentrée), avec la source et l'année de référence pour chacune.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c3.q9">Un BTS ou une Licence suffit pour trouver un emploi, ou faut-il un Master ?</summary>
-        <p data-i18n-key="faq.c3.a9">Pour beaucoup de métiers du développement, le niveau de diplôme compte moins qu'on ne le pense : un portfolio de projets concrets pèse souvent plus qu'un BTS ou une Licence seule aux yeux d'un recruteur tech togolais (voir le guide de la page <a href="stages-emploi.html#guide">Stages &amp; emploi</a>). Un Master reste utile pour se spécialiser ou viser des postes à responsabilité, mais n'est pas un prérequis pour démarrer.</p>
-      </details>
+  <section class="faq-cta">
+    <div class="faq-cta-text">
+      <h2 data-i18n-key="faq.cta.title">Toujours une question ?</h2>
+      <p data-i18n-key="faq.cta.desc">Si tu n'as pas trouvé ta réponse, écris-nous directement.</p>
     </div>
-  </section>
-
-  <section class="roadmap-category" id="bourses">
-    <h2 data-i18n-key="faq.cat5.h2">Sur les bourses et le financement</h2>
-    <div class="faq-list">
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c5.q1">Existe-t-il des bourses pour financer mes études d'informatique au Togo ?</summary>
-        <p data-i18n-key="faq.c5.a1">Oui, plusieurs types : bourses propres à certaines écoles privées, bourse d'État togolaise pour les universités publiques, bourses internationales (AUF, coopération bilatérale) et solutions bancaires comme le crédit scolaire. Tout est centralisé sur la page <a href="bourses-financement.html">Bourses &amp; financement</a>.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c5.q2">Qui peut bénéficier de la bourse d'État togolaise ?</summary>
-        <p data-i18n-key="faq.c5.a2">Elle est réservée aux étudiants de nationalité togolaise déjà inscrits dans une université publique (Université de Lomé ou Université de Kara), avec une moyenne « assez-bien » ou plus. Elle ne concerne pas les écoles privées. Le dossier se dépose physiquement auprès de la Direction des Bourses et Stages (DBS), selon un calendrier fixé chaque année : détails dans la section <a href="bourses-financement.html#etat">Bourse d'État togolaise</a>.</p>
-      </details>
-    </div>
-  </section>
-
-  <section class="roadmap-category" id="apres-le-choix">
-    <h2 data-i18n-key="faq.cat4.h2">Après le choix</h2>
-    <div class="faq-list">
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c4.q1">Comment trouver un stage ou un emploi ?</summary>
-        <p data-i18n-key="faq.c4.a1">Direction la page <a href="stages-emploi.html">Stages &amp; emploi</a> : plateformes togolaises et employeurs numériques qui recrutent régulièrement.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c4.q2">Comment rencontrer d'autres personnes dans la tech togolaise, trouver un mentor ?</summary>
-        <p data-i18n-key="faq.c4.a2">Rejoins une communauté active dans ton domaine : par exemple <a href="https://gdg.community.dev/gdg-lome/" target="_blank" rel="noopener">GDG Lomé</a> ou <a href="https://www.linkedin.com/company/tdev228/" target="_blank" rel="noopener">TDEV</a> en développement, <a href="https://cotia.tg/" target="_blank" rel="noopener">CoTIA</a> en IA. Chaque <a href="index.html">roadmap</a> te propose maintenant celles qui correspondent à ton métier. La page <a href="ecosysteme.html#communautes">Écosystème togolais</a> liste toutes les communautés, événements, hubs et incubateurs : le moyen le plus concret de rencontrer des professionnels et un mentor informel, mieux qu'un contact anonyme sur le site.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n-key="faq.c4.q3">Puis-je travailler pour des entreprises étrangères depuis le Togo ?</summary>
-        <p data-i18n-key="faq.c4.a3">Oui, le travail à distance (freelance ou salarié) est une vraie option pour un développeur togolais, via des plateformes comme Upwork, Contra ou Turing. C'est exigeant (anglais, portfolio solide) mais ça élargit beaucoup le marché au-delà des employeurs locaux : détails dans le guide de la page <a href="stages-emploi.html#guide">Stages &amp; emploi</a>.</p>
-      </details>
-    </div>
+    <a class="faq-cta-btn" href="contact.html" data-i18n-key="faq.cta.link">Nous contacter</a>
   </section>
 </main>
 
@@ -325,7 +345,8 @@
 </footer>
 
 <script src="js/nav.js?v=6"></script>
+<script src="js/faq.js?v=1"></script>
 <script src="js/assistant.js?v=2"></script>
-<script src="js/i18n.js?v=51"></script>
+<script src="js/i18n.js?v=53"></script>
 </body>
 </html>
