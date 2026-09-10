@@ -2194,6 +2194,18 @@ footer.site-footer {
   align-items: start;
 }
 
+/* Dernière colonne alignée à droite : les liens Communauté touchent le bord
+   droit de la carte, comme le logo touche le bord gauche (marges égales). */
+@media (min-width: 769px) {
+  .footer-card-top > .footer-links-col:last-child {
+    text-align: right;
+  }
+
+  .footer-card-top > .footer-links-col:last-child a {
+    justify-content: flex-end;
+  }
+}
+
 .footer-brand {
   display: flex;
   flex-direction: column;
