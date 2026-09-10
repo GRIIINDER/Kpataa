@@ -49,11 +49,16 @@
 
 // Menus déroulants Parcours / Opportunités / Communauté (desktop) - WIYAO
 // Trois groupes indépendants dans la barre, un seul ouvert à la fois.
+// S'ouvrent au survol (hover) sans avoir besoin de cliquer ; le clic/Entrée
+// reste disponible (clavier, écrans tactiles sans vrai survol).
 (function () {
   "use strict";
 
   var groups = Array.prototype.slice.call(document.querySelectorAll(".nav-more"));
   if (!groups.length) return;
+
+  var CLOSE_DELAY = 200; // ms - laisse le temps de traverser l'espace entre le bouton et le menu
+  var closeTimers = typeof WeakMap === "function" ? new WeakMap() : null;
 
   function setOpen(group, isOpen) {
     var toggle = group.querySelector(".nav-more-toggle");
@@ -61,9 +66,21 @@
     if (toggle) toggle.setAttribute("aria-expanded", String(isOpen));
   }
 
+  function clearCloseTimer(group) {
+    if (!closeTimers) return;
+    var timer = closeTimers.get(group);
+    if (timer) {
+      clearTimeout(timer);
+      closeTimers.delete(group);
+    }
+  }
+
   function closeAll(except) {
     groups.forEach(function (group) {
-      if (group !== except) setOpen(group, false);
+      if (group !== except) {
+        clearCloseTimer(group);
+        setOpen(group, false);
+      }
     });
   }
 
@@ -73,13 +90,31 @@
 
     toggle.addEventListener("click", function (event) {
       event.stopPropagation();
+      clearCloseTimer(group);
       var willOpen = !group.classList.contains("is-open");
       closeAll(group);
       setOpen(group, willOpen);
     });
 
+    group.addEventListener("mouseenter", function () {
+      clearCloseTimer(group);
+      closeAll(group);
+      setOpen(group, true);
+    });
+
+    group.addEventListener("mouseleave", function () {
+      if (!closeTimers) {
+        setOpen(group, false);
+        return;
+      }
+      closeTimers.set(group, setTimeout(function () {
+        setOpen(group, false);
+      }, CLOSE_DELAY));
+    });
+
     group.querySelectorAll(".nav-more-menu a").forEach(function (link) {
       link.addEventListener("click", function () {
+        clearCloseTimer(group);
         setOpen(group, false);
       });
     });
