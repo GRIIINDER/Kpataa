@@ -795,6 +795,12 @@ main {
   font-style: italic;
 }
 
+/* Accueil : plus d'air entre le bouton d'orientation et la ligne
+   « Nouveau·elle ici ?… » qui le suit. */
+.hero .btn-primary + .hero-guide {
+  margin-top: 30px;
+}
+
 .btn-primary {
   display: inline-flex;
   align-items: center;
