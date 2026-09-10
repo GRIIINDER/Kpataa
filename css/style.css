@@ -93,6 +93,7 @@
   --tk-surface-soft: #1a244c;
   --tk-border: #222e63;
   --tk-text: #f3f7f9;
+  --tk-text-reading: #d5dde2;
   --tk-text-muted: #b4c0c8;
   --tk-text-subtle: #8b9aa5;
   --tk-primary: #66c4ff;
@@ -1261,28 +1262,37 @@ main {
   text-decoration: underline;
 }
 
-/* À propos */
+/* À propos & pages longues (mentions légales, confidentialité, CGU) :
+   traitement « document » lisible inspiré des pages légales de Codecademy —
+   corps de texte large, interlignage confortable, hiérarchie nette,
+   liens bleus soulignés. */
 .about-section {
-  max-width: 760px;
-  margin: 0 auto 40px;
+  max-width: 720px;
+  margin: 0 auto 34px;
 }
 
 .about-section h2 {
-  border-bottom: 2px solid var(--tk-border);
-  padding-bottom: 8px;
-  margin-bottom: 12px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 0 0 14px;
 }
 
 .about-section p {
-  color: var(--tk-text-muted);
-  line-height: 1.6;
-  margin: 0 0 12px;
+  color: var(--tk-text-reading);
+  font-size: 1.06rem;
+  line-height: 1.75;
+  margin: 0 0 18px;
+}
+
+.about-section p:last-child {
+  margin-bottom: 0;
 }
 
 .about-section a {
   color: var(--tk-primary);
-  font-weight: 600;
   text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .about-section a:hover {
@@ -1290,14 +1300,15 @@ main {
 }
 
 .about-section ul {
-  margin: 0 0 12px;
-  padding-left: 20px;
-  color: var(--tk-text-muted);
+  margin: 0 0 18px;
+  padding-left: 24px;
+  color: var(--tk-text-reading);
 }
 
 .about-section li {
-  line-height: 1.6;
-  margin-bottom: 6px;
+  font-size: 1.06rem;
+  line-height: 1.75;
+  margin-bottom: 10px;
 }
 
 .founder-card {
