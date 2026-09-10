@@ -627,12 +627,19 @@
     const questionEl = document.getElementById("quiz-question");
     if (!questionEl || typeof QUIZ_QUESTIONS === "undefined") return;
 
-    const progressFill = document.getElementById("quiz-progress-fill");
+    const progressBar = document.getElementById("quiz-progress-bar");
     const progressLabel = document.getElementById("quiz-progress-label");
     const total = quizFlow.length;
     const q = quizFlow[quizIndex];
 
-    if (progressFill) progressFill.style.width = Math.round((quizIndex / total) * 100) + "%";
+    if (progressBar) {
+      progressBar.innerHTML = "";
+      for (let i = 0; i < total; i += 1) {
+        const seg = document.createElement("span");
+        seg.className = "progress-seg" + (i <= quizIndex ? " is-done" : "");
+        progressBar.appendChild(seg);
+      }
+    }
     if (progressLabel) progressLabel.textContent = `Question ${quizIndex + 1} / ${total}`;
 
     questionEl.innerHTML = `
