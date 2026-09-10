@@ -2318,6 +2318,8 @@ footer.site-footer {
   display: grid;
   grid-template-columns: repeat(4, max-content);
   justify-content: space-evenly;
+  max-width: 740px;
+  margin: 0 auto;
   gap: 28px 0;
   align-items: start;
 }
