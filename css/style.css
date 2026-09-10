@@ -2342,12 +2342,11 @@ footer.site-footer {
   align-self: flex-start;
   display: inline-flex;
   align-items: center;
-  gap: 12px;
   background: var(--tk-primary);
   color: var(--tk-canvas);
   border: none;
   border-radius: 999px;
-  padding: 8px 8px 8px 26px;
+  padding: 13px 30px;
   font-size: 0.92rem;
   font-weight: 700;
   cursor: pointer;
@@ -2357,18 +2356,6 @@ footer.site-footer {
 .btn-send:hover {
   filter: brightness(0.92);
   transform: translateY(-1px);
-}
-
-.btn-send-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: var(--tk-canvas);
-  color: var(--tk-primary);
-  font-size: 0.95rem;
 }
 
 .contact-form-note {
