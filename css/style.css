@@ -773,6 +773,16 @@ main {
   font-size: 1.05rem;
 }
 
+/* Sous-titre de la page d'accueil : lu de gauche à droite et justifié
+   (pas centré), avec un interligne plus aéré. */
+.hero p[data-i18n-key="hero.subtitle"] {
+  max-width: 640px;
+  text-align: justify;
+  text-align-last: left;
+  line-height: 1.65;
+  margin-top: 14px;
+}
+
 .hero-accent {
   color: var(--tk-primary);
 }
@@ -2526,6 +2536,10 @@ footer.site-footer {
   }
   .about-section h2 {
     font-size: 1.55rem;
+  }
+  .hero p[data-i18n-key="hero.subtitle"] {
+    text-align: left;
+    text-align-last: left;
   }
 }
 
