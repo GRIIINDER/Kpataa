@@ -41,6 +41,7 @@
   // data-i18n-key posé directement dans le HTML de cette page.
   const PAGE_CONTENT = {
     // Newsletter du footer, identique sur les 17 pages.
+    "footer.newsletter.badge": { fr: "Newsletter", en: "Newsletter" },
     "footer.newsletter.title": { fr: "Reste informé·e", en: "Stay in the loop" },
     "footer.newsletter.desc": {
       fr: "Le résumé mensuel de ce qui change sur WIYAO (nouvelles écoles, dates de concours, offres de stage) directement dans ta boîte mail.",
@@ -48,6 +49,9 @@
     },
     "footer.newsletter.label": { fr: "Ton adresse e-mail", en: "Your email address" },
     "footer.newsletter.submit": { fr: "S'abonner", en: "Subscribe" },
+    "footer.newsletter.perk1": { fr: "Nouvelles écoles", en: "New schools" },
+    "footer.newsletter.perk2": { fr: "Dates de concours", en: "Entrance-exam dates" },
+    "footer.newsletter.perk3": { fr: "Offres de stage", en: "Internship offers" },
     "hero.title": {
       fr: 'Trace ton <span class="hero-accent">parcours tech</span> au Togo',
       en: 'Chart your <span class="hero-accent">tech path</span> in Togo',
