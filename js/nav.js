@@ -47,36 +47,53 @@
   });
 })();
 
-// Menu déroulant "Plus" (desktop) - WIYAO
+// Menus déroulants Parcours / Opportunités / Communauté (desktop) - WIYAO
+// Trois groupes indépendants dans la barre, un seul ouvert à la fois.
 (function () {
   "use strict";
 
-  var more = document.querySelector(".nav-more");
-  var toggle = more ? more.querySelector(".nav-more-toggle") : null;
-  if (!more || !toggle) return;
+  var groups = Array.prototype.slice.call(document.querySelectorAll(".nav-more"));
+  if (!groups.length) return;
 
-  function setOpen(isOpen) {
-    more.classList.toggle("is-open", isOpen);
-    toggle.setAttribute("aria-expanded", String(isOpen));
+  function setOpen(group, isOpen) {
+    var toggle = group.querySelector(".nav-more-toggle");
+    group.classList.toggle("is-open", isOpen);
+    if (toggle) toggle.setAttribute("aria-expanded", String(isOpen));
   }
 
-  toggle.addEventListener("click", function (event) {
-    event.stopPropagation();
-    setOpen(!more.classList.contains("is-open"));
+  function closeAll(except) {
+    groups.forEach(function (group) {
+      if (group !== except) setOpen(group, false);
+    });
+  }
+
+  groups.forEach(function (group) {
+    var toggle = group.querySelector(".nav-more-toggle");
+    if (!toggle) return;
+
+    toggle.addEventListener("click", function (event) {
+      event.stopPropagation();
+      var willOpen = !group.classList.contains("is-open");
+      closeAll(group);
+      setOpen(group, willOpen);
+    });
+
+    group.querySelectorAll(".nav-more-menu a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        setOpen(group, false);
+      });
+    });
   });
 
   document.addEventListener("click", function (event) {
-    if (!more.contains(event.target)) setOpen(false);
+    var withinAnyGroup = groups.some(function (group) {
+      return group.contains(event.target);
+    });
+    if (!withinAnyGroup) closeAll();
   });
 
   document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape") setOpen(false);
-  });
-
-  more.querySelectorAll(".nav-more-menu a").forEach(function (link) {
-    link.addEventListener("click", function () {
-      setOpen(false);
-    });
+    if (event.key === "Escape") closeAll();
   });
 })();
 
