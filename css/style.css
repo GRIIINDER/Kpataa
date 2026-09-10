@@ -99,6 +99,8 @@
   --tk-primary: #66c4ff;
   --tk-primary-hover: #3388ff;
   --tk-primary-soft: #082c5e;
+  /* Largeur de la colonne de contenu, calée sur le catalogue Codecademy (~1240 px). */
+  --content-max: 1240px;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -391,7 +393,7 @@ header.site-header {
 }
 
 .site-header-top {
-  max-width: 1100px;
+  max-width: var(--content-max);
   margin: 0 auto;
   background: var(--tk-surface);
   border: 1px solid var(--tk-border);
@@ -751,13 +753,13 @@ nav.site-nav a.active {
 }
 
 main {
-  max-width: 1100px;
+  max-width: var(--content-max);
   margin: 0 auto;
   padding: 40px 24px 80px;
 }
 
 .hero {
-  text-align: center;
+  text-align: left;
   padding: 40px 0 30px;
 }
 
@@ -768,8 +770,8 @@ main {
 
 .hero p {
   color: var(--tk-text-muted);
-  max-width: 620px;
-  margin: 0 auto;
+  max-width: 640px;
+  margin: 0;
   font-size: 1.05rem;
 }
 
@@ -790,7 +792,7 @@ main {
 .hero-guide {
   color: var(--tk-text-muted);
   max-width: 680px;
-  margin: 14px auto 0;
+  margin: 14px 0 0;
   font-size: 0.88rem;
   font-style: italic;
 }
@@ -804,6 +806,8 @@ main {
 .btn-primary {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   gap: 8px;
   margin-top: 22px;
   background: var(--tk-primary);
@@ -1284,7 +1288,7 @@ main {
    liens bleus soulignés. */
 .about-section {
   max-width: 720px;
-  margin: 0 auto 34px;
+  margin: 0 0 34px;
 }
 
 .about-section h2 {
@@ -2221,7 +2225,7 @@ footer.site-footer {
 }
 
 .footer-card {
-  max-width: 1100px;
+  max-width: var(--content-max);
   margin: 0 auto;
   background: var(--tk-surface);
   border: 1px solid var(--tk-border);
@@ -2556,7 +2560,7 @@ footer.site-footer {
 }
 
 .contact-card {
-  max-width: 1100px;
+  max-width: var(--content-max);
   margin: 0 auto;
   background: var(--tk-surface);
   border: 1px solid var(--tk-border);
