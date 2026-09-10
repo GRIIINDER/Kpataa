@@ -1804,55 +1804,64 @@ main {
   font-size: 0.88rem;
 }
 
-/* Le calendrier type : style Djanta Tech Hub : puce + ligne verticale, date en grand */
+/* Le calendrier type : liste de cartes (période à gauche, contenu à droite) */
 #timeline-general.timeline {
-  gap: 0;
+  gap: 14px;
+  max-width: 760px;
 }
 
 #timeline-general .timeline-item {
-  display: block;
-  position: relative;
-  padding: 0 0 36px 36px;
-  border-left: 2px solid var(--tk-border);
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 18px 20px;
+  border: 1px solid var(--tk-border);
+  border-radius: 16px;
+  background: var(--tk-surface);
+  transition: border-color 0.15s ease;
 }
 
-#timeline-general .timeline-item:last-child {
-  border-left-color: transparent;
-  padding-bottom: 0;
-}
-
-#timeline-general .timeline-item::before {
-  content: "";
-  position: absolute;
-  left: -9px;
-  top: 4px;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  border: 2px solid var(--tk-text);
-  background: var(--tk-canvas);
+#timeline-general .timeline-item:hover {
+  border-color: var(--tk-primary);
 }
 
 #timeline-general .timeline-period {
-  text-align: left;
-  padding-top: 0;
-  margin: 0 0 6px;
-  font-size: 1.3rem;
+  flex: 0 0 auto;
+  width: 96px;
+  padding: 14px 8px;
+  margin: 0;
+  border-radius: 12px;
+  background: var(--tk-primary-soft);
+  color: var(--tk-primary);
+  text-align: center;
+  font-size: 0.74rem;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.01em;
-  color: var(--tk-text);
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  white-space: normal;
 }
 
 #timeline-general .timeline-content {
+  flex: 1;
+  min-width: 0;
   border-left: none;
   padding-left: 0;
+  padding-top: 2px;
 }
 
 #timeline-general .timeline-content h3 {
+  margin: 0 0 4px;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
+  color: var(--tk-text);
+}
+
+#timeline-general .timeline-content p {
+  margin: 0;
   color: var(--tk-text-muted);
+  font-size: 0.88rem;
+  line-height: 1.6;
 }
 
 .dates-row {
@@ -1917,6 +1926,16 @@ main {
   .timeline-content {
     border-left: none;
     padding-left: 0;
+  }
+  #timeline-general .timeline-item {
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+  }
+  #timeline-general .timeline-period {
+    width: auto;
+    align-self: flex-start;
+    padding: 7px 14px;
   }
 }
 
