@@ -2189,21 +2189,10 @@ footer.site-footer {
 
 .footer-card-top {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+  grid-template-columns: repeat(4, max-content);
+  justify-content: space-evenly;
+  gap: 28px 0;
   align-items: start;
-}
-
-/* Dernière colonne alignée à droite : les liens Communauté touchent le bord
-   droit de la carte, comme le logo touche le bord gauche (marges égales). */
-@media (min-width: 769px) {
-  .footer-card-top > .footer-links-col:last-child {
-    text-align: right;
-  }
-
-  .footer-card-top > .footer-links-col:last-child a {
-    justify-content: flex-end;
-  }
 }
 
 .footer-brand {
@@ -2241,13 +2230,12 @@ footer.site-footer {
 
 .footer-links-col {
   display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 8px;
 }
 
 .footer-links-col h5 {
-  flex-basis: 100%;
   color: var(--tk-text-subtle);
   font-size: 0.78rem;
   font-weight: 700;
@@ -2257,9 +2245,6 @@ footer.site-footer {
 }
 
 .footer-links-col a {
-  display: flex;
-  flex-basis: 100%;
-  align-items: center;
   color: var(--tk-text-muted);
   font-size: 0.72rem;
   font-weight: 700;
@@ -2436,19 +2421,16 @@ footer.site-footer {
   }
   .footer-card-top {
     grid-template-columns: 1fr;
-    gap: 30px;
+    justify-content: stretch;
     justify-items: center;
+    gap: 30px;
     text-align: center;
   }
   .footer-brand {
     align-items: center;
   }
   .footer-links-col {
-    justify-content: center;
-    max-width: 260px;
-  }
-  .footer-links-col a {
-    justify-content: center;
+    align-items: center;
   }
   .newsletter-inner {
     flex-direction: column;
