@@ -1008,15 +1008,15 @@ main {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  gap: 24px;
 }
 
 .card {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 22px;
+  padding: 24px;
   display: block;
   color: var(--text);
   transition: box-shadow 0.15s ease, transform 0.15s ease;
@@ -1072,9 +1072,8 @@ main {
 
 .card p {
   color: var(--text-muted);
-  font-size: 0.9rem;
-  margin: 0 0 14px;
-  min-height: 40px;
+  margin: 0 0 16px;
+  min-height: 48px;
 }
 
 .progress-bar {
@@ -2073,15 +2072,15 @@ main {
 
 .eco-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  gap: 24px;
 }
 
 .eco-item {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 16px 18px;
+  padding: 24px;
   color: var(--text);
 }
 
