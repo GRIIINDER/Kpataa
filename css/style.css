@@ -2317,12 +2317,20 @@ footer.site-footer {
 .footer-legal-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px 18px;
+  align-items: center;
+  gap: 6px 0;
 }
 
 .footer-legal-links a {
   color: var(--tk-text-muted);
   text-decoration: none;
+}
+
+.footer-legal-links a:not(:last-child)::after {
+  content: "|";
+  margin: 0 12px;
+  color: var(--tk-text-subtle);
+  pointer-events: none;
 }
 
 .footer-legal-links a:hover,
