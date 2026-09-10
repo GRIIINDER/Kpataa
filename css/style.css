@@ -519,14 +519,14 @@ nav.site-nav a.active {
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
-  min-width: 190px;
   display: flex;
-  flex-direction: column;
-  gap: 2px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 4px;
   background: var(--tk-surface-soft);
   border: 1px solid var(--tk-border);
   border-radius: 14px;
-  padding: 6px;
+  padding: 10px;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
   opacity: 0;
   visibility: hidden;
@@ -539,6 +539,23 @@ nav.site-nav a.active {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+}
+
+.nav-more-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 168px;
+}
+
+.nav-more-col-title {
+  color: var(--tk-text-subtle);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 4px 0 6px;
+  padding: 0 14px;
 }
 
 .nav-more-menu a {
@@ -2130,6 +2147,7 @@ footer.site-footer {
   }
   .nav-more-menu {
     position: static;
+    flex-direction: column;
     width: 100%;
     min-width: 0;
     opacity: 1;
@@ -2139,7 +2157,19 @@ footer.site-footer {
     border: none;
     background: transparent;
     padding: 0;
+    gap: 12px;
+  }
+  .nav-more-col {
+    width: 100%;
+    min-width: 0;
     gap: 4px;
+  }
+  .nav-more-col-parcours {
+    display: none;
+  }
+  .nav-more-col-title {
+    text-align: center;
+    padding: 0;
   }
   .nav-more-menu a {
     text-align: center;

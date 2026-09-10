@@ -29,6 +29,9 @@
   const BY_SELECTOR = [
     { selector: ".nav-more-toggle", fr: "Plus ▾", en: "More ▾" },
     { selector: ".nav-search-text", fr: "Recherche", en: "Search" },
+    { selector: ".nav-more-menu > .nav-more-col:nth-child(1) .nav-more-col-title", fr: "Parcours", en: "Journey" },
+    { selector: ".nav-more-menu > .nav-more-col:nth-child(2) .nav-more-col-title", fr: "Opportunités", en: "Opportunities" },
+    { selector: ".nav-more-menu > .nav-more-col:nth-child(3) .nav-more-col-title", fr: "Communauté", en: "Community" },
     { selector: ".footer-links-grid > .footer-links-col:nth-child(1) h5", fr: "Parcours", en: "Journey" },
     { selector: ".footer-links-grid > .footer-links-col:nth-child(2) h5", fr: "Opportunités", en: "Opportunities" },
     { selector: ".footer-links-grid > .footer-links-col:nth-child(3) h5", fr: "Communauté", en: "Community" },
