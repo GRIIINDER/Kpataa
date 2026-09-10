@@ -48,10 +48,6 @@
     },
     "footer.newsletter.label": { fr: "Ton adresse e-mail", en: "Your email address" },
     "footer.newsletter.submit": { fr: "S'abonner", en: "Subscribe" },
-    "footer.newsletter.fineprint": {
-      fr: 'Ton email est transmis à <a href="https://buttondown.com" target="_blank" rel="noopener">Buttondown</a>, notre prestataire d\'envoi (voir la <a href="politique-confidentialite.html">politique de confidentialité</a>). Désabonnement en un clic depuis chaque email.',
-      en: 'Your email is sent to <a href="https://buttondown.com" target="_blank" rel="noopener">Buttondown</a>, our email provider (see the <a href="politique-confidentialite.html">privacy policy</a>). One-click unsubscribe from every email.',
-    },
     "footer.brand.tagline": {
       fr: "Le guide qui accompagne le bachelier togolais dans son parcours tech, de l'orientation au premier emploi.",
       en: "The guide that walks Togolese high-school graduates through their tech journey, from orientation to their first job.",

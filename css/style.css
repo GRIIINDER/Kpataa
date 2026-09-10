@@ -2161,18 +2161,6 @@ footer.site-footer {
   white-space: nowrap;
 }
 
-.newsletter-fineprint {
-  margin: 14px 0 0;
-  font-size: 0.76rem;
-  line-height: 1.5;
-  color: var(--tk-text-subtle);
-}
-
-.newsletter-fineprint a {
-  color: var(--tk-text-muted);
-  text-decoration: underline;
-}
-
 .newsletter-illus {
   flex: 0 0 auto;
   color: var(--tk-text-subtle);
