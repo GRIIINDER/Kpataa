@@ -697,11 +697,9 @@ nav.site-nav a.active {
 .eco-jump-nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 8px;
-  max-width: 900px;
-  margin: 0 auto 48px;
-  padding: 0 24px;
+  margin: 0 0 48px;
 }
 
 .eco-jump-nav a {
@@ -764,8 +762,9 @@ main {
 }
 
 .hero h1 {
-  font-size: 2.2rem;
-  margin-bottom: 10px;
+  font-size: 2.75rem;
+  line-height: 1.15;
+  margin-bottom: 12px;
 }
 
 .hero p {
@@ -854,7 +853,7 @@ main {
 }
 
 .roadmap-category {
-  margin-top: 50px;
+  margin-top: 56px;
 }
 
 .roadmap-category h2 {
@@ -1147,11 +1146,11 @@ main {
 }
 
 .related-section {
-  margin-top: 50px;
+  margin-top: 56px;
 }
 
 .related-section h2 {
-  font-size: 1.2rem;
+  font-size: 1.375rem;
   margin-bottom: 18px;
 }
 
@@ -2052,12 +2051,10 @@ main {
 
 /* Ecosysteme page */
 .eco-section {
-  margin-bottom: 40px;
+  margin-bottom: 56px;
 }
 
 .eco-section h2 {
-  border-bottom: 2px solid var(--border);
-  padding-bottom: 8px;
   margin-bottom: 16px;
 }
 
@@ -2112,6 +2109,42 @@ main {
   font-size: 0.78rem;
   font-style: italic;
   line-height: 1.5;
+}
+
+/* ── Échelle typographique calée sur le catalogue Codecademy ──
+   titre de section 22 px · titre de carte 18 px · description 16 px.
+   Placé après les règles de composants pour l'emporter sur leurs
+   anciennes tailles (spécificité égale, source plus tardive). */
+.roadmap-category h2,
+.related-section h2,
+.eco-section h2,
+.section h2 {
+  font-size: 1.375rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.card h3,
+.school-card h3,
+.eco-item h4,
+.journey-step h3,
+.timeline-content h3,
+.search-result h3,
+.domain-primer-item h4,
+.domain-group-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.category-desc,
+.card p,
+.eco-item p,
+.journey-step p,
+.domain-group-desc,
+.timeline-content p {
+  font-size: 1rem;
+  line-height: 1.55;
 }
 
 footer.site-footer {
@@ -2539,13 +2572,19 @@ footer.site-footer {
     padding: 16px 0 24px;
   }
   .hero h1 {
-    font-size: 1.6rem;
+    font-size: 1.85rem;
   }
   .hero-legal h1 {
     font-size: 2.3rem;
   }
   .about-section h2 {
     font-size: 1.55rem;
+  }
+  .roadmap-category h2,
+  .related-section h2,
+  .eco-section h2,
+  .section h2 {
+    font-size: 1.2rem;
   }
   .hero p[data-i18n-key="hero.subtitle"] {
     text-align: left;
