@@ -458,10 +458,10 @@ nav.site-nav {
 nav.site-nav a {
   color: var(--tk-text-muted);
   font-weight: 600;
-  font-size: 0.74rem;
+  font-size: 1rem;
   text-transform: none;
   letter-spacing: normal;
-  padding: 8px 10px;
+  padding: 8px 12px;
   border-radius: 999px;
   white-space: nowrap;
   transition: color 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
@@ -496,9 +496,9 @@ nav.site-nav a.active {
   gap: 3px;
   color: var(--tk-text-muted);
   font-weight: 600;
-  font-size: 0.74rem;
+  font-size: 1rem;
   font-family: inherit;
-  padding: 8px 10px;
+  padding: 8px 12px;
   border-radius: 999px;
   border: none;
   background: transparent;
@@ -545,8 +545,8 @@ nav.site-nav a.active {
 .nav-more-menu a {
   color: var(--tk-text-muted);
   font-weight: 600;
-  font-size: 0.8rem;
-  padding: 9px 14px;
+  font-size: 1rem;
+  padding: 10px 16px;
   border-radius: 10px;
   white-space: nowrap;
 }
