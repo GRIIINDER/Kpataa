@@ -496,16 +496,16 @@
       en: 'WIYAO is an independent community project, published and maintained personally by <a href="https://www.linkedin.com/in/credoahiafor/" target="_blank" rel="noopener">Crédo Ahiafor</a> (<a href="https://github.com/GRIIINDER" target="_blank" rel="noopener">GitHub</a>) : see the <a href="mentions-legales.html">legal notice</a> for details on the site publisher.',
     },
     "cgu.s1.p2": {
-      fr: "L'accès et la navigation sur WIYAO sont volontaires, libres et gratuits, et confèrent automatiquement à la personne intéressée le statut d'« Utilisateur » (ci-après, « Utilisateur », « vous »).",
-      en: 'Access to and browsing of WIYAO are voluntary, free and unrestricted, and automatically grant the person concerned the status of "User" (hereinafter, "User", "you").',
+      fr: "L'accès et la navigation sur WIYAO sont volontaires, libres et gratuits, et confèrent automatiquement à la personne intéressée le statut de « Visiteur » (ci-après, « Visiteur », « vous »).",
+      en: 'Access to and browsing of WIYAO are voluntary, free and unrestricted, and automatically grant the person concerned the status of "Visitor" (hereinafter, "Visitor", "you").',
     },
     "cgu.s1.p3": {
-      fr: "Le statut d'Utilisateur implique l'acceptation pleine et entière des présentes Conditions Générales d'Utilisation (CGU). Nous te recommandons de les lire attentivement avant d'utiliser le site. Si tu n'acceptes pas d'être lié par ces CGU, tu ne dois pas utiliser WIYAO.",
-      en: "User status implies full and complete acceptance of these Terms of Use. We recommend you read them carefully before using the site. If you do not accept to be bound by these Terms of Use, you must not use WIYAO.",
+      fr: "Le statut de Visiteur implique l'acceptation pleine et entière des présentes Conditions Générales d'Utilisation (CGU). Nous te recommandons de les lire attentivement avant d'utiliser le site. Si tu n'acceptes pas d'être lié par ces CGU, tu ne dois pas utiliser WIYAO.",
+      en: "Visitor status implies full and complete acceptance of these Terms of Use. We recommend you read them carefully before using the site. If you do not accept to be bound by these Terms of Use, you must not use WIYAO.",
     },
     "cgu.s1.p4": {
-      fr: "L'Utilisateur s'engage à utiliser et naviguer sur WIYAO dans le respect des lois et réglementations applicables ainsi que des présentes CGU.",
-      en: "The User agrees to use and browse WIYAO in compliance with applicable laws and regulations as well as these Terms of Use.",
+      fr: "Le Visiteur s'engage à utiliser et naviguer sur WIYAO dans le respect des lois et réglementations applicables ainsi que des présentes CGU.",
+      en: "The Visitor agrees to use and browse WIYAO in compliance with applicable laws and regulations as well as these Terms of Use.",
     },
     "cgu.s1.p5": {
       fr: "Si une clause des présentes CGU est déclarée nulle et non avenue par une décision de justice, les autres clauses restent valables.",
@@ -522,12 +522,12 @@
     },
     "cgu.s3.h2": { fr: "3. Règles de conduite", en: "3. Rules of conduct" },
     "cgu.s3.p1": {
-      fr: "De manière générale, l'Utilisateur doit utiliser WIYAO, son contenu et ses fonctionnalités conformément aux présentes CGU, aux lois et réglementations en vigueur, aux bonnes mœurs et à l'ordre public, et ce à tout moment.",
-      en: "In general, the User must use WIYAO, its content and its features in accordance with these Terms of Use, applicable laws and regulations, good morals and public order, at all times.",
+      fr: "De manière générale, le Visiteur doit utiliser WIYAO, son contenu et ses fonctionnalités conformément aux présentes CGU, aux lois et réglementations en vigueur, aux bonnes mœurs et à l'ordre public, et ce à tout moment.",
+      en: "In general, the Visitor must use WIYAO, its content and its features in accordance with these Terms of Use, applicable laws and regulations, good morals and public order, at all times.",
     },
     "cgu.s3.p2": {
-      fr: "Plus spécifiquement, et sans limitation aux points ci-après énumérés, l'Utilisateur ne doit pas :",
-      en: "More specifically, and without limitation to the points listed below, the User must not:",
+      fr: "Plus spécifiquement, et sans limitation aux points ci-après énumérés, le Visiteur ne doit pas :",
+      en: "More specifically, and without limitation to the points listed below, the Visitor must not:",
     },
     "cgu.s3.li1": {
       fr: "faire un usage inapproprié ou illicite du contenu de WIYAO, ni l'utiliser pour se livrer à des activités illégales ou préjudiciables aux intérêts ou aux droits de tiers ;",
@@ -538,8 +538,8 @@
       en: "use WIYAO's content for illegal purposes or to harm third parties;",
     },
     "cgu.s3.li3": {
-      fr: "restreindre ou empêcher un autre Utilisateur d'utiliser et de profiter du site ;",
-      en: "restrict or prevent another User from using and enjoying the site;",
+      fr: "restreindre ou empêcher un autre Visiteur d'utiliser et de profiter du site ;",
+      en: "restrict or prevent another Visitor from using and enjoying the site;",
     },
     "cgu.s3.li4": {
       fr: "copier, distribuer ou modifier le contenu du site à des fins commerciales, en dehors des conditions prévues à la section « Propriété intellectuelle » ci-dessous ;",
@@ -550,29 +550,29 @@
       en: "circumvent, disable or disrupt in any way the security-related features of the site;",
     },
     "cgu.s3.li6": {
-      fr: "envoyer ou diffuser des informations, codes ou contenus susceptibles de nuire, perturber ou endommager le site, son infrastructure, ou les équipements d'autres Utilisateurs : logiciels malveillants, virus et autres codes de cette nature inclus, sans s'y limiter.",
-      en: "send or distribute information, code or content likely to harm, disrupt or damage the site, its infrastructure, or other Users' equipment : including but not limited to malware, viruses and other code of this nature.",
+      fr: "envoyer ou diffuser des informations, codes ou contenus susceptibles de nuire, perturber ou endommager le site, son infrastructure, ou les équipements d'autres Visiteurs : logiciels malveillants, virus et autres codes de cette nature inclus, sans s'y limiter.",
+      en: "send or distribute information, code or content likely to harm, disrupt or damage the site, its infrastructure, or other Visitors' equipment : including but not limited to malware, viruses and other code of this nature.",
     },
     "cgu.s3.p3": {
-      fr: "L'Utilisateur qui ne respecte pas les présentes CGU peut voir son accès à WIYAO restreint, afin de préserver la sécurité et la disponibilité du site pour les autres.",
-      en: "A User who does not comply with these Terms of Use may have their access to WIYAO restricted, in order to preserve the security and availability of the site for others.",
+      fr: "Le Visiteur qui ne respecte pas les présentes CGU peut voir son accès à WIYAO restreint, afin de préserver la sécurité et la disponibilité du site pour les autres.",
+      en: "A Visitor who does not comply with these Terms of Use may have their access to WIYAO restricted, in order to preserve the security and availability of the site for others.",
     },
     "cgu.s4.h2": { fr: "4. Limitation des garanties et de la responsabilité", en: "4. Limitation of warranties and liability" },
     "cgu.s4.p1": {
-      fr: 'L\'utilisation de WIYAO se fait sous la responsabilité de l\'Utilisateur. WIYAO fait ses meilleurs efforts, à titre bénévole, pour assurer la disponibilité du site et la fiabilité des informations publiées (voir la méthodologie de vérification détaillée sur la page <a href="about.html">À propos &amp; méthodologie</a>), mais ne peut garantir une disponibilité continue ni l\'absence totale d\'erreur.',
-      en: 'Use of WIYAO is at the User\'s own responsibility. WIYAO makes its best efforts, on a volunteer basis, to ensure the site\'s availability and the reliability of published information (see the detailed verification methodology on the <a href="about.html">About &amp; methodology</a> page), but cannot guarantee continuous availability or the total absence of errors.',
+      fr: 'L\'utilisation de WIYAO se fait sous la responsabilité du Visiteur. WIYAO fait ses meilleurs efforts, à titre bénévole, pour assurer la disponibilité du site et la fiabilité des informations publiées (voir la méthodologie de vérification détaillée sur la page <a href="about.html">À propos &amp; méthodologie</a>), mais ne peut garantir une disponibilité continue ni l\'absence totale d\'erreur.',
+      en: 'Use of WIYAO is at the Visitor\'s own responsibility. WIYAO makes its best efforts, on a volunteer basis, to ensure the site\'s availability and the reliability of published information (see the detailed verification methodology on the <a href="about.html">About &amp; methodology</a> page), but cannot guarantee continuous availability or the total absence of errors.',
     },
     "cgu.s4.p2": {
       fr: 'Si tu repères une inexactitude, merci de nous le signaler via la page <a href="contact.html">Contact</a>.',
       en: 'If you spot an inaccuracy, please let us know via the <a href="contact.html">Contact</a> page.',
     },
     "cgu.s4.p3": {
-      fr: "WIYAO ne peut être tenu responsable d'un usage de son contenu par un Utilisateur ou un tiers à des fins illégales ou pour porter atteinte à des tiers, ni des dommages pouvant résulter d'une intrusion illégitime indépendante de sa volonté.",
-      en: "WIYAO cannot be held liable for the use of its content by a User or a third party for illegal purposes or to harm third parties, nor for damages that may result from an illegitimate intrusion beyond its control.",
+      fr: "WIYAO ne peut être tenu responsable d'un usage de son contenu par un Visiteur ou un tiers à des fins illégales ou pour porter atteinte à des tiers, ni des dommages pouvant résulter d'une intrusion illégitime indépendante de sa volonté.",
+      en: "WIYAO cannot be held liable for the use of its content by a Visitor or a third party for illegal purposes or to harm third parties, nor for damages that may result from an illegitimate intrusion beyond its control.",
     },
     "cgu.s4.p4": {
-      fr: "WIYAO est exonéré de toute responsabilité pouvant découler de la violation des présentes CGU par l'Utilisateur.",
-      en: "WIYAO is released from any liability that may arise from a User's violation of these Terms of Use.",
+      fr: "WIYAO est exonéré de toute responsabilité pouvant découler de la violation des présentes CGU par le Visiteur.",
+      en: "WIYAO is released from any liability that may arise from a Visitor's violation of these Terms of Use.",
     },
     "cgu.s5.h2": { fr: "5. Propriété intellectuelle", en: "5. Intellectual property" },
     "cgu.s5.p1": {
@@ -584,13 +584,13 @@
       en: "Third-party information and documents cited on WIYAO (official texts, school websites, press articles, public organization data) remain the property of their respective authors or publishers; WIYAO claims no rights over them.",
     },
     "cgu.s5.p3": {
-      fr: "L'accès et l'utilisation de WIYAO ne transfèrent en aucun cas à l'Utilisateur les droits de propriété intellectuelle sur des éléments qui ne lui appartiennent pas déjà.",
-      en: "Access to and use of WIYAO does not, under any circumstances, transfer to the User any intellectual property rights over elements that do not already belong to them.",
+      fr: "L'accès et l'utilisation de WIYAO ne transfèrent en aucun cas au Visiteur les droits de propriété intellectuelle sur des éléments qui ne lui appartiennent pas déjà.",
+      en: "Access to and use of WIYAO does not, under any circumstances, transfer to the Visitor any intellectual property rights over elements that do not already belong to them.",
     },
     "cgu.s6.h2": { fr: "6. Liens et contenus tiers", en: "6. Third-party links and content" },
     "cgu.s6.p": {
-      fr: "WIYAO renvoie vers de nombreux sites tiers (écoles, plateformes d'emploi, communautés, organismes publics togolais). Ces liens sont fournis à titre informatif : WIYAO ne contrôle pas le contenu de ces sites, n'en garantit ni l'exactitude ni la disponibilité, et n'est pas responsable des candidatures, transactions ou échanges que l'Utilisateur effectuerait directement avec eux.",
-      en: "WIYAO links to many third-party sites (schools, job platforms, communities, Togolese public bodies). These links are provided for information purposes: WIYAO does not control the content of these sites, does not guarantee their accuracy or availability, and is not responsible for applications, transactions or exchanges the User carries out directly with them.",
+      fr: "WIYAO renvoie vers de nombreux sites tiers (écoles, plateformes d'emploi, communautés, organismes publics togolais). Ces liens sont fournis à titre informatif : WIYAO ne contrôle pas le contenu de ces sites, n'en garantit ni l'exactitude ni la disponibilité, et n'est pas responsable des candidatures, transactions ou échanges que le Visiteur effectuerait directement avec eux.",
+      en: "WIYAO links to many third-party sites (schools, job platforms, communities, Togolese public bodies). These links are provided for information purposes: WIYAO does not control the content of these sites, does not guarantee their accuracy or availability, and is not responsible for applications, transactions or exchanges the Visitor carries out directly with them.",
     },
     "cgu.s7.h2": { fr: "7. Droit applicable et règlement des litiges", en: "7. Governing law and dispute resolution" },
     "cgu.s7.p": {
@@ -599,8 +599,8 @@
     },
     "cgu.s8.h2": { fr: "8. Modifications des CGU", en: "8. Changes to these Terms" },
     "cgu.s8.p": {
-      fr: "Les présentes CGU peuvent être mises à jour à tout moment, notamment pour suivre l'évolution des fonctionnalités du site. Les nouvelles CGU sont applicables dès leur publication sur cette page ; il est de la responsabilité de l'Utilisateur de les consulter périodiquement. Dernière mise à jour : septembre 2026.",
-      en: "These Terms of Use may be updated at any time, in particular to keep up with the evolution of the site's features. The new Terms of Use apply as soon as they are published on this page; it is the User's responsibility to review them periodically. Last updated: September 2026.",
+      fr: "Les présentes CGU peuvent être mises à jour à tout moment, notamment pour suivre l'évolution des fonctionnalités du site. Les nouvelles CGU sont applicables dès leur publication sur cette page ; il est de la responsabilité du Visiteur de les consulter périodiquement. Dernière mise à jour : septembre 2026.",
+      en: "These Terms of Use may be updated at any time, in particular to keep up with the evolution of the site's features. The new Terms of Use apply as soon as they are published on this page; it is the Visitor's responsibility to review them periodically. Last updated: September 2026.",
     },
     "cgu.s9.h2": { fr: "9. Contact", en: "9. Contact" },
     "cgu.s9.p": {
