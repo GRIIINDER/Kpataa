@@ -647,13 +647,15 @@ nav.site-nav a.active {
   align-items: center;
   gap: 10px;
   background: var(--tk-surface-soft);
-  border: 1px solid var(--tk-border);
+  border: none;
   border-radius: 999px;
   padding: 9px 16px;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .search-bar:focus-within {
-  border-color: var(--tk-primary);
+  background: var(--tk-surface);
+  box-shadow: 0 0 0 3px rgba(102, 196, 255, 0.25);
 }
 
 .search-icon {
@@ -2247,12 +2249,13 @@ footer.site-footer {
 .newsletter-form input[type="email"] {
   width: 100%;
   padding: 15px 18px 15px 44px;
-  border: 1px solid var(--tk-border);
+  border: none;
   border-radius: 999px;
   background: var(--tk-surface-soft);
   color: var(--tk-text);
   font-size: 1rem;
   font-family: inherit;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .newsletter-form input[type="email"]::placeholder {
@@ -2261,7 +2264,8 @@ footer.site-footer {
 
 .newsletter-form input[type="email"]:focus {
   outline: none;
-  border-color: var(--tk-primary);
+  background: var(--tk-surface);
+  box-shadow: 0 0 0 3px rgba(102, 196, 255, 0.25);
 }
 
 .newsletter-submit {
@@ -2761,13 +2765,24 @@ footer.site-footer {
 .contact-form-field select {
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid var(--tk-border);
-  border-radius: 12px;
-  padding: 14px 16px;
+  border: none;
+  padding: 13px 20px;
   font-size: 0.95rem;
   font-family: inherit;
   color: var(--tk-text);
-  background: var(--tk-canvas);
+  background: var(--tk-surface-soft);
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.contact-form-field input,
+.contact-form-field select {
+  border-radius: 999px;
+}
+
+.contact-form-field textarea {
+  border-radius: var(--radius);
+  resize: vertical;
+  min-height: 140px;
 }
 
 .contact-form-field input::placeholder,
@@ -2779,12 +2794,8 @@ footer.site-footer {
 .contact-form-field textarea:focus,
 .contact-form-field select:focus {
   outline: none;
-  border-color: var(--tk-primary);
-}
-
-.contact-form-field textarea {
-  resize: vertical;
-  min-height: 140px;
+  background: var(--tk-surface);
+  box-shadow: 0 0 0 3px rgba(102, 196, 255, 0.25);
 }
 
 .btn-send {
