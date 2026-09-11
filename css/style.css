@@ -397,7 +397,7 @@ header.site-header {
   margin: 0 auto;
   background: var(--tk-surface);
   border: 1px solid var(--tk-border);
-  border-radius: 24px;
+  border-radius: 999px;
   padding: 10px 14px;
   display: flex;
   align-items: center;
@@ -464,7 +464,7 @@ nav.site-nav a {
   font-size: 1rem;
   text-transform: none;
   letter-spacing: normal;
-  padding: 8px 12px;
+  padding: 8px 16px;
   border-radius: 999px;
   white-space: nowrap;
   transition: color 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
@@ -501,7 +501,7 @@ nav.site-nav a.active {
   font-weight: 600;
   font-size: 1rem;
   font-family: inherit;
-  padding: 8px 12px;
+  padding: 8px 16px;
   border-radius: 999px;
   border: none;
   background: transparent;
@@ -517,6 +517,16 @@ nav.site-nav a.active {
   color: var(--tk-primary);
   background: var(--tk-primary-soft);
   box-shadow: inset 0 0 0 1px rgba(102, 196, 255, 0.25);
+}
+
+/* Entre le seuil du menu mobile (768px) et un desktop confortable,
+   resserrer le padding des items pour que la barre tienne sur une
+   seule ligne sans passer par le menu hamburger. */
+@media (max-width: 900px) {
+  nav.site-nav a,
+  .nav-more-toggle {
+    padding: 8px 12px;
+  }
 }
 
 .nav-more-menu {
@@ -568,16 +578,20 @@ nav.site-nav a.active {
   align-items: center;
   gap: 2px;
   flex: 0 0 auto;
+  background: var(--tk-surface-soft);
+  border: 1px solid var(--tk-border);
+  border-radius: 999px;
+  padding: 4px;
 }
 
 .lang-btn {
   border: none;
   background: transparent;
-  color: var(--tk-text-subtle);
-  font-size: 0.78rem;
-  font-weight: 700;
-  padding: 6px 9px;
-  border-radius: 8px;
+  color: var(--tk-text-muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 999px;
   cursor: pointer;
   transition: color 0.15s ease, background 0.15s ease;
 }
@@ -2465,6 +2479,7 @@ footer.site-footer {
   }
   .site-header-top {
     flex-wrap: wrap;
+    border-radius: 28px;
   }
   .brand {
     order: 1;
