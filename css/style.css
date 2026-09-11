@@ -401,8 +401,8 @@ header.site-header {
   padding: 10px 14px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+  justify-content: flex-start;
+  gap: 16px;
   box-shadow: 0 1px 2px rgba(21, 35, 45, 0.05);
 }
 
@@ -449,6 +449,7 @@ nav.site-nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  margin-left: auto;
   gap: 2px;
   background: var(--tk-surface-soft);
   border: 1px solid var(--tk-border);
@@ -2488,6 +2489,7 @@ footer.site-footer {
     border: none;
     padding: 0;
     margin-top: 12px;
+    margin-left: 0;
     gap: 4px;
   }
   nav.site-nav.is-open {
