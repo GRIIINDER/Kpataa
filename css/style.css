@@ -1175,17 +1175,22 @@ main {
 }
 
 .btn {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 8px 16px;
+  display: inline-flex;
+  align-items: center;
+  background: var(--tk-surface);
+  border: 1px solid var(--tk-border);
+  border-radius: 999px;
+  padding: 10px 20px;
   font-size: 0.85rem;
+  font-weight: 600;
   cursor: pointer;
-  color: var(--text-muted);
+  color: var(--tk-text-muted);
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
 }
 .btn:hover {
-  border-color: var(--red);
-  color: var(--red);
+  border-color: var(--tk-primary);
+  color: var(--tk-primary);
+  background: var(--tk-primary-soft);
 }
 
 .track {
