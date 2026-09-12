@@ -1869,6 +1869,14 @@ main {
   color: var(--tk-text-muted);
 }
 
+.quiz-score-row .progress-bar {
+  background: var(--tk-border);
+}
+
+.quiz-score-row .progress-fill {
+  background: var(--tk-primary);
+}
+
 #quiz-restart {
   display: block;
   margin: 30px auto 0;
