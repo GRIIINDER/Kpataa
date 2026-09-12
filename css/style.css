@@ -1357,6 +1357,20 @@ main {
   margin-bottom: 10px;
 }
 
+/* Stages & emploi : le bloc-guide réutilise .about-section pour sa
+   colonne de lecture, mais doit garder la même échelle de titres et de
+   texte que les .eco-section qui l'entourent sur cette page, pas celle
+   des 4 pages légales autonomes (34 px/17 px y ferait un titre hors
+   d'échelle par rapport au reste de la page). */
+#guide h2 {
+  font-size: 1.375rem;
+}
+
+#guide p {
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
 /* Titre de page des 4 pages légales : même échelle que Codecademy (64 px). */
 .hero-legal h1 {
   font-size: 4rem;
