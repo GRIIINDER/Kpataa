@@ -1081,7 +1081,7 @@ main {
   color: var(--red);
 }
 
-.togo-badge {
+.badge.togo-badge {
   margin-left: 0;
   background: var(--accent-soft);
   color: var(--accent);
@@ -1144,15 +1144,33 @@ main {
   color: var(--tk-text-muted);
 }
 
-.type-badge {
-  background: var(--accent-soft);
-  color: var(--accent);
+.roadmap-header .type-badge {
+  background: var(--tk-surface-soft);
+  color: var(--tk-text-muted);
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .roadmap-header .badge {
   margin: 0 4px 10px;
+}
+
+.roadmap-header .level-badge {
+  background: var(--tk-surface-soft);
+  color: var(--tk-text-muted);
+}
+
+.roadmap-header .togo-badge {
+  background: var(--tk-primary-soft);
+  color: var(--tk-primary);
+}
+
+.roadmap-header .progress-bar {
+  background: var(--tk-border);
+}
+
+.roadmap-header .progress-fill {
+  background: var(--tk-primary);
 }
 
 .togo-notice {
