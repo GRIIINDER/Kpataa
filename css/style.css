@@ -642,6 +642,13 @@ nav.site-nav a.active {
   margin: 14px auto 0;
 }
 
+/* Page recherche : la barre est le contenu principal, alignée à
+   gauche comme le reste de la page plutôt que centrée sous le header. */
+.roadmap-category .search-bar-wrap {
+  margin: 0 0 20px;
+  max-width: 560px;
+}
+
 .search-bar {
   display: flex;
   align-items: center;
@@ -954,7 +961,7 @@ main {
 #global-search-results {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
   margin-top: 18px;
 }
 
@@ -963,7 +970,8 @@ main {
   background: var(--tk-surface-soft);
   border: 1px solid var(--tk-border);
   border-radius: var(--radius);
-  padding: 14px 18px;
+  padding: 24px;
+  transition: border-color 0.15s ease;
 }
 
 .search-result:hover {
@@ -981,13 +989,11 @@ main {
 }
 
 .search-result h3 {
-  font-size: 0.98rem;
   margin: 0 0 4px;
 }
 
 .search-result p {
   color: var(--tk-text-muted);
-  font-size: 0.85rem;
   margin: 0;
 }
 
@@ -2113,7 +2119,8 @@ main {
 .eco-item p,
 .journey-step p,
 .domain-group-desc,
-.timeline-content p {
+.timeline-content p,
+.search-result p {
   font-size: 1rem;
   line-height: 1.55;
 }
