@@ -1550,8 +1550,12 @@ main {
   grid-template-columns: 250px 1fr;
   gap: 40px;
   max-width: 980px;
-  margin: 40px auto 0;
+  margin: 40px 0 0;
   align-items: start;
+  background: var(--tk-surface);
+  border: 1px solid var(--tk-border);
+  border-radius: 24px;
+  padding: 32px;
 }
 
 .faq-sidebar {
@@ -1612,16 +1616,15 @@ main {
 }
 
 .faq-item {
-  border: 1px solid var(--tk-border);
+  border: none;
   border-radius: 14px;
-  background: var(--tk-surface);
+  background: var(--tk-surface-soft);
   padding: 0 20px;
-  transition: border-color 0.15s ease, background 0.15s ease;
+  transition: background-color 0.15s ease;
 }
 
 .faq-item[open] {
-  border-color: var(--tk-primary);
-  background: var(--tk-surface-soft);
+  background: var(--tk-primary-soft);
 }
 
 .faq-item[open] summary {
@@ -1654,7 +1657,7 @@ main {
   width: 26px;
   height: 26px;
   border-radius: 50%;
-  background: var(--tk-surface-soft);
+  background: var(--tk-surface);
   color: var(--tk-primary);
   font-size: 1.2rem;
   line-height: 1;
@@ -1684,7 +1687,7 @@ main {
   justify-content: space-between;
   gap: 24px;
   max-width: 980px;
-  margin: 40px auto 0;
+  margin: 40px 0 0;
   padding: 26px 28px;
   border: 1px solid var(--tk-border);
   border-radius: 18px;
@@ -2574,6 +2577,7 @@ footer.site-footer {
   .faq-layout {
     grid-template-columns: 1fr;
     gap: 18px;
+    padding: 20px;
   }
   .faq-sidebar {
     position: static;
