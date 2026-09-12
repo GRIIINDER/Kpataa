@@ -696,26 +696,26 @@ nav.site-nav a.active {
 }
 
 .domain-chip {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  color: var(--text-muted);
+  background: var(--tk-surface-soft);
+  border: none;
+  color: var(--tk-text-muted);
   border-radius: 100px;
-  padding: 6px 14px;
+  padding: 7px 16px;
   font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
   font-family: inherit;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .domain-chip:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  background: var(--tk-surface);
+  color: var(--tk-text);
 }
 
 .domain-chip.active {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #fff;
+  background: var(--tk-primary);
+  color: var(--tk-canvas);
 }
 
 .eco-jump-nav {
