@@ -2116,12 +2116,16 @@ main {
   color: var(--text-muted);
 }
 
-.eco-item a.eco-link {
+.eco-link {
   display: inline-block;
   margin-top: 8px;
   font-size: 0.82rem;
-  color: var(--accent);
+  color: var(--tk-primary);
   font-weight: 600;
+}
+
+.eco-item a.eco-link {
+  color: var(--accent);
 }
 
 .eco-item .eco-contact {
